@@ -9,8 +9,70 @@
 	<string>beta</string>
 	<string>bid</string>
 	<string>bid-ask spread</string>
-	<string>close</string>
+	<string>bond</string>
+	<string>brokerage</string>
+	<string>bull</string>
+	<string>buy-to-close (BTC)</string>
+	<string>buy-to-open (BTO)</string>
+	<string>CBOE</string>
+	<string>commission</string>
+	<string>contract</string>
+	<string>delta</string>
+	<string>dividend</string>
+	<string>Dow Jones (DJIA)</string>
+	<string>earnings</string>
+	<string>earnings per share (EPS)</string>
+	<string>exchange traded fund (ETF)</string>
+	<string>exchange</string>
+	<string>expiration date</string>
 	<string>market maker</string>
-	<string>sell-to-close</string>
+	<string>extrinsic value</string>
+	<string>future</string>
+	<string>good-&apos;til-cancelled (GTC)</string>
+	<string>in-the-money (ITM)</string>
+	<string>intrinsic value</string>
+	<string>limit order</string>
+	<string>long position</string>
+	<string>margin</string>
+	<string>market cap</string>
+	<string>market order</string>
+	<string>market maker</string>
+	<string>mini option</string>
+	<string>moving average</string>
+	<string>mutual fund</string>
+	<string>naked option</string>
+	<string>NASDAQ</string>
+	<string>NYSE</string>
+	<string>open interest</string>
+	<string>option</string>
+	<string>option chain</string>
+	<string>out-of-the-money (OTM)</string>
+	<string>overbought</string>
+	<string>oversold</string>
+	<string>P/E ratio</string>
+	<string>perpetuity</string>
+	<string>pre-market</string>
+	<string>premium</string>
+	<string>quote</string>
+	<string>resistance</string>
+	<string>S&amp;P 500</string>
+	<string>sector</string>
+	<string>security</string>
+	<string>selling short</string>
+	<string>sell-to-close (STC)</string>
+	<string>sell-to-open (STO)</string>
+	<string>short position</string>
+	<string>spread</string>
+	<string>stochastic oscillator</string>
+	<string>stock</string>
+	<string>stop-loss</string>
+	<string>strike price</string>
+	<string>support</string>
+	<string>ticker</string>
+	<string>time value</string>
+	<string>trailing stop</string>
+	<string>volatility</string>
+	<string>volume</string>
+	<string>52 week high/low</string>
 </array>
 </plist>
