@@ -9,11 +9,11 @@
 #import "MODetailViewController.h"
 
 @interface MODetailViewController ()
-- (void)configureView;
+//- (void)configureView;
 @end
 
 @implementation MODetailViewController
-
+/* Going to add this to subclass detailviewcontrollers
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem
@@ -34,12 +34,13 @@
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
 }
-
+*/
+ 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    //[self configureView];
 }
 
 - (void)didReceiveMemoryWarning

@@ -14,6 +14,27 @@
 
 @implementation MOGlossaryDetailViewController
 
+#pragma mark - Managing the detail item
+
+- (void)setDetailItem:(id)newDetailItem
+{
+    if (_detailItem != newDetailItem) {
+        _detailItem = newDetailItem;
+        
+        // Update the view.
+        [self configureView];
+    }
+}
+
+- (void)configureView
+{
+    // Update the user interface for the detail item.
+    
+    if (self.detailItem) {
+        self.detailDescriptionLabel.text = [self.detailItem description];
+    }
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +48,23 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self configureView];
+
+    // This opens the url in the webview *** need to change to local file though...probably need to pass file path from masterview
+//    NSString *fullURL = @"http://conecode.com";
+//    NSURL *url = [NSURL URLWithString:fullURL];
+//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+//    [self.glossaryDefinitionWebView loadRequest:requestObj];
+
+    // This is broken code to open local html
+//    NSString *fullURL = self.detailItem;
+//    NSURL *url = [NSURL fileURLWithPath:fullURL];
+//    NSURLRequest *requestedObj = [NSURLRequest requestWithURL:url];
+//    [self.glossaryDefinitionWebView loadRequest:requestedObj];
+    
+    
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.detailItem withExtension:@"html"]];
+    [self.glossaryDefinitionWebView loadRequest:requestObj];
 }
 
 - (void)didReceiveMemoryWarning

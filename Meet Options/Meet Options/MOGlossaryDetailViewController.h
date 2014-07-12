@@ -9,5 +9,8 @@
 #import "MODetailViewController.h"
 
 @interface MOGlossaryDetailViewController : MODetailViewController
+@property (strong, nonatomic) IBOutlet UIWebView *glossaryDefinitionWebView;
+@property (strong, nonatomic) id detailItem;
+@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end

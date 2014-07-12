@@ -91,8 +91,8 @@
     if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSString *term = self.termsArray[indexPath.row];
-        NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
-        [[segue destinationViewController] setDetailItem:termDefinitionPath];
+        //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
+        [[segue destinationViewController] setDetailItem:term];
     }
 }
 

@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MODetailViewController : UIViewController
-
-@property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+// I am copying to individual detailviewcontrollers
+//@property (strong, nonatomic) id detailItem;
+//@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
