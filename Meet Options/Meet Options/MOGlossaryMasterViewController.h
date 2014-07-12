@@ -10,4 +10,7 @@
 
 @interface MOGlossaryMasterViewController : MOMasterViewController
 
+@property (strong,nonatomic) NSArray *termsArray;
+@property (strong,nonatomic) NSString *termsPath;
+
 @end

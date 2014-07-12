@@ -28,6 +28,7 @@
 		EF173F951970EF04007DAACD /* MOSupportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F941970EF04007DAACD /* MOSupportDetailViewController.m */; };
 		EF173FDE1970F23C007DAACD /* MODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDB1970F23C007DAACD /* MODetailViewController.m */; };
 		EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDD1970F23C007DAACD /* MOMasterViewController.m */; };
+		EF173FE3197110D7007DAACD /* glossarytermslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF173FE2197110D7007DAACD /* glossarytermslist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		EF173FDB1970F23C007DAACD /* MODetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MODetailViewController.m; sourceTree = "<group>"; };
 		EF173FDC1970F23C007DAACD /* MOMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMasterViewController.h; sourceTree = "<group>"; };
 		EF173FDD1970F23C007DAACD /* MOMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMasterViewController.m; sourceTree = "<group>"; };
+		EF173FE2197110D7007DAACD /* glossarytermslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = glossarytermslist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		EF173F401970D71E007DAACD = {
 			isa = PBXGroup;
 			children = (
+				EF173FE2197110D7007DAACD /* glossarytermslist.plist */,
 				EF173F521970D71E007DAACD /* Meet Options */,
 				EF173F741970D71E007DAACD /* Meet OptionsTests */,
 				EF173F4B1970D71E007DAACD /* Frameworks */,
@@ -264,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF173FE3197110D7007DAACD /* glossarytermslist.plist in Resources */,
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
