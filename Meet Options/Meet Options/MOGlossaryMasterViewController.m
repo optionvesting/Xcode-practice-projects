@@ -57,10 +57,12 @@
  
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
  {
+
  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
  
  NSString *term = self.termsArray[indexPath.row];
  cell.textLabel.text = term;
+ cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Titling" size:20];
  return cell;
  }
  

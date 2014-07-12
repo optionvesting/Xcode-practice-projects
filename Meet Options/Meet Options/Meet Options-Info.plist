@@ -46,5 +46,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>UIAppFonts</key>
+	<array>
+		<string>NeutraDisp-Medium.otf</string>
+		<string>NeutraDisp-Bold.otf</string>
+		<string>NeutraDisp-Titling.otf</string>
+        <string>NeutraDisp-Light.otf</string>
+		<string>NeutraDisp-Thin.otf</string>
+	</array>
 </dict>
 </plist>
