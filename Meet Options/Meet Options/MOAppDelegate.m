@@ -23,7 +23,22 @@
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
                                                            [UIFont fontWithName:@"NeutraDisp-Titling" size:21.0], NSFontAttributeName, nil]];
+//    NSDictionary *navbarbuttonTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+//                                                [UIColor blackColor],NSForegroundColorAttributeName,
+//                                                [UIFont fontWithName:@"NeutraDisp-Medium" size:21.0], NSFontAttributeName,
+//                                                [UIColor clearColor], NSShadowAttributeName,
+//                                                nil];
     
+    [[UIBarButtonItem appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           UIColorFromRGB(0x999999),
+                                                           NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont fontWithName:@"NeutraDisp-Light" size:16.0], NSFontAttributeName, nil]forState:UIControlStateNormal];
+
+    
+
+    
+     
     // Override point for customization after application launch.
     return YES;
 
