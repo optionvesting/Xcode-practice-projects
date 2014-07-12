@@ -7,6 +7,7 @@
 //
 
 #import "MOGlossaryMasterViewController.h"
+#import "MOGlossaryDetailViewController.h"
 
 @interface MOGlossaryMasterViewController ()
 
@@ -85,6 +86,15 @@
  }
  */
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSString *term = self.termsArray[indexPath.row];
+        NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
+        [[segue destinationViewController] setDetailItem:termDefinitionPath];
+    }
+}
 
 
 @end
