@@ -76,14 +76,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MNi-ai-doe">
-                                <rect key="frame" x="0.0" y="64" width="327" height="455"/>
+                                <rect key="frame" x="0.0" y="0.0" width="327" height="519"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" calendarEvent="YES"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Glossary" id="cra-N8-TIN"/>
+                    <navigationItem key="navigationItem" title="Definition" id="cra-N8-TIN"/>
                     <connections>
                         <outlet property="glossaryDefinitionWebView" destination="MNi-ai-doe" id="bMa-ff-adT"/>
                     </connections>

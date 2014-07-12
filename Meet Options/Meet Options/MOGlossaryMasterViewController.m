@@ -54,18 +54,16 @@
  {
  return self.termsArray.count;
  }
- 
+
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
  {
-
  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
- 
  NSString *term = self.termsArray[indexPath.row];
  cell.textLabel.text = term;
- cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Titling" size:20];
+ cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Bold" size:20];
  return cell;
  }
- 
+
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
  {
  // Return NO if you do not want the specified item to be editable.

@@ -49,9 +49,12 @@
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
-    /* I am going to comment this out and try placing it in each subclass masterviewcontroller
-#pragma mark - Table View
 
+
+//#pragma mark - Table View
+
+
+/* I am going to comment this out and try placing it in each subclass masterviewcontroller
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;

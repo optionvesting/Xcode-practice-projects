@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'NeutraDisp-Medium';
+	src: url('NeutraDisp-Medium.otf')  format('truetype')
+}
+@font-face {
+	font-family: 'NeutraDisp-Titling';
+	src: url('NeutraDisp-Titling.otf')  format('truetype')
+}
+@font-face {
+	font-family: 'NeutraDisp-Thin';
+	src: url('NeutraDisp-Thin.otf')  format('truetype')
+}
+@font-face {
+	font-family: 'NeutraDisp-Light';
+	src: url('NeutraDisp-Light.otf')  format('truetype')
+}
+@font-face {
+	font-family: 'NeutraDisp-Bold';
+	src: url('NeutraDisp-Bold.otf')  format('truetype')
+}
+
+p { 
+font-family: 'NeutraDisp-Medium';
+}
+h1 {
+font-family: 'NeutraDisp-Bold';
+font-size: 150%;
+}
+h2 {
+font-family: 'NeutraDisp-Thin';
+color: #9E9E9E;
+}

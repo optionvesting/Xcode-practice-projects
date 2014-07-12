@@ -2,8 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
+	<string>after-hours</string>
 	<string>ask</string>
+	<string>assign</string>
+	<string>bear</string>
+	<string>beta</string>
 	<string>bid</string>
+	<string>bid-ask spread</string>
 	<string>close</string>
 	<string>market maker</string>
 	<string>sell-to-close</string>
