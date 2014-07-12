@@ -37,6 +37,8 @@
 		EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */; };
 		EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */; };
 		EFD7B83F1971E22F00B11F89 /* sample.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B83E1971E22F00B11F89 /* sample.html */; };
+		EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8401971EC9B00B11F89 /* font_down.png */; };
+		EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8411971EC9B00B11F89 /* font_up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = glossaryStyle.css; path = "Meet Options/glossaryStyle.css"; sourceTree = "<group>"; };
 		EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = glossarytermslist.plist; sourceTree = "<group>"; };
 		EFD7B83E1971E22F00B11F89 /* sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sample.html; sourceTree = "<group>"; };
+		EFD7B8401971EC9B00B11F89 /* font_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_down.png; sourceTree = "<group>"; };
+		EFD7B8411971EC9B00B11F89 /* font_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_up.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 		EF173F531970D71E007DAACD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFD7B8441971ECA700B11F89 /* Icons */,
 				EFD7B79F1971951F00B11F89 /* Fonts */,
 				EFD7B799197194D400B11F89 /* Glossary HTML Files */,
 				EF173F541970D71E007DAACD /* Meet Options-Info.plist */,
@@ -256,6 +261,15 @@
 			name = "Support Code";
 			sourceTree = "<group>";
 		};
+		EFD7B8441971ECA700B11F89 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7B8401971EC9B00B11F89 /* font_down.png */,
+				EFD7B8411971EC9B00B11F89 /* font_up.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,8 +352,10 @@
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
+				EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */,
 				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
 				EF173FE519712882007DAACD /* ask.html in Resources */,
+				EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */,
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
 				EFD7B83F1971E22F00B11F89 /* sample.html in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,

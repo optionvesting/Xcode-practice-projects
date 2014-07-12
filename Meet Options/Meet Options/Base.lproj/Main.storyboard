@@ -82,10 +82,10 @@
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" calendarEvent="YES"/>
                             </webView>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="rB8-Nd-Gar">
-                                <rect key="frame" x="221" y="72" width="94" height="29"/>
+                                <rect key="frame" x="220" y="72" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <action selector="onStepperTapped:" destination="Ah7-4n-0Wa" eventType="valueChanged" id="u0a-9N-tAc"/>
+                                    <action selector="onStepperTapped:" destination="Ah7-4n-0Wa" eventType="valueChanged" id="Afr-MQ-iml"/>
                                 </connections>
                             </stepper>
                         </subviews>
@@ -96,7 +96,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="glossaryDefinitionWebView" destination="MNi-ai-doe" id="bMa-ff-adT"/>
-                        <outlet property="myStepper" destination="rB8-Nd-Gar" id="LTC-Bt-xFV"/>
+                        <outlet property="myStepper" destination="rB8-Nd-Gar" id="V2U-J9-bct"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>

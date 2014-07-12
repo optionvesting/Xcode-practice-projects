@@ -15,6 +15,5 @@
 @property (strong, nonatomic) id detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UIStepper *myStepper;
-@property (weak, nonatomic) IBOutlet UIScrollView *myScrollView;
 - (IBAction)onStepperTapped:(id)sender;
 @end
