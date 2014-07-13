@@ -14,7 +14,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xEEEEEE)];
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8];
     shadow.shadowOffset = CGSizeMake(0, 1);
@@ -30,13 +29,12 @@
 //                                                nil];
     
     [[UIBarButtonItem appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           UIColorFromRGB(0x999999),
+                                                           UIColorFromRGB(0x000000),
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
                                                            [UIFont fontWithName:@"NeutraDisp-Light" size:16.0], NSFontAttributeName, nil]forState:UIControlStateNormal];
 
-    
-
+    [[UINavigationBar appearance] setTintColor:[UIColor redColor]];
     
      
     // Override point for customization after application launch.
