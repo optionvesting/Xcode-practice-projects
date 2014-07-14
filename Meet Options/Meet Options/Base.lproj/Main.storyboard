@@ -79,7 +79,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="327" height="519"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" calendarEvent="YES"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="rB8-Nd-Gar">
                                 <rect key="frame" x="220" y="72" width="94" height="29"/>
@@ -295,24 +295,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="n6c-pY-ryp">
-                                <rect key="frame" x="20" y="276" width="280" height="17"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9C-Hr-Dqw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-tS-eFe">
+                                <rect key="frame" x="220" y="72" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="onStepperTapped:" destination="ZJf-pU-uqa" eventType="valueChanged" id="3yx-xL-lcH"/>
+                                </connections>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="n6c-pY-ryp" secondAttribute="trailing" constant="20" symbolic="YES" id="J1G-oO-kaw"/>
-                            <constraint firstItem="n6c-pY-ryp" firstAttribute="leading" secondItem="eGo-QV-oB5" secondAttribute="leading" constant="20" symbolic="YES" id="JRz-aJ-LzE"/>
-                            <constraint firstItem="n6c-pY-ryp" firstAttribute="centerY" secondItem="eGo-QV-oB5" secondAttribute="centerY" id="eb5-4f-kD1"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="nCo-0n-4ob"/>
                     <connections>
-                        <outlet property="detailDescriptionLabel" destination="n6c-pY-ryp" id="Q7R-sI-q38"/>
+                        <outlet property="myStepper" destination="dc2-tS-eFe" id="KWT-tc-bOv"/>
+                        <outlet property="tutorialsDefinitionWebView" destination="S9C-Hr-Dqw" id="AmX-j1-9Cn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLA-8F-pED" sceneMemberID="firstResponder"/>

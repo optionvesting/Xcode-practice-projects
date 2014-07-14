@@ -29,6 +29,9 @@
 		EF173FDE1970F23C007DAACD /* MODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDB1970F23C007DAACD /* MODetailViewController.m */; };
 		EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDD1970F23C007DAACD /* MOMasterViewController.m */; };
 		EF173FE519712882007DAACD /* ask.html in Resources */ = {isa = PBXBuildFile; fileRef = EF173FE419712882007DAACD /* ask.html */; };
+		EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */; };
+		EF345D52197473A400E4BC6F /* tutorialslessonslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF345D51197473A400E4BC6F /* tutorialslessonslist.plist */; };
+		EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D5319747ACC00E4BC6F /* after-hours.html */; };
 		EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */; };
 		EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */; };
 		EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */; };
@@ -36,7 +39,6 @@
 		EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79E1971951800B11F89 /* NeutraDisp-Titling.otf */; };
 		EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */; };
 		EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */; };
-		EFD7B83F1971E22F00B11F89 /* sample.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B83E1971E22F00B11F89 /* sample.html */; };
 		EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8401971EC9B00B11F89 /* font_down.png */; };
 		EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8411971EC9B00B11F89 /* font_up.png */; };
 /* End PBXBuildFile section */
@@ -86,6 +88,9 @@
 		EF173FDC1970F23C007DAACD /* MOMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMasterViewController.h; sourceTree = "<group>"; };
 		EF173FDD1970F23C007DAACD /* MOMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMasterViewController.m; sourceTree = "<group>"; };
 		EF173FE419712882007DAACD /* ask.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ask.html; path = "Meet Options/ask.html"; sourceTree = "<group>"; };
+		EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Stock Exchange.html"; sourceTree = "<group>"; };
+		EF345D51197473A400E4BC6F /* tutorialslessonslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tutorialslessonslist.plist; sourceTree = "<group>"; };
+		EF345D5319747ACC00E4BC6F /* after-hours.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "after-hours.html"; path = "Meet Options/after-hours.html"; sourceTree = "<group>"; };
 		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
 		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
 		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
@@ -93,7 +98,6 @@
 		EFD7B79E1971951800B11F89 /* NeutraDisp-Titling.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Titling.otf"; sourceTree = "<group>"; };
 		EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = glossaryStyle.css; path = "Meet Options/glossaryStyle.css"; sourceTree = "<group>"; };
 		EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = glossarytermslist.plist; sourceTree = "<group>"; };
-		EFD7B83E1971E22F00B11F89 /* sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sample.html; sourceTree = "<group>"; };
 		EFD7B8401971EC9B00B11F89 /* font_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_down.png; sourceTree = "<group>"; };
 		EFD7B8411971EC9B00B11F89 /* font_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_up.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +178,7 @@
 		EF173F531970D71E007DAACD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF345D5519747B2A00E4BC6F /* Tutorials HTML FIles */,
 				EFD7B8441971ECA700B11F89 /* Icons */,
 				EFD7B79F1971951F00B11F89 /* Fonts */,
 				EFD7B799197194D400B11F89 /* Glossary HTML Files */,
@@ -203,12 +208,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EF345D5519747B2A00E4BC6F /* Tutorials HTML FIles */ = {
+			isa = PBXGroup;
+			children = (
+				EF345D51197473A400E4BC6F /* tutorialslessonslist.plist */,
+				EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */,
+			);
+			name = "Tutorials HTML FIles";
+			sourceTree = "<group>";
+		};
 		EFD7B799197194D400B11F89 /* Glossary HTML Files */ = {
 			isa = PBXGroup;
 			children = (
-				EFD7B83E1971E22F00B11F89 /* sample.html */,
 				EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */,
 				EF173FE419712882007DAACD /* ask.html */,
+				EF345D5319747ACC00E4BC6F /* after-hours.html */,
 				EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */,
 			);
 			name = "Glossary HTML Files";
@@ -347,19 +361,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF345D52197473A400E4BC6F /* tutorialslessonslist.plist in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
 				EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */,
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
+				EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */,
 				EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */,
 				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
 				EF173FE519712882007DAACD /* ask.html in Resources */,
 				EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */,
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
-				EFD7B83F1971E22F00B11F89 /* sample.html in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
 				EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */,
+				EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */,
 				EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -502,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

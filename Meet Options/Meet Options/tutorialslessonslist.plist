@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>The Stock Exchange</string>
+	<string>The Market Maker</string>
+	<string>assign</string>
+	<string>bear</string>
+	<string>beta</string>
+	<string>bid</string>
+	<string>bid-ask spread</string>
+	<string>bond</string>
+	<string>brokerage</string>
+	<string>bull</string>
+	<string>buy-to-close (BTC)</string>
+	<string>buy-to-open (BTO)</string>
+	<string>CBOE</string>
+	<string>commission</string>
+	<string>contract</string>
+	<string>delta</string>
+	<string>dividend</string>
+	<string>Dow Jones (DJIA)</string>
+	<string>earnings</string>
+	<string>earnings per share (EPS)</string>
+	<string>52 week high/low</string>
+</array>
+</plist>

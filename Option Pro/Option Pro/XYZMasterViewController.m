@@ -69,17 +69,18 @@ NSNumberFormatter * _priceFormatter;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    
     SKProduct * product = (SKProduct *) _products[indexPath.row];
     cell.textLabel.text = product.localizedTitle;
-    [_priceFormatter setLocale:product.priceLocale];
-    cell.detailTextLabel.text = [_priceFormatter stringFromNumber:product.price];
-    
+
     if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
-        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+        //cell.accessoryType = UITableViewCellAccessoryCheckmark;
         cell.accessoryView = nil;
         self.shouldSegueOccur = YES;
+        cell.detailTextLabel.text = @"";
+
     } else {
+        [_priceFormatter setLocale:product.priceLocale];
+        cell.detailTextLabel.text = [_priceFormatter stringFromNumber:product.price];
         UIButton *buyButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         buyButton.frame = CGRectMake(0, 0, 72, 37);
         [buyButton setTitle:@"Buy" forState:UIControlStateNormal];
@@ -89,7 +90,9 @@ NSNumberFormatter * _priceFormatter;
         cell.accessoryView = buyButton;
         self.shouldSegueOccur = NO;
     }
-    return cell;
+    
+    
+        return cell;
 }
 
 - (void)buyButtonTapped:(id)sender {
