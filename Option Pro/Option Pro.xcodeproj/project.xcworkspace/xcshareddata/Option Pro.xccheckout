@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>937327FD-91FE-4832-87C6-6AA03DA9B29C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Option Pro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>31628ABE-F2F7-4F83-9811-1008E22DBE87</key>
+		<string>https://github.com/optionvesting/Xcode-practice-projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Option Pro/Option Pro.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>31628ABE-F2F7-4F83-9811-1008E22DBE87</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/optionvesting/Xcode-practice-projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>31628ABE-F2F7-4F83-9811-1008E22DBE87</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31628ABE-F2F7-4F83-9811-1008E22DBE87</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode practice projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
