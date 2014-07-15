@@ -9,6 +9,9 @@
 #import "MOMasterViewController.h"
 #import "MODetailViewController.h"
 
+#import "RageIAPHelper.h"
+#import <StoreKit/StoreKit.h>
+
 @interface MOMasterViewController () {
     NSMutableArray *_objects;
 }

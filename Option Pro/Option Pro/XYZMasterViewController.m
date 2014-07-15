@@ -60,6 +60,8 @@ NSNumberFormatter * _priceFormatter;
     return 1;
 }
 
+
+
 // 5
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

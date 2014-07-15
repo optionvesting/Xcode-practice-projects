@@ -248,7 +248,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="ZJf-pU-uqa" kind="push" id="doK-2r-IMN"/>
+                                    <segue destination="ZJf-pU-uqa" kind="push" identifier="showDetail" id="doK-2r-IMN"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
