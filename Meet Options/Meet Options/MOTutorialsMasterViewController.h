@@ -10,7 +10,13 @@
 
 @interface MOTutorialsMasterViewController : MOMasterViewController
 
-@property (strong,nonatomic) NSArray *lessonsArray;
-@property (strong,nonatomic) NSString *lessonsPath;
+@property (strong,nonatomic) NSArray *firstArray;
+@property (strong,nonatomic) NSString *firstPath;
+@property (strong,nonatomic) NSArray *secondArray;
+@property (strong,nonatomic) NSString *secondPath;
+@property (strong,nonatomic) NSArray *thirdArray;
+@property (strong,nonatomic) NSString *thirdPath;
+@property (strong,nonatomic) NSArray *fourthArray;
+@property (strong,nonatomic) NSString *fourthPath;
 
 @end
