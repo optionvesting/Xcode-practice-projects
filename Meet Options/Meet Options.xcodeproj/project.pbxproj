@@ -30,7 +30,7 @@
 		EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDD1970F23C007DAACD /* MOMasterViewController.m */; };
 		EF173FE519712882007DAACD /* ask.html in Resources */ = {isa = PBXBuildFile; fileRef = EF173FE419712882007DAACD /* ask.html */; };
 		EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */; };
-		EF345D52197473A400E4BC6F /* investingbasicslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF345D51197473A400E4BC6F /* investingbasicslist.plist */; };
+		EF345D52197473A400E4BC6F /* Investing Basics.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF345D51197473A400E4BC6F /* Investing Basics.plist */; };
 		EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D5319747ACC00E4BC6F /* after-hours.html */; };
 		EF4A152E1974DD330015FC06 /* optionconceptslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152D1974DD330015FC06 /* optionconceptslist.plist */; };
 		EF4A15301974E2990015FC06 /* optionstrategylist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152F1974E2990015FC06 /* optionstrategylist.plist */; };
@@ -95,7 +95,7 @@
 		EF173FDD1970F23C007DAACD /* MOMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMasterViewController.m; sourceTree = "<group>"; };
 		EF173FE419712882007DAACD /* ask.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ask.html; path = "Meet Options/ask.html"; sourceTree = "<group>"; };
 		EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Stock Exchange.html"; sourceTree = "<group>"; };
-		EF345D51197473A400E4BC6F /* investingbasicslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = investingbasicslist.plist; sourceTree = "<group>"; };
+		EF345D51197473A400E4BC6F /* Investing Basics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Investing Basics.plist"; sourceTree = "<group>"; };
 		EF345D5319747ACC00E4BC6F /* after-hours.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "after-hours.html"; path = "Meet Options/after-hours.html"; sourceTree = "<group>"; };
 		EF4A152D1974DD330015FC06 /* optionconceptslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = optionconceptslist.plist; sourceTree = "<group>"; };
 		EF4A152F1974E2990015FC06 /* optionstrategylist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = optionstrategylist.plist; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 		EF345D5519747B2A00E4BC6F /* Tutorials HTML FIles */ = {
 			isa = PBXGroup;
 			children = (
-				EF345D51197473A400E4BC6F /* investingbasicslist.plist */,
+				EF345D51197473A400E4BC6F /* Investing Basics.plist */,
 				EF4A152F1974E2990015FC06 /* optionstrategylist.plist */,
 				EF4A15311974E2B20015FC06 /* makingtradeslist.plist */,
 				EF4A152D1974DD330015FC06 /* optionconceptslist.plist */,
@@ -384,7 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF345D52197473A400E4BC6F /* investingbasicslist.plist in Resources */,
+				EF345D52197473A400E4BC6F /* Investing Basics.plist in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
 				EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */,
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,

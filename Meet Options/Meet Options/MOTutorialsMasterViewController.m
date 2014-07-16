@@ -115,15 +115,7 @@
 // }
 // */
 //
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-//{
-//    if ([[segue identifier] isEqualToString:@"showTutorialsDetail"]) {
-//        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-//        NSString *lesson = self.firstArray[indexPath.row];
-//        //NSString *lessonDefinitionPath = [lesson stringByAppendingString:@".html"];
-//        [[segue destinationViewController] setDetailItem:lesson];
-//    }
-//}
+
 //
 //
 //@end
@@ -211,7 +203,7 @@ NSNumberFormatter * _priceFormatter;
         [buyButton addTarget:self action:@selector(buyButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
         cell.accessoryType = UITableViewCellAccessoryNone;
         cell.accessoryView = buyButton;
-        cell.userInteractionEnabled = NO;
+        //cell.userInteractionEnabled = NO;
         cell.textLabel.enabled = NO;
     }
 
@@ -252,5 +244,34 @@ NSNumberFormatter * _priceFormatter;
     [[RageIAPHelper sharedInstance] restoreCompletedTransactions];
 }
 
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//    //    if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
+//    //NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+//    //NSString *term = self.termsArray[indexPath.row];
+//    //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
+//    [[segue destinationViewController] setDetailItem:@"after-hours"];
+//    //    }
+//}
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    // Get selected lesson group
+    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    SKProduct * product = (SKProduct *) _products[indexPath.row];
+
+    if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
+            [self performSegueWithIdentifier:cell.textLabel.text sender:self];
+
+        
+    }
+
+    
+
+    //    self.lessonGroup =  selectedGroup;
+    
+    // Perform Segue
+    
+//    [self performSegueWithIdentifier:cell.textLabel.text sender:self];
+}
 @end

@@ -8,8 +8,8 @@
 
 #import "MOMasterViewController.h"
 #import <UIKit/UIKit.h>
-@interface MOTutorialsMasterViewController : MOMasterViewController
 
+@interface MOTutorialsMasterViewController : MOMasterViewController
 
 //@property (strong,nonatomic) NSArray *firstArray;
 //@property (strong,nonatomic) NSString *firstPath;

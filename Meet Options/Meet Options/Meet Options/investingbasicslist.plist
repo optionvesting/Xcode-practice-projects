@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>The Stock Exchange</string>
+	<string>The Market Maker</string>
+	<string>Trades &amp; Orders</string>
+	<string>Long &amp; Short Positions</string>
+	<string>Stock Analysis</string>
+	<string>Reading Stock Charts</string>
+	<string>Quiz #1</string>
+</array>
+</plist>

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF580BC11975D3B0009118BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF580BC01975D3B0009118BC /* Foundation.framework */; };
+		EF580BC31975D3B0009118BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF580BC21975D3B0009118BC /* CoreGraphics.framework */; };
+		EF580BC51975D3B0009118BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF580BC41975D3B0009118BC /* UIKit.framework */; };
+		EF580BCB1975D3B0009118BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF580BC91975D3B0009118BC /* InfoPlist.strings */; };
+		EF580BCD1975D3B0009118BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF580BCC1975D3B0009118BC /* main.m */; };
+		EF580BD11975D3B0009118BC /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF580BD01975D3B0009118BC /* XYZAppDelegate.m */; };
+		EF580BD41975D3B0009118BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF580BD21975D3B0009118BC /* Main.storyboard */; };
+		EF580BD71975D3B0009118BC /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF580BD61975D3B0009118BC /* XYZViewController.m */; };
+		EF580BD91975D3B0009118BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF580BD81975D3B0009118BC /* Images.xcassets */; };
+		EF580BE01975D3B0009118BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF580BDF1975D3B0009118BC /* XCTest.framework */; };
+		EF580BE11975D3B0009118BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF580BC01975D3B0009118BC /* Foundation.framework */; };
+		EF580BE21975D3B0009118BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF580BC41975D3B0009118BC /* UIKit.framework */; };
+		EF580BEA1975D3B0009118BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF580BE81975D3B0009118BC /* InfoPlist.strings */; };
+		EF580BEC1975D3B0009118BC /* nested_tablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF580BEB1975D3B0009118BC /* nested_tablesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF580BE31975D3B0009118BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF580BB51975D3B0009118BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF580BBC1975D3B0009118BC;
+			remoteInfo = "nested tables";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF580BBD1975D3B0009118BC /* nested tables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nested tables.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF580BC01975D3B0009118BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF580BC21975D3B0009118BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF580BC41975D3B0009118BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF580BC81975D3B0009118BC /* nested tables-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nested tables-Info.plist"; sourceTree = "<group>"; };
+		EF580BCA1975D3B0009118BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF580BCC1975D3B0009118BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF580BCE1975D3B0009118BC /* nested tables-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nested tables-Prefix.pch"; sourceTree = "<group>"; };
+		EF580BCF1975D3B0009118BC /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		EF580BD01975D3B0009118BC /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		EF580BD31975D3B0009118BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF580BD51975D3B0009118BC /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		EF580BD61975D3B0009118BC /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		EF580BD81975D3B0009118BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF580BDE1975D3B0009118BC /* nested tablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nested tablesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF580BDF1975D3B0009118BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF580BE71975D3B0009118BC /* nested tablesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nested tablesTests-Info.plist"; sourceTree = "<group>"; };
+		EF580BE91975D3B0009118BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF580BEB1975D3B0009118BC /* nested_tablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nested_tablesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF580BBA1975D3B0009118BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF580BC31975D3B0009118BC /* CoreGraphics.framework in Frameworks */,
+				EF580BC51975D3B0009118BC /* UIKit.framework in Frameworks */,
+				EF580BC11975D3B0009118BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF580BDB1975D3B0009118BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF580BE01975D3B0009118BC /* XCTest.framework in Frameworks */,
+				EF580BE21975D3B0009118BC /* UIKit.framework in Frameworks */,
+				EF580BE11975D3B0009118BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF580BB41975D3B0009118BC = {
+			isa = PBXGroup;
+			children = (
+				EF580BC61975D3B0009118BC /* nested tables */,
+				EF580BE51975D3B0009118BC /* nested tablesTests */,
+				EF580BBF1975D3B0009118BC /* Frameworks */,
+				EF580BBE1975D3B0009118BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF580BBE1975D3B0009118BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF580BBD1975D3B0009118BC /* nested tables.app */,
+				EF580BDE1975D3B0009118BC /* nested tablesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF580BBF1975D3B0009118BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF580BC01975D3B0009118BC /* Foundation.framework */,
+				EF580BC21975D3B0009118BC /* CoreGraphics.framework */,
+				EF580BC41975D3B0009118BC /* UIKit.framework */,
+				EF580BDF1975D3B0009118BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF580BC61975D3B0009118BC /* nested tables */ = {
+			isa = PBXGroup;
+			children = (
+				EF580BCF1975D3B0009118BC /* XYZAppDelegate.h */,
+				EF580BD01975D3B0009118BC /* XYZAppDelegate.m */,
+				EF580BD21975D3B0009118BC /* Main.storyboard */,
+				EF580BD51975D3B0009118BC /* XYZViewController.h */,
+				EF580BD61975D3B0009118BC /* XYZViewController.m */,
+				EF580BD81975D3B0009118BC /* Images.xcassets */,
+				EF580BC71975D3B0009118BC /* Supporting Files */,
+			);
+			path = "nested tables";
+			sourceTree = "<group>";
+		};
+		EF580BC71975D3B0009118BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF580BC81975D3B0009118BC /* nested tables-Info.plist */,
+				EF580BC91975D3B0009118BC /* InfoPlist.strings */,
+				EF580BCC1975D3B0009118BC /* main.m */,
+				EF580BCE1975D3B0009118BC /* nested tables-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF580BE51975D3B0009118BC /* nested tablesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF580BEB1975D3B0009118BC /* nested_tablesTests.m */,
+				EF580BE61975D3B0009118BC /* Supporting Files */,
+			);
+			path = "nested tablesTests";
+			sourceTree = "<group>";
+		};
+		EF580BE61975D3B0009118BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF580BE71975D3B0009118BC /* nested tablesTests-Info.plist */,
+				EF580BE81975D3B0009118BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF580BBC1975D3B0009118BC /* nested tables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF580BEF1975D3B0009118BC /* Build configuration list for PBXNativeTarget "nested tables" */;
+			buildPhases = (
+				EF580BB91975D3B0009118BC /* Sources */,
+				EF580BBA1975D3B0009118BC /* Frameworks */,
+				EF580BBB1975D3B0009118BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nested tables";
+			productName = "nested tables";
+			productReference = EF580BBD1975D3B0009118BC /* nested tables.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF580BDD1975D3B0009118BC /* nested tablesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF580BF21975D3B0009118BC /* Build configuration list for PBXNativeTarget "nested tablesTests" */;
+			buildPhases = (
+				EF580BDA1975D3B0009118BC /* Sources */,
+				EF580BDB1975D3B0009118BC /* Frameworks */,
+				EF580BDC1975D3B0009118BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF580BE41975D3B0009118BC /* PBXTargetDependency */,
+			);
+			name = "nested tablesTests";
+			productName = "nested tablesTests";
+			productReference = EF580BDE1975D3B0009118BC /* nested tablesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF580BB51975D3B0009118BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Optionvesting, LLC";
+				TargetAttributes = {
+					EF580BDD1975D3B0009118BC = {
+						TestTargetID = EF580BBC1975D3B0009118BC;
+					};
+				};
+			};
+			buildConfigurationList = EF580BB81975D3B0009118BC /* Build configuration list for PBXProject "nested tables" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF580BB41975D3B0009118BC;
+			productRefGroup = EF580BBE1975D3B0009118BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF580BBC1975D3B0009118BC /* nested tables */,
+				EF580BDD1975D3B0009118BC /* nested tablesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF580BBB1975D3B0009118BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF580BD91975D3B0009118BC /* Images.xcassets in Resources */,
+				EF580BCB1975D3B0009118BC /* InfoPlist.strings in Resources */,
+				EF580BD41975D3B0009118BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF580BDC1975D3B0009118BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF580BEA1975D3B0009118BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF580BB91975D3B0009118BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF580BD71975D3B0009118BC /* XYZViewController.m in Sources */,
+				EF580BD11975D3B0009118BC /* XYZAppDelegate.m in Sources */,
+				EF580BCD1975D3B0009118BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF580BDA1975D3B0009118BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF580BEC1975D3B0009118BC /* nested_tablesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF580BE41975D3B0009118BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF580BBC1975D3B0009118BC /* nested tables */;
+			targetProxy = EF580BE31975D3B0009118BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF580BC91975D3B0009118BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF580BCA1975D3B0009118BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF580BD21975D3B0009118BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF580BD31975D3B0009118BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF580BE81975D3B0009118BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF580BE91975D3B0009118BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF580BED1975D3B0009118BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF580BEE1975D3B0009118BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF580BF01975D3B0009118BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested tables/nested tables-Prefix.pch";
+				INFOPLIST_FILE = "nested tables/nested tables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF580BF11975D3B0009118BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested tables/nested tables-Prefix.pch";
+				INFOPLIST_FILE = "nested tables/nested tables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF580BF31975D3B0009118BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nested tables.app/nested tables";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested tables/nested tables-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nested tablesTests/nested tablesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF580BF41975D3B0009118BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nested tables.app/nested tables";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested tables/nested tables-Prefix.pch";
+				INFOPLIST_FILE = "nested tablesTests/nested tablesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF580BB81975D3B0009118BC /* Build configuration list for PBXProject "nested tables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF580BED1975D3B0009118BC /* Debug */,
+				EF580BEE1975D3B0009118BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF580BEF1975D3B0009118BC /* Build configuration list for PBXNativeTarget "nested tables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF580BF01975D3B0009118BC /* Debug */,
+				EF580BF11975D3B0009118BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF580BF21975D3B0009118BC /* Build configuration list for PBXNativeTarget "nested tablesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF580BF31975D3B0009118BC /* Debug */,
+				EF580BF41975D3B0009118BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF580BB51975D3B0009118BC /* Project object */;
+}

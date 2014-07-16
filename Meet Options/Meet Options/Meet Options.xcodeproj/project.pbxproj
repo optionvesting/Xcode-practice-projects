@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF173F4D1970D71E007DAACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F4C1970D71E007DAACD /* Foundation.framework */; };
+		EF173F4F1970D71E007DAACD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F4E1970D71E007DAACD /* CoreGraphics.framework */; };
+		EF173F511970D71E007DAACD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F501970D71E007DAACD /* UIKit.framework */; };
+		EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF173F551970D71E007DAACD /* InfoPlist.strings */; };
+		EF173F591970D71E007DAACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F581970D71E007DAACD /* main.m */; };
+		EF173F5D1970D71E007DAACD /* MOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F5C1970D71E007DAACD /* MOAppDelegate.m */; };
+		EF173F601970D71E007DAACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF173F5E1970D71E007DAACD /* Main.storyboard */; };
+		EF173F681970D71E007DAACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF173F671970D71E007DAACD /* Images.xcassets */; };
+		EF173F6F1970D71E007DAACD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F6E1970D71E007DAACD /* XCTest.framework */; };
+		EF173F701970D71E007DAACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F4C1970D71E007DAACD /* Foundation.framework */; };
+		EF173F711970D71E007DAACD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F501970D71E007DAACD /* UIKit.framework */; };
+		EF173F791970D71E007DAACD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF173F771970D71E007DAACD /* InfoPlist.strings */; };
+		EF173F7B1970D71E007DAACD /* Meet_OptionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F7A1970D71E007DAACD /* Meet_OptionsTests.m */; };
+		EF173F861970EE49007DAACD /* MOTutorialsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F851970EE49007DAACD /* MOTutorialsMasterViewController.m */; };
+		EF173F891970EE6E007DAACD /* MOSupportMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F881970EE6E007DAACD /* MOSupportMasterViewController.m */; };
+		EF173F8C1970EE97007DAACD /* MOGlossaryMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F8B1970EE97007DAACD /* MOGlossaryMasterViewController.m */; };
+		EF173F8F1970EEB3007DAACD /* MOTutorialsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F8E1970EEB3007DAACD /* MOTutorialsDetailViewController.m */; };
+		EF173F921970EEE9007DAACD /* MOGlossaryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F911970EEE9007DAACD /* MOGlossaryDetailViewController.m */; };
+		EF173F951970EF04007DAACD /* MOSupportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173F941970EF04007DAACD /* MOSupportDetailViewController.m */; };
+		EF173FDE1970F23C007DAACD /* MODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDB1970F23C007DAACD /* MODetailViewController.m */; };
+		EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDD1970F23C007DAACD /* MOMasterViewController.m */; };
+		EF173FE519712882007DAACD /* ask.html in Resources */ = {isa = PBXBuildFile; fileRef = EF173FE419712882007DAACD /* ask.html */; };
+		EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */; };
+		EF345D52197473A400E4BC6F /* investingbasicslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF345D51197473A400E4BC6F /* investingbasicslist.plist */; };
+		EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D5319747ACC00E4BC6F /* after-hours.html */; };
+		EF4A152E1974DD330015FC06 /* optionconceptslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152D1974DD330015FC06 /* optionconceptslist.plist */; };
+		EF4A15301974E2990015FC06 /* optionstrategylist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152F1974E2990015FC06 /* optionstrategylist.plist */; };
+		EF4A15321974E2B20015FC06 /* makingtradeslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A15311974E2B20015FC06 /* makingtradeslist.plist */; };
+		EF4A15341974FCCC0015FC06 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4A15331974FCCC0015FC06 /* StoreKit.framework */; };
+		EF4A15371974FD5D0015FC06 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A15361974FD5D0015FC06 /* IAPHelper.m */; };
+		EF4A153A1974FF470015FC06 /* RageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A15391974FF470015FC06 /* RageIAPHelper.m */; };
+		EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */; };
+		EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */; };
+		EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */; };
+		EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79D1971951800B11F89 /* NeutraDisp-Thin.otf */; };
+		EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79E1971951800B11F89 /* NeutraDisp-Titling.otf */; };
+		EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */; };
+		EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */; };
+		EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8401971EC9B00B11F89 /* font_down.png */; };
+		EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B8411971EC9B00B11F89 /* font_up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF173F721970D71E007DAACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF173F411970D71E007DAACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF173F481970D71E007DAACD;
+			remoteInfo = "Meet Options";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF173F491970D71E007DAACD /* Meet Options.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meet Options.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF173F4C1970D71E007DAACD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF173F4E1970D71E007DAACD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF173F501970D71E007DAACD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF173F541970D71E007DAACD /* Meet Options-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meet Options-Info.plist"; sourceTree = "<group>"; };
+		EF173F561970D71E007DAACD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF173F581970D71E007DAACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF173F5A1970D71E007DAACD /* Meet Options-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meet Options-Prefix.pch"; sourceTree = "<group>"; };
+		EF173F5B1970D71E007DAACD /* MOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOAppDelegate.h; sourceTree = "<group>"; };
+		EF173F5C1970D71E007DAACD /* MOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOAppDelegate.m; sourceTree = "<group>"; };
+		EF173F5F1970D71E007DAACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF173F671970D71E007DAACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF173F6D1970D71E007DAACD /* Meet OptionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meet OptionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF173F6E1970D71E007DAACD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF173F761970D71E007DAACD /* Meet OptionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meet OptionsTests-Info.plist"; sourceTree = "<group>"; };
+		EF173F781970D71E007DAACD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF173F7A1970D71E007DAACD /* Meet_OptionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meet_OptionsTests.m; sourceTree = "<group>"; };
+		EF173F841970EE49007DAACD /* MOTutorialsMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTutorialsMasterViewController.h; sourceTree = "<group>"; };
+		EF173F851970EE49007DAACD /* MOTutorialsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTutorialsMasterViewController.m; sourceTree = "<group>"; };
+		EF173F871970EE6E007DAACD /* MOSupportMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSupportMasterViewController.h; sourceTree = "<group>"; };
+		EF173F881970EE6E007DAACD /* MOSupportMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSupportMasterViewController.m; sourceTree = "<group>"; };
+		EF173F8A1970EE97007DAACD /* MOGlossaryMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGlossaryMasterViewController.h; sourceTree = "<group>"; };
+		EF173F8B1970EE97007DAACD /* MOGlossaryMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOGlossaryMasterViewController.m; sourceTree = "<group>"; };
+		EF173F8D1970EEB3007DAACD /* MOTutorialsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTutorialsDetailViewController.h; sourceTree = "<group>"; };
+		EF173F8E1970EEB3007DAACD /* MOTutorialsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTutorialsDetailViewController.m; sourceTree = "<group>"; };
+		EF173F901970EEE9007DAACD /* MOGlossaryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGlossaryDetailViewController.h; sourceTree = "<group>"; };
+		EF173F911970EEE9007DAACD /* MOGlossaryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOGlossaryDetailViewController.m; sourceTree = "<group>"; };
+		EF173F931970EF04007DAACD /* MOSupportDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSupportDetailViewController.h; sourceTree = "<group>"; };
+		EF173F941970EF04007DAACD /* MOSupportDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSupportDetailViewController.m; sourceTree = "<group>"; };
+		EF173FDA1970F23C007DAACD /* MODetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MODetailViewController.h; sourceTree = "<group>"; };
+		EF173FDB1970F23C007DAACD /* MODetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MODetailViewController.m; sourceTree = "<group>"; };
+		EF173FDC1970F23C007DAACD /* MOMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMasterViewController.h; sourceTree = "<group>"; };
+		EF173FDD1970F23C007DAACD /* MOMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMasterViewController.m; sourceTree = "<group>"; };
+		EF173FE419712882007DAACD /* ask.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ask.html; path = "Meet Options/ask.html"; sourceTree = "<group>"; };
+		EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Stock Exchange.html"; sourceTree = "<group>"; };
+		EF345D51197473A400E4BC6F /* investingbasicslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = investingbasicslist.plist; sourceTree = "<group>"; };
+		EF345D5319747ACC00E4BC6F /* after-hours.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "after-hours.html"; path = "Meet Options/after-hours.html"; sourceTree = "<group>"; };
+		EF4A152D1974DD330015FC06 /* optionconceptslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = optionconceptslist.plist; sourceTree = "<group>"; };
+		EF4A152F1974E2990015FC06 /* optionstrategylist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = optionstrategylist.plist; sourceTree = "<group>"; };
+		EF4A15311974E2B20015FC06 /* makingtradeslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = makingtradeslist.plist; sourceTree = "<group>"; };
+		EF4A15331974FCCC0015FC06 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EF4A15351974FD5D0015FC06 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		EF4A15361974FD5D0015FC06 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		EF4A15381974FF470015FC06 /* RageIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageIAPHelper.h; sourceTree = "<group>"; };
+		EF4A15391974FF470015FC06 /* RageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageIAPHelper.m; sourceTree = "<group>"; };
+		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
+		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
+		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
+		EFD7B79D1971951800B11F89 /* NeutraDisp-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Thin.otf"; sourceTree = "<group>"; };
+		EFD7B79E1971951800B11F89 /* NeutraDisp-Titling.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Titling.otf"; sourceTree = "<group>"; };
+		EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = glossaryStyle.css; path = "Meet Options/glossaryStyle.css"; sourceTree = "<group>"; };
+		EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = glossarytermslist.plist; sourceTree = "<group>"; };
+		EFD7B8401971EC9B00B11F89 /* font_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_down.png; sourceTree = "<group>"; };
+		EFD7B8411971EC9B00B11F89 /* font_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_up.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF173F461970D71E007DAACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4A15341974FCCC0015FC06 /* StoreKit.framework in Frameworks */,
+				EF173F4F1970D71E007DAACD /* CoreGraphics.framework in Frameworks */,
+				EF173F511970D71E007DAACD /* UIKit.framework in Frameworks */,
+				EF173F4D1970D71E007DAACD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF173F6A1970D71E007DAACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF173F6F1970D71E007DAACD /* XCTest.framework in Frameworks */,
+				EF173F711970D71E007DAACD /* UIKit.framework in Frameworks */,
+				EF173F701970D71E007DAACD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF173F401970D71E007DAACD = {
+			isa = PBXGroup;
+			children = (
+				EF4A15381974FF470015FC06 /* RageIAPHelper.h */,
+				EF4A15391974FF470015FC06 /* RageIAPHelper.m */,
+				EF4A15351974FD5D0015FC06 /* IAPHelper.h */,
+				EF4A15361974FD5D0015FC06 /* IAPHelper.m */,
+				EF173F521970D71E007DAACD /* Meet Options */,
+				EF173F741970D71E007DAACD /* Meet OptionsTests */,
+				EF173F4B1970D71E007DAACD /* Frameworks */,
+				EF173F4A1970D71E007DAACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF173F4A1970D71E007DAACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF173F491970D71E007DAACD /* Meet Options.app */,
+				EF173F6D1970D71E007DAACD /* Meet OptionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF173F4B1970D71E007DAACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A15331974FCCC0015FC06 /* StoreKit.framework */,
+				EF173F4C1970D71E007DAACD /* Foundation.framework */,
+				EF173F4E1970D71E007DAACD /* CoreGraphics.framework */,
+				EF173F501970D71E007DAACD /* UIKit.framework */,
+				EF173F6E1970D71E007DAACD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF173F521970D71E007DAACD /* Meet Options */ = {
+			isa = PBXGroup;
+			children = (
+				EF173F5E1970D71E007DAACD /* Main.storyboard */,
+				EF173FDC1970F23C007DAACD /* MOMasterViewController.h */,
+				EF173FDD1970F23C007DAACD /* MOMasterViewController.m */,
+				EF173FDA1970F23C007DAACD /* MODetailViewController.h */,
+				EF173FDB1970F23C007DAACD /* MODetailViewController.m */,
+				EF173F5B1970D71E007DAACD /* MOAppDelegate.h */,
+				EF173F5C1970D71E007DAACD /* MOAppDelegate.m */,
+				EFD7B7A01971956D00B11F89 /* Tutorials Code */,
+				EFD7B7A11971959300B11F89 /* Glossary Code */,
+				EFD7B7A2197195B700B11F89 /* Support Code */,
+				EF173F671970D71E007DAACD /* Images.xcassets */,
+				EF173F531970D71E007DAACD /* Supporting Files */,
+			);
+			path = "Meet Options";
+			sourceTree = "<group>";
+		};
+		EF173F531970D71E007DAACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF345D5519747B2A00E4BC6F /* Tutorials HTML FIles */,
+				EFD7B8441971ECA700B11F89 /* Icons */,
+				EFD7B79F1971951F00B11F89 /* Fonts */,
+				EFD7B799197194D400B11F89 /* Glossary HTML Files */,
+				EF173F541970D71E007DAACD /* Meet Options-Info.plist */,
+				EF173F551970D71E007DAACD /* InfoPlist.strings */,
+				EF173F581970D71E007DAACD /* main.m */,
+				EF173F5A1970D71E007DAACD /* Meet Options-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF173F741970D71E007DAACD /* Meet OptionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF173F7A1970D71E007DAACD /* Meet_OptionsTests.m */,
+				EF173F751970D71E007DAACD /* Supporting Files */,
+			);
+			path = "Meet OptionsTests";
+			sourceTree = "<group>";
+		};
+		EF173F751970D71E007DAACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF173F761970D71E007DAACD /* Meet OptionsTests-Info.plist */,
+				EF173F771970D71E007DAACD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF345D5519747B2A00E4BC6F /* Tutorials HTML FIles */ = {
+			isa = PBXGroup;
+			children = (
+				EF345D51197473A400E4BC6F /* investingbasicslist.plist */,
+				EF4A152F1974E2990015FC06 /* optionstrategylist.plist */,
+				EF4A15311974E2B20015FC06 /* makingtradeslist.plist */,
+				EF4A152D1974DD330015FC06 /* optionconceptslist.plist */,
+				EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */,
+			);
+			name = "Tutorials HTML FIles";
+			sourceTree = "<group>";
+		};
+		EFD7B799197194D400B11F89 /* Glossary HTML Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */,
+				EF173FE419712882007DAACD /* ask.html */,
+				EF345D5319747ACC00E4BC6F /* after-hours.html */,
+				EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */,
+			);
+			name = "Glossary HTML Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EFD7B79F1971951F00B11F89 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */,
+				EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */,
+				EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */,
+				EFD7B79D1971951800B11F89 /* NeutraDisp-Thin.otf */,
+				EFD7B79E1971951800B11F89 /* NeutraDisp-Titling.otf */,
+			);
+			name = Fonts;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EFD7B7A01971956D00B11F89 /* Tutorials Code */ = {
+			isa = PBXGroup;
+			children = (
+				EF173F841970EE49007DAACD /* MOTutorialsMasterViewController.h */,
+				EF173F851970EE49007DAACD /* MOTutorialsMasterViewController.m */,
+				EF173F8D1970EEB3007DAACD /* MOTutorialsDetailViewController.h */,
+				EF173F8E1970EEB3007DAACD /* MOTutorialsDetailViewController.m */,
+			);
+			name = "Tutorials Code";
+			sourceTree = "<group>";
+		};
+		EFD7B7A11971959300B11F89 /* Glossary Code */ = {
+			isa = PBXGroup;
+			children = (
+				EF173F8A1970EE97007DAACD /* MOGlossaryMasterViewController.h */,
+				EF173F8B1970EE97007DAACD /* MOGlossaryMasterViewController.m */,
+				EF173F901970EEE9007DAACD /* MOGlossaryDetailViewController.h */,
+				EF173F911970EEE9007DAACD /* MOGlossaryDetailViewController.m */,
+			);
+			name = "Glossary Code";
+			sourceTree = "<group>";
+		};
+		EFD7B7A2197195B700B11F89 /* Support Code */ = {
+			isa = PBXGroup;
+			children = (
+				EF173F871970EE6E007DAACD /* MOSupportMasterViewController.h */,
+				EF173F881970EE6E007DAACD /* MOSupportMasterViewController.m */,
+				EF173F931970EF04007DAACD /* MOSupportDetailViewController.h */,
+				EF173F941970EF04007DAACD /* MOSupportDetailViewController.m */,
+			);
+			name = "Support Code";
+			sourceTree = "<group>";
+		};
+		EFD7B8441971ECA700B11F89 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7B8401971EC9B00B11F89 /* font_down.png */,
+				EFD7B8411971EC9B00B11F89 /* font_up.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF173F481970D71E007DAACD /* Meet Options */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF173F7E1970D71E007DAACD /* Build configuration list for PBXNativeTarget "Meet Options" */;
+			buildPhases = (
+				EF173F451970D71E007DAACD /* Sources */,
+				EF173F461970D71E007DAACD /* Frameworks */,
+				EF173F471970D71E007DAACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meet Options";
+			productName = "Meet Options";
+			productReference = EF173F491970D71E007DAACD /* Meet Options.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF173F6C1970D71E007DAACD /* Meet OptionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF173F811970D71E007DAACD /* Build configuration list for PBXNativeTarget "Meet OptionsTests" */;
+			buildPhases = (
+				EF173F691970D71E007DAACD /* Sources */,
+				EF173F6A1970D71E007DAACD /* Frameworks */,
+				EF173F6B1970D71E007DAACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF173F731970D71E007DAACD /* PBXTargetDependency */,
+			);
+			name = "Meet OptionsTests";
+			productName = "Meet OptionsTests";
+			productReference = EF173F6D1970D71E007DAACD /* Meet OptionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF173F411970D71E007DAACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Optionvesting, LLC";
+				TargetAttributes = {
+					EF173F6C1970D71E007DAACD = {
+						TestTargetID = EF173F481970D71E007DAACD;
+					};
+				};
+			};
+			buildConfigurationList = EF173F441970D71E007DAACD /* Build configuration list for PBXProject "Meet Options" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF173F401970D71E007DAACD;
+			productRefGroup = EF173F4A1970D71E007DAACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF173F481970D71E007DAACD /* Meet Options */,
+				EF173F6C1970D71E007DAACD /* Meet OptionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF173F471970D71E007DAACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF345D52197473A400E4BC6F /* investingbasicslist.plist in Resources */,
+				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
+				EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */,
+				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
+				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
+				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
+				EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */,
+				EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */,
+				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
+				EF173FE519712882007DAACD /* ask.html in Resources */,
+				EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */,
+				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
+				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
+				EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */,
+				EF4A15301974E2990015FC06 /* optionstrategylist.plist in Resources */,
+				EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */,
+				EF4A15321974E2B20015FC06 /* makingtradeslist.plist in Resources */,
+				EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */,
+				EF4A152E1974DD330015FC06 /* optionconceptslist.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF173F6B1970D71E007DAACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF173F791970D71E007DAACD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF173F451970D71E007DAACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */,
+				EF173F5D1970D71E007DAACD /* MOAppDelegate.m in Sources */,
+				EF173F861970EE49007DAACD /* MOTutorialsMasterViewController.m in Sources */,
+				EF173F891970EE6E007DAACD /* MOSupportMasterViewController.m in Sources */,
+				EF173F8F1970EEB3007DAACD /* MOTutorialsDetailViewController.m in Sources */,
+				EF173F921970EEE9007DAACD /* MOGlossaryDetailViewController.m in Sources */,
+				EF4A15371974FD5D0015FC06 /* IAPHelper.m in Sources */,
+				EF4A153A1974FF470015FC06 /* RageIAPHelper.m in Sources */,
+				EF173F951970EF04007DAACD /* MOSupportDetailViewController.m in Sources */,
+				EF173FDE1970F23C007DAACD /* MODetailViewController.m in Sources */,
+				EF173F8C1970EE97007DAACD /* MOGlossaryMasterViewController.m in Sources */,
+				EF173F591970D71E007DAACD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF173F691970D71E007DAACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF173F7B1970D71E007DAACD /* Meet_OptionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF173F731970D71E007DAACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF173F481970D71E007DAACD /* Meet Options */;
+			targetProxy = EF173F721970D71E007DAACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF173F551970D71E007DAACD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF173F561970D71E007DAACD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF173F5E1970D71E007DAACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF173F5F1970D71E007DAACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF173F771970D71E007DAACD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF173F781970D71E007DAACD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF173F7C1970D71E007DAACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF173F7D1970D71E007DAACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF173F7F1970D71E007DAACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
+				INFOPLIST_FILE = "Meet Options/Meet Options-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF173F801970D71E007DAACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
+				INFOPLIST_FILE = "Meet Options/Meet Options-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF173F821970D71E007DAACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meet Options.app/Meet Options";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meet OptionsTests/Meet OptionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF173F831970D71E007DAACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meet Options.app/Meet Options";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
+				INFOPLIST_FILE = "Meet OptionsTests/Meet OptionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF173F441970D71E007DAACD /* Build configuration list for PBXProject "Meet Options" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF173F7C1970D71E007DAACD /* Debug */,
+				EF173F7D1970D71E007DAACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF173F7E1970D71E007DAACD /* Build configuration list for PBXNativeTarget "Meet Options" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF173F7F1970D71E007DAACD /* Debug */,
+				EF173F801970D71E007DAACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF173F811970D71E007DAACD /* Build configuration list for PBXNativeTarget "Meet OptionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF173F821970D71E007DAACD /* Debug */,
+				EF173F831970D71E007DAACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF173F411970D71E007DAACD /* Project object */;
+}
