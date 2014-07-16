@@ -10,7 +10,7 @@
 #pragma mark - private interface
 
 @interface MOTutorialsDetailViewController ()
-- (void)configureView;
+//- (void)configureView;
 
 @property (nonatomic,assign)NSInteger stepperScale;
 

@@ -246,10 +246,19 @@ NSNumberFormatter * _priceFormatter;
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-        if ([[segue identifier] isEqualToString:@"Making Trades"]) {
-            [[segue destinationViewController] setDetailItem:@"Making Trades"];
-        }
-        
+    if ([[segue identifier] isEqualToString:@"Investing Basics"]) {
+            [[segue destinationViewController] setDetailItem:@"Investing Basics"];
+    }
+    else if ([[segue identifier] isEqualToString:@"Option Concepts"]) {
+        [[segue destinationViewController] setDetailItem:@"Option Concepts"];
+    }
+    else if ([[segue identifier] isEqualToString:@"Option Strategy"]) {
+        [[segue destinationViewController] setDetailItem:@"Option Strategy"];
+    }
+    else if ([[segue identifier] isEqualToString:@"Making Trades"]) {
+        [[segue destinationViewController] setDetailItem:@"Making Trades"];
+    }
+    else [[segue destinationViewController] setDetailItem:@"Investing Basics"];
 }
 
 
@@ -263,14 +272,11 @@ NSNumberFormatter * _priceFormatter;
 
     if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
         
-//            [self performSegueWithIdentifier:cell.textLabel.text sender:self];
-            [self performSegueWithIdentifier:@"Making Trades" sender:self];
+            [self performSegueWithIdentifier:cell.textLabel.text sender:self];
 
     }
 
     
-
-    //    self.lessonGroup =  selectedGroup;
     
     // Perform Segue
     

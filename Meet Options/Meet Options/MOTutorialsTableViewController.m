@@ -65,6 +65,7 @@
     NSString *term = self.termsArray[indexPath.row];
     cell.textLabel.text = term;
     cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Bold" size:20];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -89,16 +90,34 @@
 // return YES;
 // }
 // */
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-//{
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    //    if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    NSString *term = self.termsArray[indexPath.row];
+    //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
+    [[segue destinationViewController] setDetailItem:term];
+    //    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    // Get selected lesson group
+//    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+//    SKProduct * product = (SKProduct *) _products[indexPath.row];
 //    
-//    //    if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
-//    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-//    NSString *term = self.termsArray[indexPath.row];
-//    //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
-//    [[segue destinationViewController] setDetailItem:term];
-//    //    }
-//}
+//    if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
+//        
+//        [self performSegueWithIdentifier:cell.textLabel.text sender:self];
+//        
+//    }
+    
+    // Perform Segue
+    
+        [self performSegueWithIdentifier:@"showTutorialsDetail" sender:self];
+}
+
 //
 //
 //
