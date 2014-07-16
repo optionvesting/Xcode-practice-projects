@@ -244,15 +244,16 @@ NSNumberFormatter * _priceFormatter;
     [[RageIAPHelper sharedInstance] restoreCompletedTransactions];
 }
 
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-//{
-//    //    if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
-//    //NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-//    //NSString *term = self.termsArray[indexPath.row];
-//    //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
-//    [[segue destinationViewController] setDetailItem:@"after-hours"];
-//    //    }
-//}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+        if ([[segue identifier] isEqualToString:@"Making Trades"]) {
+            [[segue destinationViewController] setDetailItem:@"Making Trades"];
+        }
+        
+}
+
+
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
@@ -261,9 +262,10 @@ NSNumberFormatter * _priceFormatter;
     SKProduct * product = (SKProduct *) _products[indexPath.row];
 
     if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
-            [self performSegueWithIdentifier:cell.textLabel.text sender:self];
-
         
+//            [self performSegueWithIdentifier:cell.textLabel.text sender:self];
+            [self performSegueWithIdentifier:@"Making Trades" sender:self];
+
     }
 
     

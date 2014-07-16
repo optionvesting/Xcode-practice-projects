@@ -32,12 +32,13 @@
 		EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */; };
 		EF345D52197473A400E4BC6F /* Investing Basics.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF345D51197473A400E4BC6F /* Investing Basics.plist */; };
 		EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D5319747ACC00E4BC6F /* after-hours.html */; };
-		EF4A152E1974DD330015FC06 /* optionconceptslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152D1974DD330015FC06 /* optionconceptslist.plist */; };
-		EF4A15301974E2990015FC06 /* optionstrategylist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152F1974E2990015FC06 /* optionstrategylist.plist */; };
-		EF4A15321974E2B20015FC06 /* makingtradeslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A15311974E2B20015FC06 /* makingtradeslist.plist */; };
+		EF4A152E1974DD330015FC06 /* Option Concepts.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152D1974DD330015FC06 /* Option Concepts.plist */; };
+		EF4A15301974E2990015FC06 /* Option Strategy.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152F1974E2990015FC06 /* Option Strategy.plist */; };
+		EF4A15321974E2B20015FC06 /* Making Trades.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A15311974E2B20015FC06 /* Making Trades.plist */; };
 		EF4A15341974FCCC0015FC06 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4A15331974FCCC0015FC06 /* StoreKit.framework */; };
 		EF4A15371974FD5D0015FC06 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A15361974FD5D0015FC06 /* IAPHelper.m */; };
 		EF4A153A1974FF470015FC06 /* RageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A15391974FF470015FC06 /* RageIAPHelper.m */; };
+		EF580BF719764E78009118BC /* MOTutorialsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF580BF619764E78009118BC /* MOTutorialsTableViewController.m */; };
 		EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */; };
 		EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */; };
 		EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */; };
@@ -97,14 +98,16 @@
 		EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Stock Exchange.html"; sourceTree = "<group>"; };
 		EF345D51197473A400E4BC6F /* Investing Basics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Investing Basics.plist"; sourceTree = "<group>"; };
 		EF345D5319747ACC00E4BC6F /* after-hours.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "after-hours.html"; path = "Meet Options/after-hours.html"; sourceTree = "<group>"; };
-		EF4A152D1974DD330015FC06 /* optionconceptslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = optionconceptslist.plist; sourceTree = "<group>"; };
-		EF4A152F1974E2990015FC06 /* optionstrategylist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = optionstrategylist.plist; sourceTree = "<group>"; };
-		EF4A15311974E2B20015FC06 /* makingtradeslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = makingtradeslist.plist; sourceTree = "<group>"; };
+		EF4A152D1974DD330015FC06 /* Option Concepts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Option Concepts.plist"; sourceTree = "<group>"; };
+		EF4A152F1974E2990015FC06 /* Option Strategy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Option Strategy.plist"; sourceTree = "<group>"; };
+		EF4A15311974E2B20015FC06 /* Making Trades.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Making Trades.plist"; sourceTree = "<group>"; };
 		EF4A15331974FCCC0015FC06 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EF4A15351974FD5D0015FC06 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
 		EF4A15361974FD5D0015FC06 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
 		EF4A15381974FF470015FC06 /* RageIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageIAPHelper.h; sourceTree = "<group>"; };
 		EF4A15391974FF470015FC06 /* RageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageIAPHelper.m; sourceTree = "<group>"; };
+		EF580BF519764E78009118BC /* MOTutorialsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTutorialsTableViewController.h; sourceTree = "<group>"; };
+		EF580BF619764E78009118BC /* MOTutorialsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTutorialsTableViewController.m; sourceTree = "<group>"; };
 		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
 		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
 		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
@@ -232,9 +235,9 @@
 			isa = PBXGroup;
 			children = (
 				EF345D51197473A400E4BC6F /* Investing Basics.plist */,
-				EF4A152F1974E2990015FC06 /* optionstrategylist.plist */,
-				EF4A15311974E2B20015FC06 /* makingtradeslist.plist */,
-				EF4A152D1974DD330015FC06 /* optionconceptslist.plist */,
+				EF4A152F1974E2990015FC06 /* Option Strategy.plist */,
+				EF4A15311974E2B20015FC06 /* Making Trades.plist */,
+				EF4A152D1974DD330015FC06 /* Option Concepts.plist */,
 				EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */,
 			);
 			name = "Tutorials HTML FIles";
@@ -270,6 +273,8 @@
 			children = (
 				EF173F841970EE49007DAACD /* MOTutorialsMasterViewController.h */,
 				EF173F851970EE49007DAACD /* MOTutorialsMasterViewController.m */,
+				EF580BF519764E78009118BC /* MOTutorialsTableViewController.h */,
+				EF580BF619764E78009118BC /* MOTutorialsTableViewController.m */,
 				EF173F8D1970EEB3007DAACD /* MOTutorialsDetailViewController.h */,
 				EF173F8E1970EEB3007DAACD /* MOTutorialsDetailViewController.m */,
 			);
@@ -398,11 +403,11 @@
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
 				EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */,
-				EF4A15301974E2990015FC06 /* optionstrategylist.plist in Resources */,
+				EF4A15301974E2990015FC06 /* Option Strategy.plist in Resources */,
 				EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */,
-				EF4A15321974E2B20015FC06 /* makingtradeslist.plist in Resources */,
+				EF4A15321974E2B20015FC06 /* Making Trades.plist in Resources */,
 				EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */,
-				EF4A152E1974DD330015FC06 /* optionconceptslist.plist in Resources */,
+				EF4A152E1974DD330015FC06 /* Option Concepts.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +428,7 @@
 			files = (
 				EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */,
 				EF173F5D1970D71E007DAACD /* MOAppDelegate.m in Sources */,
+				EF580BF719764E78009118BC /* MOTutorialsTableViewController.m in Sources */,
 				EF173F861970EE49007DAACD /* MOTutorialsMasterViewController.m in Sources */,
 				EF173F891970EE6E007DAACD /* MOSupportMasterViewController.m in Sources */,
 				EF173F8F1970EEB3007DAACD /* MOTutorialsDetailViewController.m in Sources */,
