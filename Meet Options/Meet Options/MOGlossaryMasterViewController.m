@@ -33,6 +33,7 @@
     // Do any additional setup after loading the view.
         self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil];
     self.navigationController.navigationBar.tintColor = UIColorFromRGB(0xF2B019);
+        [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
     // fill the array with text from a .plist
     self.termsPath = [[NSBundle mainBundle] pathForResource:@"glossarytermslist" ofType:@"plist"];
     self.termsArray = [NSArray arrayWithContentsOfFile:self.termsPath];

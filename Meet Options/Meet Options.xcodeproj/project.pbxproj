@@ -50,6 +50,8 @@
 		EF4A15371974FD5D0015FC06 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A15361974FD5D0015FC06 /* IAPHelper.m */; };
 		EF4A153A1974FF470015FC06 /* RageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A15391974FF470015FC06 /* RageIAPHelper.m */; };
 		EF580BF719764E78009118BC /* MOTutorialsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF580BF619764E78009118BC /* MOTutorialsTableViewController.m */; };
+		EF58EC291977DC210007EADE /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC271977DC210007EADE /* question.png */; };
+		EF58EC2A1977DC210007EADE /* question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC281977DC210007EADE /* question@2x.png */; };
 		EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */; };
 		EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */; };
 		EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */; };
@@ -130,6 +132,8 @@
 		EF4A15391974FF470015FC06 /* RageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageIAPHelper.m; sourceTree = "<group>"; };
 		EF580BF519764E78009118BC /* MOTutorialsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTutorialsTableViewController.h; sourceTree = "<group>"; };
 		EF580BF619764E78009118BC /* MOTutorialsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTutorialsTableViewController.m; sourceTree = "<group>"; };
+		EF58EC271977DC210007EADE /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		EF58EC281977DC210007EADE /* question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question@2x.png"; sourceTree = "<group>"; };
 		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
 		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
 		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
@@ -331,6 +335,8 @@
 		EFD7B8441971ECA700B11F89 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				EF58EC271977DC210007EADE /* question.png */,
+				EF58EC281977DC210007EADE /* question@2x.png */,
 				EF08E2551976F00D001A1473 /* support.png */,
 				EF08E2561976F00D001A1473 /* support@2x.png */,
 				EF08E2511976EFE1001A1473 /* glossary.png */,
@@ -426,9 +432,11 @@
 				EF08E2A81977A4DC001A1473 /* navbar.png in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
+				EF58EC2A1977DC210007EADE /* question@2x.png in Resources */,
 				EF08E2581976F00D001A1473 /* support@2x.png in Resources */,
 				EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */,
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
+				EF58EC291977DC210007EADE /* question.png in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
 				EF08E2531976EFE1001A1473 /* glossary.png in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,

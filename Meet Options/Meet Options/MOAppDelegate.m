@@ -37,12 +37,14 @@
 //    UIImage* tabBarBackground = [UIImage imageNamed:@"tabbar.png"];
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar.png"]];
     [[UITabBar appearance] setTintColor:UIColorFromRGB(0x000000)];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f]}                                                forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:16.0f],
+                                                                                                                NSForegroundColorAttributeName : UIColorFromRGB(0x7B440F)}                                                forState:UIControlStateNormal];
     
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f],
                                                         NSForegroundColorAttributeName : UIColorFromRGB(0x000000)
                                                         } forState:UIControlStateHighlighted];
-    
+    [[UIView appearanceWhenContainedIn:[UITabBar class], nil] setTintColor:UIColorFromRGB(0x7B440F)];
+//    [[UITabBar appearance] setSelectedImageTintColor:[UIColor greenColor]];
 //7B440F
 
     //    NSDictionary *navbarbuttonTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:

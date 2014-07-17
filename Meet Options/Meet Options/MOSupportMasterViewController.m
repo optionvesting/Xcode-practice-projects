@@ -32,6 +32,17 @@
     // Do any additional setup after loading the view.
         self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil];
     self.navigationController.navigationBar.tintColor = UIColorFromRGB(0xF2B019);
+        [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
+    
+//    // set selected and unselected icons
+//    UITabBarItem *item0 = [self.tabBar.items objectAtIndex:0];
+//    
+//    // this way, the icon gets rendered as it is (thus, it needs to be green in this example)
+//    item0.image = [[UIImage imageNamed:@"unselected-icon.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    
+//    // this icon is used for selected tab and it will get tinted as defined in self.tabBar.tintColor
+//    item0.selectedImage = [UIImage imageNamed:@"selected-icon.png"];
+    
 }
 
 - (void)didReceiveMemoryWarning
