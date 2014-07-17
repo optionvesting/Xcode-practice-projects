@@ -15,6 +15,9 @@
 
 @implementation MOGlossaryMasterViewController
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -28,7 +31,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil];
+    self.navigationController.navigationBar.tintColor = UIColorFromRGB(0xF2B019);
     // fill the array with text from a .plist
     self.termsPath = [[NSBundle mainBundle] pathForResource:@"glossarytermslist" ofType:@"plist"];
     self.termsArray = [NSArray arrayWithContentsOfFile:self.termsPath];

@@ -27,6 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil]; 
+    self.title = self.detailItem;
+
     // Do any additional setup after loading the view.
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     // fill the array with text from a .plist

@@ -7,7 +7,7 @@
         <!--Navigation Controller - Glossary-->
         <scene sceneID="cUi-kZ-frf">
             <objects>
-                <navigationController id="rS3-R9-Ivy" userLabel="Navigation Controller - Glossary" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rS3-R9-Ivy" userLabel="Navigation Controller - Glossary" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Glossary" image="glossary.png" id="ae3-UT-2ms" userLabel="Tab Bar Item - Glossary"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yXu-0R-QUA">
                         <autoresizingMask key="autoresizingMask"/>
@@ -24,13 +24,13 @@
         <scene sceneID="VgW-fR-Quf">
             <objects>
                 <tableViewController title="Master" id="pGg-6v-bdr" userLabel="Master View Controller - Glossary" customClass="MOGlossaryMasterViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mLL-gJ-YKr">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="mLL-gJ-YKr">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="2pz-XF-uhl" style="IBUITableViewCellStyleDefault" id="m0d-ak-lc9">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m0d-ak-lc9" id="d3P-M7-ByW">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -57,6 +57,7 @@
                             <outlet property="delegate" destination="pGg-6v-bdr" id="Y6K-Cp-Qkv"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Glossary" id="tQt-TN-PWz" userLabel="Navigation Item - Glossary"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cn-md-YlS" sceneMemberID="firstResponder"/>
@@ -66,13 +67,13 @@
         <!--Glossary Detail View Controller - Detail-->
         <scene sceneID="Cn3-H9-jdl">
             <objects>
-                <viewController title="Detail" id="Ah7-4n-0Wa" customClass="MOGlossaryDetailViewController" sceneMemberID="viewController">
+                <viewController title="Detail" hidesBottomBarWhenPushed="YES" id="Ah7-4n-0Wa" customClass="MOGlossaryDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cIm-e0-J51"/>
                         <viewControllerLayoutGuide type="bottom" id="a0L-h9-sNL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MMQ-IT-qOo">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MNi-ai-doe">
@@ -82,7 +83,7 @@
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="rB8-Nd-Gar">
-                                <rect key="frame" x="220" y="72" width="94" height="29"/>
+                                <rect key="frame" x="220" y="-36" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -92,6 +93,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Definition" id="cra-N8-TIN"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -110,7 +112,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="yzW-HV-GaE" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="DBC-hE-XyZ">
+                    <tabBar key="tabBar" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="DBC-hE-XyZ">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -128,13 +130,13 @@
         <scene sceneID="iJj-7x-jAw">
             <objects>
                 <tableViewController title="Master" id="1Z4-NQ-0sG" userLabel="Master View Controller - Support" customClass="MOSupportMasterViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="SWL-Ku-7FL">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="SWL-Ku-7FL">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="RaO-Vj-SWZ" style="IBUITableViewCellStyleDefault" id="g44-gF-qag">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g44-gF-qag" id="wWW-s6-nFX">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -161,6 +163,7 @@
                             <outlet property="delegate" destination="1Z4-NQ-0sG" id="wiJ-NC-FyH"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Support" id="ycy-81-837" userLabel="Navigation Item - Support"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2s-lU-jEy" sceneMemberID="firstResponder"/>
@@ -189,17 +192,17 @@
         <!--Support Detail View Controller - Detail-->
         <scene sceneID="M2e-U6-Lkv">
             <objects>
-                <viewController title="Detail" id="C9j-uu-mBk" customClass="MOSupportDetailViewController" sceneMemberID="viewController">
+                <viewController title="Detail" hidesBottomBarWhenPushed="YES" id="C9j-uu-mBk" customClass="MOSupportDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qzg-oF-jB6"/>
                         <viewControllerLayoutGuide type="bottom" id="crH-RI-jqz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9mD-eV-m8i">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Lt-Ix-TB7">
-                                <rect key="frame" x="20" y="276" width="280" height="17"/>
+                                <rect key="frame" x="20" y="219.5" width="280" height="17"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -211,7 +214,7 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="CBc-hD-1lN">
-                                <rect key="frame" x="220" y="72" width="94" height="29"/>
+                                <rect key="frame" x="220" y="-41" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                             </stepper>
@@ -223,6 +226,7 @@
                             <constraint firstItem="7Lt-Ix-TB7" firstAttribute="leading" secondItem="9mD-eV-m8i" secondAttribute="leading" constant="20" symbolic="YES" id="ouE-IU-XLv"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Detail" id="iRY-tp-iFU"/>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="7Lt-Ix-TB7" id="TYr-x4-KgU"/>
@@ -236,13 +240,13 @@
         <scene sceneID="X4m-6k-jFk">
             <objects>
                 <tableViewController title="Tutorials" id="eGn-aE-MeR" userLabel="Master View Controller - Tutorials" customClass="MOTutorialsMasterViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BUl-XM-bZ7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="BUl-XM-bZ7">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="dzs-69-0Gc" style="IBUITableViewCellStyleDefault" id="Me2-aX-iTc">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="dzs-69-0Gc" style="IBUITableViewCellStyleDefault" id="Me2-aX-iTc">
+                                <rect key="frame" x="0.0" y="55" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Me2-aX-iTc" id="gOV-f2-hdH">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -257,7 +261,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -266,6 +270,7 @@
                             <outlet property="delegate" destination="eGn-aE-MeR" id="koa-Gq-JbN"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Tutorials" id="Z50-Gf-QG4" userLabel="Navigation Item - Tutorials"/>
                     <connections>
                         <segue destination="Wim-GO-rou" kind="push" identifier="Investing Basics" id="9ra-Wc-97h"/>
@@ -282,13 +287,13 @@
         <scene sceneID="60Q-oM-U6a">
             <objects>
                 <tableViewController id="Wim-GO-rou" userLabel="Tutorials Table View Controller" customClass="MOTutorialsTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="RoU-b4-QU8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="RoU-b4-QU8">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="GaI-5n-LK5" style="IBUITableViewCellStyleDefault" id="oZc-Pg-7CF">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oZc-Pg-7CF" id="3o3-vm-es8">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -314,6 +319,7 @@
                             <outlet property="delegate" destination="Wim-GO-rou" id="FG6-io-ehJ"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="oj2-gI-QQV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQu-Ns-2xs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -342,13 +348,13 @@
         <!--Tutorials Detail View Controller - Detail-->
         <scene sceneID="fUg-Ds-YJ9">
             <objects>
-                <viewController title="Detail" id="ZJf-pU-uqa" customClass="MOTutorialsDetailViewController" sceneMemberID="viewController">
+                <viewController title="Detail" hidesBottomBarWhenPushed="YES" id="ZJf-pU-uqa" customClass="MOTutorialsDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qqn-Q1-rVp"/>
                         <viewControllerLayoutGuide type="bottom" id="Cvu-gr-i3x"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eGo-QV-oB5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9C-Hr-Dqw">
@@ -358,7 +364,7 @@
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-tS-eFe">
-                                <rect key="frame" x="220" y="72" width="94" height="29"/>
+                                <rect key="frame" x="220" y="-41" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -368,6 +374,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Detail" id="nCo-0n-4ob"/>
                     <connections>
                         <outlet property="myStepper" destination="dc2-tS-eFe" id="KWT-tc-bOv"/>

@@ -126,6 +126,7 @@
 // 1
 #import "RageIAPHelper.h"
 #import <StoreKit/StoreKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 // Add new instance variable to class extension
 NSNumberFormatter * _priceFormatter;
@@ -137,21 +138,35 @@ NSNumberFormatter * _priceFormatter;
 
 @implementation MOTutorialsMasterViewController
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
 // 3
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-//    self.title = @"In App Rage";
-    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil];
+    self.navigationController.navigationBar.tintColor = UIColorFromRGB(0xF2B019);
+    self.edgesForExtendedLayout = UIRectEdgeAll;
+    self.tableView.contentInset = UIEdgeInsetsMake(0., 0., CGRectGetHeight(self.tabBarController.tabBar.frame), 0);
+
     self.refreshControl = [[UIRefreshControl alloc] init];
     [self.refreshControl addTarget:self action:@selector(reload) forControlEvents:UIControlEventValueChanged];
     [self reload];
     [self.refreshControl beginRefreshing];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
     _priceFormatter = [[NSNumberFormatter alloc] init];
     [_priceFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
     [_priceFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+
+//    UIButton *button = [[UIButton buttonWithType:UIButtonTypeCustom] initWithTitle:@"Restore Purchases"];
+//    button.frame = CGRectMake(10, 0, 30, 30);
+//    button.layer.borderColor = [UIColor whiteColor].CGColor;
+//    button.layer.borderWidth = 1.0f;
+
+    
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Restore" style:UIBarButtonItemStyleBordered target:self action:@selector(restoreTapped:)];
+
 }
 
 // 4
@@ -197,7 +212,14 @@ NSNumberFormatter * _priceFormatter;
         [_priceFormatter setLocale:product.priceLocale];
         cell.detailTextLabel.text = [_priceFormatter stringFromNumber:product.price];
         UIButton *buyButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        buyButton.frame = CGRectMake(0, 0, 72, 37);
+        buyButton.frame = CGRectMake(0, 0, 52, 27);
+        buyButton.layer.cornerRadius = 5;
+        [[buyButton titleLabel] setFont:[UIFont fontWithName:@"NeutraDisp-Titling" size:12]];
+        
+        [buyButton setTitleColor:UIColorFromRGB(0xF2B019) forState:UIControlStateNormal];
+
+        buyButton.layer.borderColor = [UIColorFromRGB(0xF2B019) CGColor];
+        buyButton.layer.borderWidth = 1.0f;
         [buyButton setTitle:@"Buy" forState:UIControlStateNormal];
         buyButton.tag = indexPath.row;
         [buyButton addTarget:self action:@selector(buyButtonTapped:) forControlEvents:UIControlEventTouchUpInside];

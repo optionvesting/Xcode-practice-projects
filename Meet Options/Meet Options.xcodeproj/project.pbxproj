@@ -15,6 +15,9 @@
 		EF08E2541976EFE1001A1473 /* glossary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2521976EFE1001A1473 /* glossary@2x.png */; };
 		EF08E2571976F00D001A1473 /* support.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2551976F00D001A1473 /* support.png */; };
 		EF08E2581976F00D001A1473 /* support@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2561976F00D001A1473 /* support@2x.png */; };
+		EF08E2A81977A4DC001A1473 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2A71977A4DC001A1473 /* navbar.png */; };
+		EF08E2AA1977A60E001A1473 /* grey-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2A91977A60E001A1473 /* grey-bg.jpg */; };
+		EF08E2B21977B05C001A1473 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2B11977B05C001A1473 /* tabbar@2x.png */; };
 		EF173F4D1970D71E007DAACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F4C1970D71E007DAACD /* Foundation.framework */; };
 		EF173F4F1970D71E007DAACD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F4E1970D71E007DAACD /* CoreGraphics.framework */; };
 		EF173F511970D71E007DAACD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F501970D71E007DAACD /* UIKit.framework */; };
@@ -77,6 +80,9 @@
 		EF08E2521976EFE1001A1473 /* glossary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glossary@2x.png"; sourceTree = "<group>"; };
 		EF08E2551976F00D001A1473 /* support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support.png; sourceTree = "<group>"; };
 		EF08E2561976F00D001A1473 /* support@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "support@2x.png"; sourceTree = "<group>"; };
+		EF08E2A71977A4DC001A1473 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		EF08E2A91977A60E001A1473 /* grey-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grey-bg.jpg"; sourceTree = "<group>"; };
+		EF08E2B11977B05C001A1473 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
 		EF173F491970D71E007DAACD /* Meet Options.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meet Options.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF173F4C1970D71E007DAACD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF173F4E1970D71E007DAACD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -217,6 +223,9 @@
 		EF173F531970D71E007DAACD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF08E2B11977B05C001A1473 /* tabbar@2x.png */,
+				EF08E2A91977A60E001A1473 /* grey-bg.jpg */,
+				EF08E2A71977A4DC001A1473 /* navbar.png */,
 				EF345D5519747B2A00E4BC6F /* Tutorials HTML FIles */,
 				EFD7B8441971ECA700B11F89 /* Icons */,
 				EFD7B79F1971951F00B11F89 /* Fonts */,
@@ -414,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF345D52197473A400E4BC6F /* Investing Basics.plist in Resources */,
+				EF08E2A81977A4DC001A1473 /* navbar.png in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
 				EF08E2581976F00D001A1473 /* support@2x.png in Resources */,
@@ -429,10 +439,12 @@
 				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
 				EF08E2541976EFE1001A1473 /* glossary@2x.png in Resources */,
 				EF173FE519712882007DAACD /* ask.html in Resources */,
+				EF08E2B21977B05C001A1473 /* tabbar@2x.png in Resources */,
 				EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */,
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
 				EF08E2501976EFB5001A1473 /* classroom@2x.png in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
+				EF08E2AA1977A60E001A1473 /* grey-bg.jpg in Resources */,
 				EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */,
 				EF4A15301974E2990015FC06 /* Option Strategy.plist in Resources */,
 				EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */,

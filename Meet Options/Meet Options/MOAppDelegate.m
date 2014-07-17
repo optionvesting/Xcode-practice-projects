@@ -5,7 +5,6 @@
 //  Created by The Wynn's  on 7/11/14.
 //  Copyright (c) 2014 Optionvesting, LLC. All rights reserved.
 //
-
 #import "MOAppDelegate.h"
 
 @implementation MOAppDelegate
@@ -18,7 +17,7 @@
     shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8];
     shadow.shadowOffset = CGSizeMake(0, 1);
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           UIColorFromRGB(0x999999),
+                                                           UIColorFromRGB(0xF2B019),
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
                                                            [UIFont fontWithName:@"NeutraDisp-Titling" size:21.0], NSFontAttributeName, nil]];
@@ -33,12 +32,18 @@
 //                                                       nil] forState:UIControlStateHighlighted];
 //    
 
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbar.png"] forBarMetrics:UIBarMetricsDefault];
     
+//    UIImage* tabBarBackground = [UIImage imageNamed:@"tabbar.png"];
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar.png"]];
+    [[UITabBar appearance] setTintColor:UIColorFromRGB(0x000000)];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f]}                                                forState:UIControlStateNormal];
-//    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f],
-//                                                        NSForegroundColorAttributeName : UIColorFromRGB(0x999999)
-//                                                        } forState:UIControlStateHighlighted];
-
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f],
+                                                        NSForegroundColorAttributeName : UIColorFromRGB(0x000000)
+                                                        } forState:UIControlStateHighlighted];
+    
+//7B440F
 
     //    NSDictionary *navbarbuttonTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
 //                                                [UIColor blackColor],NSForegroundColorAttributeName,
@@ -47,10 +52,10 @@
 //                                                nil];
     
     [[UIBarButtonItem appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           UIColorFromRGB(0x000000),
+                                                           UIColorFromRGB(0xFFFFFFF),
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
-                                                           [UIFont fontWithName:@"NeutraDisp-Light" size:16.0], NSFontAttributeName, nil]forState:UIControlStateNormal];
+                                                           [UIFont fontWithName:@"NeutraDisp-Titling" size:14.0], NSFontAttributeName, nil]forState:UIControlStateNormal];
 
     [[UINavigationBar appearance] setTintColor:[UIColor redColor]];
     
