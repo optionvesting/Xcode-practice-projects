@@ -22,7 +22,25 @@
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
                                                            [UIFont fontWithName:@"NeutraDisp-Titling" size:21.0], NSFontAttributeName, nil]];
-//    NSDictionary *navbarbuttonTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+    
+    
+//    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+//                                                       [UIColor whiteColor], UITextAttributeTextColor,
+//                                                       nil] forState:UIControlStateNormal];
+////    UIColor *titleHighlightedColor = [UIColor colorWithRed:153/255.0 green:192/255.0 blue:48/255.0 alpha:1.0];
+//    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+//                                                       [UIColor blueColor], UITextAttributeTextColor,
+//                                                       nil] forState:UIControlStateHighlighted];
+//    
+
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f]}                                                forState:UIControlStateNormal];
+//    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f],
+//                                                        NSForegroundColorAttributeName : UIColorFromRGB(0x999999)
+//                                                        } forState:UIControlStateHighlighted];
+
+
+    //    NSDictionary *navbarbuttonTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
 //                                                [UIColor blackColor],NSForegroundColorAttributeName,
 //                                                [UIFont fontWithName:@"NeutraDisp-Medium" size:21.0], NSFontAttributeName,
 //                                                [UIColor clearColor], NSShadowAttributeName,

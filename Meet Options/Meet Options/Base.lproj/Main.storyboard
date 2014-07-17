@@ -8,7 +8,7 @@
         <scene sceneID="cUi-kZ-frf">
             <objects>
                 <navigationController id="rS3-R9-Ivy" userLabel="Navigation Controller - Glossary" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Glossary" id="ae3-UT-2ms" userLabel="Tab Bar Item - Glossary"/>
+                    <tabBarItem key="tabBarItem" title="Glossary" image="glossary.png" id="ae3-UT-2ms" userLabel="Tab Bar Item - Glossary"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yXu-0R-QUA">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -171,7 +171,7 @@
         <scene sceneID="L27-mY-okV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bT1-Zf-qgD" userLabel="Navigation Controller - Support" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Support" id="hMQ-OS-O0j" userLabel="Tab Bar Item - Support"/>
+                    <tabBarItem key="tabBarItem" title="Support" image="support.png" id="hMQ-OS-O0j" userLabel="Tab Bar Item - Support"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EPe-bj-kyo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -324,7 +324,7 @@
         <scene sceneID="Ymp-1d-0Se">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Jm-dF-udo" userLabel="Navigation Controller - Tutorials" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Tutorials" id="2nd-Z1-wDI" userLabel="Tab Bar Item - Tutorials"/>
+                    <tabBarItem key="tabBarItem" title="Tutorials" image="classroom.png" id="2nd-Z1-wDI" userLabel="Tab Bar Item - Tutorials"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pey-wM-CBi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -376,9 +376,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLA-8F-pED" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2307" y="134"/>
+            <point key="canvasLocation" x="2107" y="168"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="classroom.png" width="25" height="25"/>
+        <image name="glossary.png" width="25" height="25"/>
+        <image name="support.png" width="25" height="25"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
