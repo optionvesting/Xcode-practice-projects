@@ -3,508 +3,205 @@
     <head>
         <link rel="stylesheet" type="text/css" href="glossaryStyle.css">
             </head>
-    <body>
-        
-        
+     <body></br></br>
         <p style="text-align: center;">
-        
-        <p1>Money on hold.</p1></p>
-        
+        <h1>So many options.</h1></p>
         <div class="CSSTableGenerator">
-            
             <table>
-                
                 <tbody>
-                    
                     <tr>
-                        
                         <td>
-                            
-                            Whenever you place an option trade, you are entering a contract.<br />
-                            
-                            ➫ A call contract involves buying 100 shares of the underlying stock.<br />
-                            
-                            ➫ A put contract involves selling 100 shares of the underlying stock.<br />
-                            
+                            Remember that an option is a contract that allows you to buy or sell a stock at a specified price. That specified price is called the strike price.<br />
                             <br />
-                            
-                            Depending on what type of position you want to open (long or short, naked or covered, etc.) your broker may require a certain amount of money in your account, that may be placed on hold until you close the position, in order to ensure you can cover the cost of that contract.<br />
-                            
+                            Let&#39;s go back again to the stock XYZ example where the stock&#39;s price is $50 per share. In that example we used the $40 call, which allows you buy the stock at $40 a share. The strike price of that option is $40.<br />
                             <br />
-                            
-                            This amount of money can vary greatly depending on the type of trade.<br />
-                            
+                            Business XYZ would also issue other calls at other strike prices in $2.50 increments. There would also be a $42.50 call, a $45.00 call, etc.<br />
                             <br />
-                            
-                            Even though most option strategies don&#39;t involve actually exercising the option to buy or sell any shares of the underlying stock, you are on the hook to fulfill the contract, so your broker needs to make sure that you have enough cash on hand to do so. The money placed on hold is often referred to as a margin requirement.<br />
-                            
+                            Cheaper stocks that sell for around $10 a share issue options at $1.00 strike price increments.<br />
                             <br />
-                            
-                            The following paragraphs describe how much money (if any) your broker will place on hold for each of the main strategies discussed in these tutorials.</td>
-                        
+                            More expensive stocks that sell for over $200 per share only issue options in $5 strike price increments.<br />
+                            <br />
+                            Most businesses that sell stock options offer many different strike prices of options (in the increments listed above).<br />
+                            <br />
+                            To see the options available for a given stock, first search for the ticker on Yahoo! or Google finance and look at the stock quote. Then on the left side of the stock quote you&#39;ll see a link for the option chain (it may just say &quot;options&quot; instead of &quot;option chain&quot; depending on what site you&#39;re using). An example option chain is shown below.</td>
                     </tr>
-                    
                 </tbody>
-                
             </table>
-            
         </div>
-        
         <p>
-        
-        &nbsp;</p>
-        
-        <p style="text-align: center;">
-        
-        <p1>Covered calls: extra cash is NOT required.</p1></p>
-        
-        <div class="CSSTableGenerator">
-            
-            <table>
-                
-                <tbody>
-                    
-                    <tr>
-                        
-                        <td>
-                            
-                            When you already own 100 shares of the underlying stock for each contract of the option you want to trade, then your position is referred to as &ldquo;covered.&rdquo; This principle applies if you want to sell a call on the stock, or buy a protective put for the stock.<br />
-                            
-                            <br />
-                            
-                            With these covered positions, your broker doesn&rsquo;t require any money on hold because the underlying stock is already in your account. In the event that your option contract gets executed, you already have the shares of stock so you won&rsquo;t have to buy them.<br />
-                            
-                            <br />
-                            
-                            Later tutorials will describe the specific benefits of and steps to open covered positions. Just remember that they are low risk and thus do not require extra money on hold in your account.</td>
-                        
-                    </tr>
-                    
-                </tbody>
-                
-            </table>
-            
-        </div>
-        
+        <b><img alt="" src="http://appbaker.com/farma/assets/uploads/522004/media/user_files/Calls.png" style="height: 369px; width: 275px;" /></b></p>
         <p>
-        
-        &nbsp;</p>
-        
-        <p style="text-align: center;">
-        
-        <p1>Buy a naked call: extra cash is NOT required.</p1></p>
-        
+        <b><img alt="" src="http://appbaker.com/farma/assets/uploads/522004/media/user_files/Puts.png" style="width: 275px; height: 309px;" /></b></p>
         <div class="CSSTableGenerator">
-            
             <table>
-                
                 <tbody>
-                    
                     <tr>
-                        
                         <td>
-                            
-                            When you buy a call option, you are buying a contract to be able to buy 100 shares of stock at a given strike price. If you choose to actually use that call option to buy 100 shares of the underlying stock, that is called executing the option.<br />
-                            
+                            The option chain shows all available options for a given stock, organized by expiration date and strike price. If the chain shows the calls and puts side-by-side that is called a &quot;straddle&quot; view of the option chain. If the calls are listed above the puts, that is called the &quot;stacked&quot; view. Some websites show the straddle view by default, while other websites default to the stacked view. &nbsp;The screenshot above is a stacked view.<br />
                             <br />
-                            
-                            Since you bought the contract, you can choose to execute it anytime you want to before it expires.<br />
-                            
+                            At the time I pulled this option chain for CAT (Caterpillar), the stock was trading for $86.78. You can see that these options are the July options, and they expire on the 20th of the month (the Saturday after the 3rd Friday of the month).<br />
                             <br />
-                            
-                            It would never make sense to execute your option when it is out-of-the-money. If the option is in-the-money, it may be beneficial to execute it.<br />
-                            
+                            Options highlighted in yellow are in-the-money, non-highlighted options are out-of-the-money.<br />
                             <br />
-                            
-                            In order to execute the call you bought, you need to have enough cash in your account to buy 100 shares of the stock at the strike price. Else, you won&#39;t be able to execute the option.<br />
-                            
-                            <br />
-                            
-                            Due to the fact that you bought the option and you decide if/when it will be executed, your broker will not require any extra cash to remain in your account as collateral.<br />
-                            
-                            <br />
-                            
-                            Possible scenarios AT EXPIRATION of your naked long call:<br />
-                            
-                            <br />
-                            
-                            1) the option is in-the-money AND you have enough cash in your account to buy 100 shares of the stock:<br />
-                            
-                            ➫➫ Your broker will automatically execute the option, buying you 100 shares of stock at the strike price.<br />
-                            
-                            <br />
-                            
-                            2) the option is in-the-money AND you DO NOT have enough cash in your account to buy the 100 shares of stock:<br />
-                            
-                            ➫➫ DON&rsquo;T LET THIS HAPPEN!<br />
-                            
-                            ➫➫ Your option is now worthless since you can&rsquo;t sell it back to the market maker, nor can your broker execute the option and buy the stock for you.<br />
-                            
-                            ➫➫ Anytime you own an option that is in the money and getting close to expiration, you should sell it back to the market maker to get some money back if you don&rsquo;t have enough money in your account to buy 100 shares of the stock at the strike price.<br />
-                            
-                            <br />
-                            
-                            3) the option is out-of-the-money:<br />
-                            
-                            ➫➫ It expired worthless, and will be removed from your account.<br />
-                            
-                            <br />
-                            
-                            These changes will always be reflected in your account on the Monday after the option expired, with no action required on your part.</td>
-                        
+                            ➫ The calls (which give you a right to BUY stock for the strike price) are listed on top.<br />
+                            ➫ The puts (which give you the right to SELL stock at the specified strike price) are on the bottom.</td>
                     </tr>
-                    
                 </tbody>
-                
             </table>
-            
         </div>
-        
         <p>
-        
         &nbsp;</p>
-        
         <p style="text-align: center;">
-        
-        <p1>Buy a naked put: extra cash is NOT required.</p1></p>
-        
+        <h1>How much do options cost?<h1></h1></h1></p>
         <div class="CSSTableGenerator">
-            
             <table>
-                
                 <tbody>
-                    
                     <tr>
-                        
                         <td>
-                            
-                            When you buy a put option, you are buying a contract to be able to sell 100 shares of stock at a given strike price. If you choose to actually use that put option to sell 100 shares of the underlying stock, that is called executing the option.<br />
-                            
+                            Just like the price of a stock, the price of an option is defined by a market maker in the form of a BID and ASK price. The BID is what the market maker pays if you sell options back to him, and the higher ASK is what you pay to buy the options from him.<br />
                             <br />
-                            
-                            Since you bought the contract, you can choose to execute it anytime you want to before it expires.<br />
-                            
+                            The price of the option is set by the market maker based on the sum of the intrinsic and time value in each option.<br />
                             <br />
-                            
-                            It would never make sense to execute your option when it is out-of-the-money, but anytime the option is in-the-money, you can choose to execute it.<br />
-                            
+                            Intrinsic Value of a call = Stock Price - Strike Price<br />
+                            Intrinsic Value of a put = Strike Price - Stock Price.<br />
                             <br />
-                            
-                            If you choose to execute your put prior to expiration, then your broker will sell 100 shares of underlying stock for the given strike price.<br />
-                            
-                            ➫ If you already own 100 shares of the underlying stock, then they will be sold at the strike price of the put option.<br />
-                            
-                            ➫ If you don&#39;t own 100 shares of the underlying stock, executing the put will open a short position on the stock. You will then be required to buy the 100 shares back at some point to close the position. The money you receive in your account from the selling 100 shares of the stock simply stays in your account on hold so you can use it later to buy the shares back.<br />
-                            
+                            Take a look at the CAT option chain above, specifically the $85 strike price call.<br />
                             <br />
-                            
-                            Due to the fact that you bought the option and you decide if/when it will be executed, your broker will not require any extra cash to remain in your account as collateral.<br />
-                            
+                            ➫ The stock is currently priced at $86.78.<br />
+                            ➫ The ability to buy the stock for $85, which is exactly what the $85 call would allow you to do, is worth $1.78 to you right now.<br />
+                            ➫ That $85 call has $1.78 of intrinsic value, so it is currently in-the-money, which is why it is highlighted yellow.<br />
+                            ➫ Notice the price of the $85 call isn&#39;t $1.78 per share, it&#39;s $4.00 per share. That&#39;s because there is also time value in the option, since it has a couple months of time before it expires.<br />
+                            ➫ The $85 call has $1.78 of intrinsic value and $2.22 of time value.<br />
                             <br />
-                            
-                            Possible scenarios AT EXPIRATION of your naked put:<br />
-                            
+                            The time value accounts for the possibility that the stock price will change sometime before the option expires in two months.<br />
                             <br />
-                            
-                            1) the option is in-the-money AND you own 100 shares of the underlying stock:<br />
-                            
-                            ➫➫ Your broker will automatically execute the option, sell your 100 shares of stock at the strike price, and the money from the sale goes in your account.<br />
-                            
+                            So the price of an option, as set by the market maker, is the sum of the intrinsic value and the time value.<br />
                             <br />
-                            
-                            2) the option is in-the-money AND you DO NOT own 100 shares of the underlying stock:<br />
-                            
-                            ➫➫ Your broker will open a short position by selling short 100 shares of the underlying stock. The money received from the sale will go in your account, but remain on hold, since you are required to buy the stock back at some point.<br />
-                            
-                            ➫➫ If you don&#39;t want to sell the stock short, then DO NOT let the put expire in-the-money. Sell it back to the market maker for some premium before it expires.<br />
-                            
+                            Option Price = Time Value + Intrinsic Value<br />
                             <br />
-                            
-                            3) the option is out-of-the-money:<br />
-                            
-                            ➫➫ It expired worthless, and will be removed from your account.<br />
-                            
+                            Now let&#39;s look at the $85 put option on the right side. Notice that it&#39;s not highlighted in yellow, meaning it is out-of-the-money. That is because the $85 put doesn&#39;t have any real, intrinsic value right now.<br />
                             <br />
-                            
-                            These changes will always be reflected in your account on the Monday after the option expired, with no action required on your part.</td>
-                        
+                            The stock is trading at $86.78 per share, so an $85 put that would let you sell the stock for $85 isn&#39;t worth anything right now.<br />
+                            <br />
+                            But the price the market maker set for the $85 put isn&#39;t $0, it&#39;s $2.46 per share. That is because the option doesn&#39;t expire for a couple months, just like the call, so it has time value.<br />
+                            <br />
+                            The intrinsic value of the $85 put is $0, and the time value is $2.46.<br />
+                            <br />
+                            As demonstrated above, intrinsic value is determined by a mathematical formula and can&#39;t be modified by the market maker. Conversely, the market maker can adjust the time value of an option. There is no exact mathematical formula used by the market maker to set the time value.<br />
+                            <br />
+                            It is important to understand how to calculate time value. You will always know the price of the option (from the option chain) and the intrinsic value (based on the formulas above), so then you can calculate the time value of the option:<br />
+                            <br />
+                            Time Value = Option Price - Intrinsic Value</td>
                     </tr>
-                    
                 </tbody>
-                
             </table>
-            
         </div>
-        
         <p>
-        
         &nbsp;</p>
-        
         <p style="text-align: center;">
-        
-        <p1>Sell a naked call: extra cash IS required.</p1></p>
-        
+        <h1>A small, select group of traders.</h1></p>
         <div class="CSSTableGenerator">
-            
             <table>
-                
                 <tbody>
-                    
                     <tr>
-                        
                         <td>
-                            
-                            When you sell a call option, you are selling a contract to the market maker, to be able to buy 100 shares of stock from you at a given strike price.<br />
-                            
+                            If you look at the option chain above, you can see the volume of each option. The number to the right of the volume is the open interest.<br />
                             <br />
-                            
-                            Now it is the market maker&rsquo;s choice to execute the option, and he may execute it anytime it is in-the-money (although it is not common for that to happen, it could happen).<br />
-                            
+                            Open interest is related to volume, but different.<br />
                             <br />
-                            
-                            If the market maker chooses to actually use that call option to buy 100 shares of the underlying stock FROM YOU, that is called executing the option.<br />
-                            
+                            ➫ Volume is how many trades occurred so far that day.<br />
+                            ➫ Open interest is the total number of trades for the given option, since the day that option was first issued, that have been opened and are not yet closed.<br />
                             <br />
-                            
-                            It would never make sense for the market maker to execute the option when it is out-of-the-money.<br />
-                            
+                            As more and more people learn the benefits of trading options, the volume of option trading has increased pretty dramatically over recent years.<br />
                             <br />
-                            
-                            Since this option could be executed anytime, your broker will require extra cash in your account. The amount of extra cash required to sell a naked call may differ depending on who your broker is.<br />
-                            
-                            ➫ The typical amount required to sell a naked call is roughly 10% of the value of 100 shares of the underlying stock, plus the amount of premium you receive in your account when you sell the call. Once you have selected your broker and are ready to sell a naked call, be sure to check the margin requirements for the trade.<br />
-                            
+                            Interestingly though, since so few people have discovered options, the volume of options trades is still much lower than that of stocks.<br />
                             <br />
-                            
-                            If you don&rsquo;t have sufficient cash in your account when you attempt to place the trade, your broker should reject the order.<br />
-                            
+                            This difference in volume between stocks and options is an important point to consider:<br />
                             <br />
-                            
-                            Possible scenarios AT EXPIRATION of the naked call you sold to the market maker:<br />
-                            
+                            ➫ Market makers trading stocks make their money by processing large volumes of trades. As long as the BID-ASK spread is at least a penny or two, and they process a lot of trades, they will make money.<br />
+                            ➫ Market makers trading options process far fewer trades, so they need a larger BID-ASK spread in order to make money.<br />
                             <br />
-                            
-                            1) the option is in-the-money:<br />
-                            
-                            ➫➫ You are required to purchase 100 shares of the stock at the current market value, and the sell them back to the market maker at the strike price of the option.<br />
-                            
-                            ➫➫ This will result in a loss for you, so AVOID THIS SITUATION!<br />
-                            
-                            ➫➫ If you sell a naked call and it is in-the-money approaching expiration, you are best off closing the position by buying it back prior to expiration.<br />
-                            
-                            <br />
-                            
-                            2) the option is out-of-the-money:<br />
-                            
-                            ➫➫ It expired worthless, and will be removed from your account.<br />
-                            
-                            ➫➫ This is the desired end state at expiration anytime you sell a naked option.<br />
-                            
-                            <br />
-                            
-                            These changes will always be reflected in your account on Monday after the option expired, with no action required on your part.</td>
-                        
+                            Beware of the large gap between the BID and ASK prices when dealing with option market makers.</td>
                     </tr>
-                    
                 </tbody>
-                
             </table>
-            
         </div>
-        
         <p>
-        
         &nbsp;</p>
-        
         <p style="text-align: center;">
-        
-        <p1>Sell a naked put: extra cash IS required.</p1></p>
-        
+        <h1>Get the best of the market maker.</h1></p>
         <div class="CSSTableGenerator">
-            
             <table>
-                
                 <tbody>
-                    
                     <tr>
-                        
                         <td>
-                            
-                            When you sell a put option, you are selling a contract to the market maker, that allows him to sell YOU 100 shares of stock at the given strike price. Another way to think of this agreement is that you will buy the stock from the market maker at the strike price.<br />
-                            
+                            Let&#39;s look at how the BID-ASK spread can negatively affect you when trading options.<br />
                             <br />
-                            
-                            Notice that selling a put is essentially the same agreement as buying a naked call.<br />
-                            
+                            ➫ The BID price for option X is $1.80<br />
+                            ➫ The ASK is $2.10<br />
+                            ➫ Notice the large BID-ASK spread of $0.30, which is about 15%.<br />
+                            ➫ Remember a market order is when you pay the market maker&#39;s full asking price.<br />
+                            ➫ You place a market order to buy one contract of option X<br />
+                            ➫ You will pay the ASK which is $2.10 per share ($210 total).<br />
+                            ➫ You then place a market order to sell your one contract of option X<br />
+                            ➫ The market maker will only pay you $1.80 per share ($180 total) for your option<br />
                             <br />
-                            
-                            Since the market maker bought the option, it is his choice to execute the option, and he may execute it anytime it is in-the-money before it expires (although this is not common, it could happen). If the market maker chooses to actually use that put option to sell YOU 100 shares of the underlying stock, that is called executing the option.<br />
-                            
+                            Even though the market maker never changed the BID and ASK prices of the option, you lost $30 just due to the BID-ASK spread. That&#39;s 15%!<br />
                             <br />
-                            
-                            It would never make sense for the market maker to execute the option when it is out-of-the-money.<br />
-                            
+                            The best technique for trading options that have a large spread between the BID and the ASK, is to place a limit order instead of a market order. Limit orders allow you to set a price.<br />
                             <br />
-                            
-                            Since this option could be executed anytime, your broker will require extra cash in your account. The amount of extra cash required to sell a naked put may differ depending on who your broker is.<br />
-                            
-                            ➫ The typical amount required is roughly 10% of the value of 100 shares of the underlying stock at the given strike price, plus the amount of premium you receive in your account when you sell the put. Once you have selected your broker and are ready to sell a naked put, be sure to check the margin requirements for the trade.<br />
-                            
+                            To place a limit order:<br />
                             <br />
-                            
-                            If you don&rsquo;t have sufficient cash in your account when you attempt to place the trade, your broker should reject the order.<br />
-                            
+                            ➫ divide the BID-ASK spread into thirds<br />
+                            ➫ subtract that amount from the ASK if you are buying the option<br />
+                            ➫ add that amount to the BID when you are selling the option<br />
                             <br />
-                            
-                            Possible scenarios AT EXPIRATION of the naked put you sold to the market maker:<br />
-                            
+                            For the example above:<br />
                             <br />
-                            
-                            1) the option is in-the-money:<br />
-                            
-                            ➫➫ You are required to purchase 100 shares of the stock at the given strike price. That is called &quot;getting put the stock.&quot;<br />
-                            
-                            ➫➫ If you don&#39;t want to keep the stock and plan to sell it shortly, this will result in a loss for you, so AVOID THIS SITUATION!<br />
-                            
-                            ➫➫ If you don&#39;t mind buying 100 shares of the stock at the strike price, then this situation is an ideal end state for you.<br />
-                            
+                            ➫ the BID-ASK spread is $0.30 per share<br />
+                            ➫ Divide that into thirds to get $0.10 per share<br />
+                            ➫ Subtract that from the ASK price of $2.10 to get $2.00<br />
+                            ➫ Place your limit order to buy the option for $2.00 instead of $2.10, reducing the money you lose from the BID-ASK spread by 33%.<br />
+                            ➫&nbsp;When you sell the option, place your limit order at $1.90 which is $0.10 above the BID, reducing the money you lose from the BID-ASK spread by another 33%.<br />
                             <br />
-                            
-                            2) the option is out-of-the-money:<br />
-                            
-                            ➫➫ It expired worthless, and will be removed from your account.<br />
-                            
-                            ➫➫ This is the usually the desired end state at expiration anytime you sell a naked option.<br />
-                            
+                            When you use this technique of placing limit orders instead of market orders, it will save you 33% of the BID-ASK spread when opening your position and another 33% when closing the position.<br />
                             <br />
-                            
-                            These changes will always be reflected in your account on Monday after the option expired, with no action required on your part.</td>
-                        
+                            Therefore, anytime you are placing trades with a significant BID-ASK spread, it is wise to use the limit order technique. If you are placing trades with a small BID-ASK spread, it is easier to use a market order.<br />
+                            <br />
+                            If you use the rule of thirds as described above, the market maker will most likely fill your limit orders. Technically he doesn&#39;t have to, because the order isn&#39;t placed exactly at the BID or ASK prices, but he most likely will because he still gets some of the BID-ASK spread.<br />
+                            <br />
+                            If you place your order right at the BID or ASK price (i.e. a market order) then the market maker is required to fill the order immediately.</td>
                     </tr>
-                    
                 </tbody>
-                
             </table>
-            
         </div>
-        
         <p>
-        
         &nbsp;</p>
-        
         <p style="text-align: center;">
-        
-        <p1>Credit spreads: extra cash IS required.</p1></p>
-        
+        <h1>Hold your ground.</h1></p>
         <div class="CSSTableGenerator">
-            
             <table>
-                
                 <tbody>
-                    
                     <tr>
-                        
                         <td>
-                            
-                            Remember, a spread is when you buy one option and sell another on the same underlying stock at the same time. This is a way to limit risk, since it is a way to cover your position.<br />
-                            
+                            If the open interest of a particular option is less than 100, it would be wise to look for another option to trade instead. That is because with low volume and open interest on an option, the market maker is paying VERY close attention to every order that is placed. When you put your order in, the market maker is likely to start artificially changing the price of the option in order to make more profit, assuming you are an uneducated options investor (which you are not going to be!).<br />
                             <br />
-                            
-                            Each option that you buy and sell is called a different &quot;leg&quot; of the spread. The option you sell is called the short leg (because it is a short position) and the option you buy is called the long leg (because it is a long position).<br />
-                            
+                            When placing limit orders on an option with low volume and open interest, you will place your order to buy the option, and instantly you will see the price of the option go up by 10 or 15% instantly!<br />
                             <br />
-                            
-                            Typically, if you lose money on one leg of the spread, you will gain money on the other leg, thus lowering risk.<br />
-                            
+                            Don&#39;t get flustered, the market maker is just trying to make extra profit. Place your limit order and wait. He&#39;s hoping that when you see the price going up you will then change your order to the higher price.<br />
                             <br />
-                            
-                            As a result, your broker doesn&rsquo;t require as much money on hold for a spread as for selling a naked option. The amount of extra cash required (the margin requirement) is simply the difference between the two strike prices multiplied by the number of shares of stock controlled by the spread (100 for 1 contract, 200 for 2 contracts, etc.).<br />
-                            
+                            After a couple of minutes he&#39;ll realize that you know better, and he&#39;ll bring the price back down and fill your order.<br />
                             <br />
-                            
-                            If the short leg of your spread executes, your broker will automatically execute the long leg also, so the entire position closes together, limiting your loss.<br />
-                            
-                            <br />
-                            
-                            Possible scenarios AT EXPIRATION of the credit spread:<br />
-                            
-                            <br />
-                            
-                            1) both options of the spread are in-the-money:<br />
-                            
-                            ➫➫ Both options will execute automatically, resulting in your max loss, so AVOID THIS SITUATION!<br />
-                            
-                            ➫➫ If you see your spread is going to be in-the-money approaching expiration, you are best off &quot;rolling&quot; the position to a later expiration date. In order to &quot;roll&quot; your spread, you simply close the spread that is about to expire and open another spread, with the exact same strike prices, that will expire at a later date.<br />
-                            
-                            ➫➫ When you roll your spread, you take a small loss, but buy more time for the options to expire out-of-the-money, avoiding your maximum loss.<br />
-                            
-                            <br />
-                            
-                            2) the short leg of the spread is in-the-money, and the long leg is out-of-the-money:<br />
-                            
-                            ➫➫ Both options will execute automatically, resulting in a loss for you, so AVOID THIS SITUATION!<br />
-                            
-                            ➫➫ If you see any leg of your spread is going to be in-the-money approaching expiration, you are best off closing the position by buying back the option you sold, and selling the option you originally bought, prior to expiration, or rolling the entire spread as described above.<br />
-                            
-                            <br />
-                            
-                            2) both options of the spread are out-of-the-money:<br />
-                            
-                            ➫➫ They expired worthless, and will be removed from your account.<br />
-                            
-                            ➫➫ This is the usually the desired end state at expiration anytime you trade a credit spread.<br />
-                            
-                            <br />
-                            
-                            These changes will always be reflected in your account on Monday after the option expired, with no action required on your part.</td>
-                        
+                            These artificial changes in price will happen less frequently and to a lesser degree if you are trading options with higher volume and higher open interest, because the market maker has more orders to deal with than just yours. However, you will still see the market maker changing the price artificially at times.</td>
                     </tr>
-                    
                 </tbody>
-                
             </table>
-            
         </div>
         
-        <p>
-        
-        &nbsp;</p>
-        
-        <p style="text-align: center;">
-        
-        <p1>Closing a position before it&#39;s too late.</p1></p>
-        
-        <div class="CSSTableGenerator">
-            
-            <table>
-                
-                <tbody>
-                    
-                    <tr>
-                        
-                        <td>
-                            
-                            Anytime you don&rsquo;t want an in-the-money option to execute (as is the case with most option strategy), you should close the trade prior to expiration if the option is in-the-money.<br />
-                            
-                            <br />
-                            
-                            Remember, the last day to trade an option is the last trading day prior to the expiration date. For monthly options that means the 3rd Friday of the month. However, if the market is closed that Friday for a holiday, then the last trading might be Thursday, Wednesday, etc.<br />
-                            
-                            <br />
-                            
-                            Since options CANNOT be traded during pre-market our after-hours trading, the orders must be placed and filled prior to 4:00 pm EST that day.</td>
-                        
-                    </tr>
-                    
-                </tbody>
-                
-            </table>
-            
-        </div>
-</br>
-</br>
-</br>
-</br>
-</br>
-</body>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+    </body>
 </html>

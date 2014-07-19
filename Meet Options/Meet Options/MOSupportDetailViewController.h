@@ -9,5 +9,7 @@
 #import "MODetailViewController.h"
 
 @interface MOSupportDetailViewController : MODetailViewController
+@property (strong, nonatomic) IBOutlet UIWebView *supportWebView;
+
 
 @end
