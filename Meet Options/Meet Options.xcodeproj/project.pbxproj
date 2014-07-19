@@ -64,6 +64,23 @@
 		EF8599E0197A65F000FCBF26 /* Stock Analysis.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599DF197A65F000FCBF26 /* Stock Analysis.html */; };
 		EF8599E2197A661100FCBF26 /* Reading Stock Charts.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599E1197A661100FCBF26 /* Reading Stock Charts.html */; };
 		EF8599E4197A664E00FCBF26 /* Quiz #1.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599E3197A664E00FCBF26 /* Quiz #1.html */; };
+		EF8599E6197A6D4C00FCBF26 /* What Is An Option?.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599E5197A6D4C00FCBF26 /* What Is An Option?.html */; };
+		EF8599E8197A6E2F00FCBF26 /* Buying & Selling Options.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599E7197A6E2F00FCBF26 /* Buying & Selling Options.html */; };
+		EF8599EA197A6FB400FCBF26 /* Possible Positions.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599E9197A6FB400FCBF26 /* Possible Positions.html */; };
+		EF8599EC197A6FDB00FCBF26 /* The House Rules.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599EB197A6FDA00FCBF26 /* The House Rules.html */; };
+		EF8599EE197A701000FCBF26 /* The Key To Profit.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599ED197A701000FCBF26 /* The Key To Profit.html */; };
+		EF8599F0197A704000FCBF26 /* Quiz #2.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599EF197A704000FCBF26 /* Quiz #2.html */; };
+		EF8599F2197A708300FCBF26 /* Bullish Strategies.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599F1197A708300FCBF26 /* Bullish Strategies.html */; };
+		EF8599F4197A70AE00FCBF26 /* Bearish Strategies.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599F3197A70AE00FCBF26 /* Bearish Strategies.html */; };
+		EF8599F6197A70D100FCBF26 /* Sideways Strategies.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599F5197A70D100FCBF26 /* Sideways Strategies.html */; };
+		EF8599F8197A70FE00FCBF26 /* Volatility Strategies.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599F7197A70FE00FCBF26 /* Volatility Strategies.html */; };
+		EF8599FA197A712C00FCBF26 /* Protective Strategies.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599F9197A712C00FCBF26 /* Protective Strategies.html */; };
+		EF8599FC197A716D00FCBF26 /* Get Ready To Trade.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599FB197A716D00FCBF26 /* Get Ready To Trade.html */; };
+		EF8599FE197A719600FCBF26 /* Quiz #3.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599FD197A719600FCBF26 /* Quiz #3.html */; };
+		EF859A00197A71C800FCBF26 /* Select The Stock.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599FF197A71C800FCBF26 /* Select The Stock.html */; };
+		EF859A02197A71FA00FCBF26 /* Open A Position.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A01197A71FA00FCBF26 /* Open A Position.html */; };
+		EF859A04197A721F00FCBF26 /* Close A Position.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A03197A721F00FCBF26 /* Close A Position.html */; };
+		EF859A06197A724300FCBF26 /* Quiz #4.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A05197A724300FCBF26 /* Quiz #4.html */; };
 		EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */; };
 		EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */; };
 		EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */; };
@@ -158,6 +175,23 @@
 		EF8599DF197A65F000FCBF26 /* Stock Analysis.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Stock Analysis.html"; sourceTree = "<group>"; };
 		EF8599E1197A661100FCBF26 /* Reading Stock Charts.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Reading Stock Charts.html"; sourceTree = "<group>"; };
 		EF8599E3197A664E00FCBF26 /* Quiz #1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Quiz #1.html"; sourceTree = "<group>"; };
+		EF8599E5197A6D4C00FCBF26 /* What Is An Option?.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "What Is An Option?.html"; sourceTree = "<group>"; };
+		EF8599E7197A6E2F00FCBF26 /* Buying & Selling Options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Buying & Selling Options.html"; sourceTree = "<group>"; };
+		EF8599E9197A6FB400FCBF26 /* Possible Positions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Possible Positions.html"; sourceTree = "<group>"; };
+		EF8599EB197A6FDA00FCBF26 /* The House Rules.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The House Rules.html"; sourceTree = "<group>"; };
+		EF8599ED197A701000FCBF26 /* The Key To Profit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Key To Profit.html"; sourceTree = "<group>"; };
+		EF8599EF197A704000FCBF26 /* Quiz #2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Quiz #2.html"; sourceTree = "<group>"; };
+		EF8599F1197A708300FCBF26 /* Bullish Strategies.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Bullish Strategies.html"; sourceTree = "<group>"; };
+		EF8599F3197A70AE00FCBF26 /* Bearish Strategies.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Bearish Strategies.html"; sourceTree = "<group>"; };
+		EF8599F5197A70D100FCBF26 /* Sideways Strategies.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Sideways Strategies.html"; sourceTree = "<group>"; };
+		EF8599F7197A70FE00FCBF26 /* Volatility Strategies.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Volatility Strategies.html"; sourceTree = "<group>"; };
+		EF8599F9197A712C00FCBF26 /* Protective Strategies.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Protective Strategies.html"; sourceTree = "<group>"; };
+		EF8599FB197A716D00FCBF26 /* Get Ready To Trade.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Get Ready To Trade.html"; sourceTree = "<group>"; };
+		EF8599FD197A719600FCBF26 /* Quiz #3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Quiz #3.html"; sourceTree = "<group>"; };
+		EF8599FF197A71C800FCBF26 /* Select The Stock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Select The Stock.html"; sourceTree = "<group>"; };
+		EF859A01197A71FA00FCBF26 /* Open A Position.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Open A Position.html"; sourceTree = "<group>"; };
+		EF859A03197A721F00FCBF26 /* Close A Position.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Close A Position.html"; sourceTree = "<group>"; };
+		EF859A05197A724300FCBF26 /* Quiz #4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Quiz #4.html"; sourceTree = "<group>"; };
 		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
 		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
 		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
@@ -296,11 +330,28 @@
 				EF4A15311974E2B20015FC06 /* Making Trades.plist */,
 				EF4A152D1974DD330015FC06 /* Option Concepts.plist */,
 				EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */,
+				EF8599FF197A71C800FCBF26 /* Select The Stock.html */,
+				EF859A03197A721F00FCBF26 /* Close A Position.html */,
+				EF859A01197A71FA00FCBF26 /* Open A Position.html */,
+				EF8599E7197A6E2F00FCBF26 /* Buying & Selling Options.html */,
+				EF8599ED197A701000FCBF26 /* The Key To Profit.html */,
+				EF8599F1197A708300FCBF26 /* Bullish Strategies.html */,
+				EF8599F7197A70FE00FCBF26 /* Volatility Strategies.html */,
+				EF8599FB197A716D00FCBF26 /* Get Ready To Trade.html */,
+				EF8599F9197A712C00FCBF26 /* Protective Strategies.html */,
+				EF8599F5197A70D100FCBF26 /* Sideways Strategies.html */,
+				EF8599F3197A70AE00FCBF26 /* Bearish Strategies.html */,
+				EF8599EB197A6FDA00FCBF26 /* The House Rules.html */,
+				EF8599E9197A6FB400FCBF26 /* Possible Positions.html */,
+				EF8599E5197A6D4C00FCBF26 /* What Is An Option?.html */,
 				EF8599D9197A64DC00FCBF26 /* The Market Maker.html */,
 				EF8599DD197A65B300FCBF26 /* Long & Short Positions.html */,
 				EF8599DF197A65F000FCBF26 /* Stock Analysis.html */,
 				EF8599E1197A661100FCBF26 /* Reading Stock Charts.html */,
 				EF8599E3197A664E00FCBF26 /* Quiz #1.html */,
+				EF8599EF197A704000FCBF26 /* Quiz #2.html */,
+				EF8599FD197A719600FCBF26 /* Quiz #3.html */,
+				EF859A05197A724300FCBF26 /* Quiz #4.html */,
 				EF8599DB197A656400FCBF26 /* Trades & Orders.html */,
 			);
 			name = "Tutorials HTML FIles";
@@ -466,8 +517,12 @@
 			files = (
 				EF345D52197473A400E4BC6F /* Investing Basics.plist in Resources */,
 				EF8599DA197A64DC00FCBF26 /* The Market Maker.html in Resources */,
+				EF8599FC197A716D00FCBF26 /* Get Ready To Trade.html in Resources */,
 				EF8599E0197A65F000FCBF26 /* Stock Analysis.html in Resources */,
+				EF8599FA197A712C00FCBF26 /* Protective Strategies.html in Resources */,
+				EF8599F0197A704000FCBF26 /* Quiz #2.html in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
+				EF8599EE197A701000FCBF26 /* The Key To Profit.html in Resources */,
 				EF8599E4197A664E00FCBF26 /* Quiz #1.html in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
 				EF58EC2A1977DC210007EADE /* question@2x.png in Resources */,
@@ -483,26 +538,39 @@
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
 				EF08E2571976F00D001A1473 /* support.png in Resources */,
 				EF08E24C1976EA7E001A1473 /* elective.png in Resources */,
+				EF8599EC197A6FDB00FCBF26 /* The House Rules.html in Resources */,
 				EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */,
 				EF58EC31197904B30007EADE /* navbar@2x.png in Resources */,
 				EF8599DE197A65B300FCBF26 /* Long & Short Positions.html in Resources */,
+				EF8599F2197A708300FCBF26 /* Bullish Strategies.html in Resources */,
 				EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */,
 				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
 				EF08E2541976EFE1001A1473 /* glossary@2x.png in Resources */,
 				EF173FE519712882007DAACD /* ask.html in Resources */,
 				EF08E2B21977B05C001A1473 /* tabbar@2x.png in Resources */,
 				EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */,
+				EF8599FE197A719600FCBF26 /* Quiz #3.html in Resources */,
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
+				EF859A04197A721F00FCBF26 /* Close A Position.html in Resources */,
 				EF08E2501976EFB5001A1473 /* classroom@2x.png in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
 				EF58EC30197904B30007EADE /* navbar.png in Resources */,
 				EF08E2AA1977A60E001A1473 /* grey-bg.jpg in Resources */,
 				EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */,
+				EF8599EA197A6FB400FCBF26 /* Possible Positions.html in Resources */,
+				EF8599F8197A70FE00FCBF26 /* Volatility Strategies.html in Resources */,
+				EF859A00197A71C800FCBF26 /* Select The Stock.html in Resources */,
 				EF4A15301974E2990015FC06 /* Option Strategy.plist in Resources */,
 				EF8599CE197A4C8900FCBF26 /* grey ribbon 2.png in Resources */,
+				EF8599E8197A6E2F00FCBF26 /* Buying & Selling Options.html in Resources */,
+				EF8599F6197A70D100FCBF26 /* Sideways Strategies.html in Resources */,
 				EF8599D4197A558200FCBF26 /* glossaryStyle 3.css in Resources */,
+				EF8599F4197A70AE00FCBF26 /* Bearish Strategies.html in Resources */,
 				EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */,
 				EF08E24F1976EFB5001A1473 /* classroom.png in Resources */,
+				EF859A06197A724300FCBF26 /* Quiz #4.html in Resources */,
+				EF8599E6197A6D4C00FCBF26 /* What Is An Option?.html in Resources */,
+				EF859A02197A71FA00FCBF26 /* Open A Position.html in Resources */,
 				EF4A15321974E2B20015FC06 /* Making Trades.plist in Resources */,
 				EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */,
 				EF4A152E1974DD330015FC06 /* Option Concepts.plist in Resources */,

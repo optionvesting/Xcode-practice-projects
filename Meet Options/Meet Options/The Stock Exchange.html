@@ -4,220 +4,204 @@
         <link rel="stylesheet" type="text/css" href="glossaryStyle.css">
             </head>
     <body>
-<p style="text-align: center;">
+        <p style="text-align: center;">
+        <p1>So many options.</p1></p>
+        <div class="CSSTableGenerator">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            Remember that an option is a contract that allows you to buy or sell a stock at a specified price. That specified price is called the strike price.<br />
+                            <br />
+                            Let&#39;s go back again to the stock XYZ example where the stock&#39;s price is $50 per share. In that example we used the $40 call, which allows you buy the stock at $40 a share. The strike price of that option is $40.<br />
+                            <br />
+                            Business XYZ would also issue other calls at other strike prices in $2.50 increments. There would also be a $42.50 call, a $45.00 call, etc.<br />
+                            <br />
+                            Cheaper stocks that sell for around $10 a share issue options at $1.00 strike price increments.<br />
+                            <br />
+                            More expensive stocks that sell for over $200 per share only issue options in $5 strike price increments.<br />
+                            <br />
+                            Most businesses that sell stock options offer many different strike prices of options (in the increments listed above).<br />
+                            <br />
+                            To see the options available for a given stock, first search for the ticker on Yahoo! or Google finance and look at the stock quote. Then on the left side of the stock quote you&#39;ll see a link for the option chain (it may just say &quot;options&quot; instead of &quot;option chain&quot; depending on what site you&#39;re using). An example option chain is shown below.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>
+        <b><img alt="" src="http://appbaker.com/farma/assets/uploads/522004/media/user_files/Calls.png" style="height: 369px; width: 275px;" /></b></p>
+        <p>
+        <b><img alt="" src="http://appbaker.com/farma/assets/uploads/522004/media/user_files/Puts.png" style="width: 275px; height: 309px;" /></b></p>
+        <div class="CSSTableGenerator">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            The option chain shows all available options for a given stock, organized by expiration date and strike price. If the chain shows the calls and puts side-by-side that is called a &quot;straddle&quot; view of the option chain. If the calls are listed above the puts, that is called the &quot;stacked&quot; view. Some websites show the straddle view by default, while other websites default to the stacked view. &nbsp;The screenshot above is a stacked view.<br />
+                            <br />
+                            At the time I pulled this option chain for CAT (Caterpillar), the stock was trading for $86.78. You can see that these options are the July options, and they expire on the 20th of the month (the Saturday after the 3rd Friday of the month).<br />
+                            <br />
+                            Options highlighted in yellow are in-the-money, non-highlighted options are out-of-the-money.<br />
+                            <br />
+                            ➫ The calls (which give you a right to BUY stock for the strike price) are listed on top.<br />
+                            ➫ The puts (which give you the right to SELL stock at the specified strike price) are on the bottom.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>
+        &nbsp;</p>
+        <p style="text-align: center;">
+        <p1>How much do options cost?<p1></p1></p1></p>
+        <div class="CSSTableGenerator">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            Just like the price of a stock, the price of an option is defined by a market maker in the form of a BID and ASK price. The BID is what the market maker pays if you sell options back to him, and the higher ASK is what you pay to buy the options from him.<br />
+                            <br />
+                            The price of the option is set by the market maker based on the sum of the intrinsic and time value in each option.<br />
+                            <br />
+                            Intrinsic Value of a call = Stock Price - Strike Price<br />
+                            Intrinsic Value of a put = Strike Price - Stock Price.<br />
+                            <br />
+                            Take a look at the CAT option chain above, specifically the $85 strike price call.<br />
+                            <br />
+                            ➫ The stock is currently priced at $86.78.<br />
+                            ➫ The ability to buy the stock for $85, which is exactly what the $85 call would allow you to do, is worth $1.78 to you right now.<br />
+                            ➫ That $85 call has $1.78 of intrinsic value, so it is currently in-the-money, which is why it is highlighted yellow.<br />
+                            ➫ Notice the price of the $85 call isn&#39;t $1.78 per share, it&#39;s $4.00 per share. That&#39;s because there is also time value in the option, since it has a couple months of time before it expires.<br />
+                            ➫ The $85 call has $1.78 of intrinsic value and $2.22 of time value.<br />
+                            <br />
+                            The time value accounts for the possibility that the stock price will change sometime before the option expires in two months.<br />
+                            <br />
+                            So the price of an option, as set by the market maker, is the sum of the intrinsic value and the time value.<br />
+                            <br />
+                            Option Price = Time Value + Intrinsic Value<br />
+                            <br />
+                            Now let&#39;s look at the $85 put option on the right side. Notice that it&#39;s not highlighted in yellow, meaning it is out-of-the-money. That is because the $85 put doesn&#39;t have any real, intrinsic value right now.<br />
+                            <br />
+                            The stock is trading at $86.78 per share, so an $85 put that would let you sell the stock for $85 isn&#39;t worth anything right now.<br />
+                            <br />
+                            But the price the market maker set for the $85 put isn&#39;t $0, it&#39;s $2.46 per share. That is because the option doesn&#39;t expire for a couple months, just like the call, so it has time value.<br />
+                            <br />
+                            The intrinsic value of the $85 put is $0, and the time value is $2.46.<br />
+                            <br />
+                            As demonstrated above, intrinsic value is determined by a mathematical formula and can&#39;t be modified by the market maker. Conversely, the market maker can adjust the time value of an option. There is no exact mathematical formula used by the market maker to set the time value.<br />
+                            <br />
+                            It is important to understand how to calculate time value. You will always know the price of the option (from the option chain) and the intrinsic value (based on the formulas above), so then you can calculate the time value of the option:<br />
+                            <br />
+                            Time Value = Option Price - Intrinsic Value</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>
+        &nbsp;</p>
+        <p style="text-align: center;">
+        <p1>A small, select group of traders.</p1></p>
+        <div class="CSSTableGenerator">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            If you look at the option chain above, you can see the volume of each option. The number to the right of the volume is the open interest.<br />
+                            <br />
+                            Open interest is related to volume, but different.<br />
+                            <br />
+                            ➫ Volume is how many trades occurred so far that day.<br />
+                            ➫ Open interest is the total number of trades for the given option, since the day that option was first issued, that have been opened and are not yet closed.<br />
+                            <br />
+                            As more and more people learn the benefits of trading options, the volume of option trading has increased pretty dramatically over recent years.<br />
+                            <br />
+                            Interestingly though, since so few people have discovered options, the volume of options trades is still much lower than that of stocks.<br />
+                            <br />
+                            This difference in volume between stocks and options is an important point to consider:<br />
+                            <br />
+                            ➫ Market makers trading stocks make their money by processing large volumes of trades. As long as the BID-ASK spread is at least a penny or two, and they process a lot of trades, they will make money.<br />
+                            ➫ Market makers trading options process far fewer trades, so they need a larger BID-ASK spread in order to make money.<br />
+                            <br />
+                            Beware of the large gap between the BID and ASK prices when dealing with option market makers.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>
+        &nbsp;</p>
+        <p style="text-align: center;">
+        <p1>Get the best of the market maker.</p1></p>
+        <div class="CSSTableGenerator">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            Let&#39;s look at how the BID-ASK spread can negatively affect you when trading options.<br />
+                            <br />
+                            ➫ The BID price for option X is $1.80<br />
+                            ➫ The ASK is $2.10<br />
+                            ➫ Notice the large BID-ASK spread of $0.30, which is about 15%.<br />
+                            ➫ Remember a market order is when you pay the market maker&#39;s full asking price.<br />
+                            ➫ You place a market order to buy one contract of option X<br />
+                            ➫ You will pay the ASK which is $2.10 per share ($210 total).<br />
+                            ➫ You then place a market order to sell your one contract of option X<br />
+                            ➫ The market maker will only pay you $1.80 per share ($180 total) for your option<br />
+                            <br />
+                            Even though the market maker never changed the BID and ASK prices of the option, you lost $30 just due to the BID-ASK spread. That&#39;s 15%!<br />
+                            <br />
+                            The best technique for trading options that have a large spread between the BID and the ASK, is to place a limit order instead of a market order. Limit orders allow you to set a price.<br />
+                            <br />
+                            To place a limit order:<br />
+                            <br />
+                            ➫ divide the BID-ASK spread into thirds<br />
+                            ➫ subtract that amount from the ASK if you are buying the option<br />
+                            ➫ add that amount to the BID when you are selling the option<br />
+                            <br />
+                            For the example above:<br />
+                            <br />
+                            ➫ the BID-ASK spread is $0.30 per share<br />
+                            ➫ Divide that into thirds to get $0.10 per share<br />
+                            ➫ Subtract that from the ASK price of $2.10 to get $2.00<br />
+                            ➫ Place your limit order to buy the option for $2.00 instead of $2.10, reducing the money you lose from the BID-ASK spread by 33%.<br />
+                            ➫&nbsp;When you sell the option, place your limit order at $1.90 which is $0.10 above the BID, reducing the money you lose from the BID-ASK spread by another 33%.<br />
+                            <br />
+                            When you use this technique of placing limit orders instead of market orders, it will save you 33% of the BID-ASK spread when opening your position and another 33% when closing the position.<br />
+                            <br />
+                            Therefore, anytime you are placing trades with a significant BID-ASK spread, it is wise to use the limit order technique. If you are placing trades with a small BID-ASK spread, it is easier to use a market order.<br />
+                            <br />
+                            If you use the rule of thirds as described above, the market maker will most likely fill your limit orders. Technically he doesn&#39;t have to, because the order isn&#39;t placed exactly at the BID or ASK prices, but he most likely will because he still gets some of the BID-ASK spread.<br />
+                            <br />
+                            If you place your order right at the BID or ASK price (i.e. a market order) then the market maker is required to fill the order immediately.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>
+        &nbsp;</p>
+        <p style="text-align: center;">
+        <p1>Hold your ground.</p1></p>
+        <div class="CSSTableGenerator">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            If the open interest of a particular option is less than 100, it would be wise to look for another option to trade instead. That is because with low volume and open interest on an option, the market maker is paying VERY close attention to every order that is placed. When you put your order in, the market maker is likely to start artificially changing the price of the option in order to make more profit, assuming you are an uneducated options investor (which you are not going to be!).<br />
+                            <br />
+                            When placing limit orders on an option with low volume and open interest, you will place your order to buy the option, and instantly you will see the price of the option go up by 10 or 15% instantly!<br />
+                            <br />
+                            Don&#39;t get flustered, the market maker is just trying to make extra profit. Place your limit order and wait. He&#39;s hoping that when you see the price going up you will then change your order to the higher price.<br />
+                            <br />
+                            After a couple of minutes he&#39;ll realize that you know better, and he&#39;ll bring the price back down and fill your order.<br />
+                            <br />
+                            These artificial changes in price will happen less frequently and to a lesser degree if you are trading options with higher volume and higher open interest, because the market maker has more orders to deal with than just yours. However, you will still see the market maker changing the price artificially at times.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
 </br>
-<h1>WHAT: Securities.</h1></p>
-
-<div class="CSSTableGenerator">
-    
-    <table>
-        
-        <tbody>
-            
-            <tr>
-                
-                <td>
-                    
-                    A security is something with financial value that can be bought and sold. The most commonly known type of security is a stock, which represents ownership of a business. Another common type of security is a bond, which represents a loan with interest.<br />
-                    
-                    <br />
-                    
-                    Besides stocks and bonds, other commonly traded types of financial securities are: options, futures, and Exchange Traded Funds (ETFs). Don&#39;t worry if you don&#39;t know what all those are right now; you will after completing these tutorials.</td>
-                
-            </tr>
-            
-        </tbody>
-        
-    </table>
-    
-</div>
-
-<p>
-
-&nbsp;</p>
-
-<p style="text-align: center;">
-
-<h1>WHERE: The exchange.</h1></p>
-
-<div class="CSSTableGenerator">
-    
-    <table>
-        
-        <tbody>
-            
-            <tr>
-                
-                <td>
-                    
-                    The place where securities are traded is called an exchange. Two of the largest exchanges are the:<br />
-                    
-                    ➫ NYSE (New York Stock Exchange)<br />
-                    
-                    ➫ NASDAQ (National Association of Securities Dealers Automated Quotations)<br />
-                    
-                    <br />
-                    
-                    Both of these exchanges happen to be based in the USA. The NYSE is an actual place and it is recognized by the SEC (Securities and Exchange Commission) as an exchange. The NASDAQ is really just a spot in cyberspace and not technically recognized by the SEC as an exchange, but for your trading purposes it works the same way.<br />
-                    
-                    <br />
-                    
-                    Other notable exchanges are the London Stock Exchange (LSE) and the Tokyo Stock Exchange. In fact, most large countries have their own stock exchange, where different businesses buy and trade their stock.<br />
-                    
-                    <br />
-                    
-                    At the end of every trading day, many of these exchanges report their total gains and losses. This information helps you to understand the big picture of how trading was for a given day:<br />
-                    
-                    ➫ busy (high volume) or quiet (low volume)<br />
-                    
-                    ➫ increasing (bullish) or decreasing (bearish) in value.<br />
-                    
-                    <br />
-                    
-                    The term &quot;stock market&quot; is often used to describe all the stock exchanges together.</td>
-                
-            </tr>
-            
-        </tbody>
-        
-    </table>
-    
-</div>
-
-<p>
-
-&nbsp;</p>
-
-<p style="text-align: center;">
-
-<h1>WHO: is Dow Jones?</h1></p>
-
-<div class="CSSTableGenerator">
-    
-    <table>
-        
-        <tbody>
-            
-            <tr>
-                
-                <td>
-                    
-                    You have likely heard of &quot;The Dow&quot; before, which is also known as &quot;The Dow Jones Industrial Average&quot; or &quot;The Dow 30.&quot; You&#39;ve also probably heard someone say, &quot;The Dow was up big today.&quot; What does that mean?<br />
-                    
-                    <br />
-                    
-                    The Dow is an index that tracks the value of 30 of the largest businesses in the US. It was named after two of its founders, Charles Dow and Edward Jones.<br />
-                    
-                    <br />
-                    
-                    The DJIA includes giants like Coca-Cola, 3M, Caterpillar, and ExxonMobil. It doesn&#39;t include some newer big businesses like Apple and Google at the time of this writing.<br />
-                    
-                    <br />
-                    
-                    The Dow Jones Industrial Average is simply a way to get a feel for the general trends of the stock market. So if someone says &quot;The Dow was up big today,&quot; that simply means that the stock price of those 30 companies increased today. That doesn&#39;t mean that all 30 of them gained value, but as a group their total value increased.<br />
-                    
-                    <br />
-                    
-                    There are also other indexes that show general market trends.<br />
-                    
-                    <br />
-                    
-                    The S&amp;P 500, put out by a firm called Standard &amp; Poor&#39;s, is an index that tracks, you guessed it, 500 of the largest businesses in the US (Apple and Google are included there).<br />
-                    
-                    <br />
-                    
-                    Russell 2000 is another popular index that tracks the performance of 2000 smaller businesses in the US.</td>
-                
-            </tr>
-            
-        </tbody>
-        
-    </table>
-    
-</div>
-
-<p>
-
-&nbsp;</p>
-
-<p style="text-align: center;">
-
-<h1>HOW: are stocks organized?</h1></p>
-
-<div class="CSSTableGenerator">
-    
-    <table>
-        
-        <tbody>
-            
-            <tr>
-                
-                <td>
-                    
-                    Stocks are organized into different categories called &quot;sectors&quot; based on the nature of their business. Examples of sectors include:<br />
-                    
-                    ➫ technology<br />
-                    
-                    ➫ energy<br />
-                    
-                    ➫ finance<br />
-                    
-                    ➫ retail<br />
-                    
-                    <br />
-                    
-                    Sectors are useful to track the overall performance of a certain type of stocks. Sectors also make it easy to compare stocks to look for good trades.<br />
-                    
-                    <br />
-                    
-                    If you compare the performance of two stocks from different sectors, like an oil company and a computer software company, it&#39;s like comparing apples to oranges because each sector is driven by different external and internal factors.<br />
-                    
-                    <br />
-                    
-                    However, if you compare businesses from the same sector, like comparing one oil company with another oil company, you can draw accurate conclusions and gain important insight.</td>
-                
-            </tr>
-            
-        </tbody>
-        
-    </table>
-    
-</div>
-
-<p>
-
-&nbsp;</p>
-
-<p style="text-align: center;">
-
-<h1>WHY: do securities exist?</h1></p>
-
-<div class="CSSTableGenerator">
-    
-    <table>
-        
-        <tbody>
-            
-            <tr>
-                
-                <td>
-                    
-                    There are many reasons that businesses sell their stock at the exchange. The most well-known reason is to create capital during the initial public offering (IPO) of the stock by selling part of the ownership of the company through shares of stock.<br />
-                    
-                    <br />
-                    
-                    Some high-profile IPOs in the recent decade are Chipotle, LinkedIn, Under Armour, and Facebook among others.<br />
-                    
-                    <br />
-                    
-                    What most people don&#39;t know is just how much money businesses make from the continual trading of their stock day in, day out. We&#39;ll cover that in the next section of this tutorial.</td>
-                
-            </tr>
-            
-        </tbody>
-        
-    </table>
-    
-</div>
+</br>
+</br>
+</br>
+</br>
 </body>
 </html>
