@@ -1,7 +1,6 @@
  body {
     background-image: url("grey-bg.jpg");
     font-family: 'NeutraDisp-Medium';
-    font-size: 110%;
 
  }
 
@@ -30,9 +29,9 @@
 h1 {
 font-family: 'NeutraDisp-Titling';
 text-align: center;
-color: #7b440f;
-font-size: 110%;
-background-image: url("tabbar.png");
+color: #000;
+font-size: 120%;
+//background-image: url("tabbar.png");
 
 }
 h2 {
@@ -68,7 +67,8 @@ filter: progid:DXImageTransform.Microsoft.Shadow(strength = 5, direction = 0, co
 -webkit-border-bottom-left-radius:10px;border-bottom-left-radius:10px;}
 .CSSTableGenerator tr:hover td{background-color:#747474;}
 
-.CSSTableGenerator td{vertical-align:middle;background-color:#ffffff;text-align:left;padding:5px;font-family: NeutraDisp-Medium; color:#000000; font-size: 110%;}
+.CSSTableGenerator td{vertical-align:middle;background-color:#ffffff;text-align:left;padding:5px;font-size:10px;font-family: NeutraDisp-Medium; color:#000000;}
 
-.CSSTableGenerator tr:first-child td{	background-color:#ffffff;	text-align:left;border-width:0px 0px 1px 1px;font-family: NeutraDisp-Medium; color:#000000; font-size: 110%;}
+.CSSTableGenerator tr:first-child td{	background-color:#ffffff;	text-align:left;border-width:0px 0px 1px 1px;font-size:12px;font-family: NeutraDisp-Medium; color:#000000;}
 
+.CSSTableGenerator tr:first-child:hover td{background-color:#ffffff;}

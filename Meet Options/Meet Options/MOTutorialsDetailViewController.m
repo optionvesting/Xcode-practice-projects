@@ -18,16 +18,20 @@
 
 @implementation MOTutorialsDetailViewController
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.title = self.detail;
     self.stepperScale = DEFAULTWEBVIEWFONTSIZE;
-    self.myStepper.minimumValue = 5.0;
-    self.myStepper.value = 15.0;
-    self.myStepper.maximumValue = 24.0;
-    self.myStepper.stepValue = 5.0;
-    [[UIStepper appearance] setTintColor:[UIColor redColor]];
+    self.myStepper.minimumValue = 12.0;
+    self.myStepper.value = 18.0;
+    self.myStepper.maximumValue = 27.0;
+    self.myStepper.stepValue = 3.0;
+//    [[UIStepper appearance] setTintColor:[UIColor redColor]];
     
     
     // This opens the url in the webview *** need to change to local file though...probably need to pass file path from masterview
@@ -36,6 +40,7 @@
     //    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     //    [self.tutorialsDefinitionWebView loadRequest:requestObj];
     
+
     
     
 }
@@ -43,7 +48,7 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.detailItem withExtension:@"html"]];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.detail withExtension:@"html"]];
     [self.tutorialsDefinitionWebView loadRequest:requestObj];
 }
 

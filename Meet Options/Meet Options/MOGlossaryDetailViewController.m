@@ -22,12 +22,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = self.detailItem;
     self.stepperScale = DEFAULTWEBVIEWFONTSIZE;
     self.myStepper.minimumValue = 5.0;
     self.myStepper.value = 15.0;
     self.myStepper.maximumValue = 24.0;
     self.myStepper.stepValue = 5.0;
-    [[UIStepper appearance] setTintColor:[UIColor redColor]];
+//    [[UIStepper appearance] setTintColor:[UIColor redColor]];
 
 
     // This opens the url in the webview *** need to change to local file though...probably need to pass file path from masterview

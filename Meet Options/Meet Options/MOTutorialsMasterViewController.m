@@ -121,7 +121,7 @@
 //@end
 
 #import "MOTutorialsMasterViewController.h"
-#import "MOTutorialsDetailViewController.h"
+#import "MOTutorialsTableViewController.h"
 
 // 1
 #import "RageIAPHelper.h"
@@ -154,6 +154,8 @@ NSNumberFormatter * _priceFormatter;
     [self.refreshControl addTarget:self action:@selector(reload) forControlEvents:UIControlEventValueChanged];
     [self reload];
     [self.refreshControl beginRefreshing];
+    
+
 
     _priceFormatter = [[NSNumberFormatter alloc] init];
     [_priceFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];

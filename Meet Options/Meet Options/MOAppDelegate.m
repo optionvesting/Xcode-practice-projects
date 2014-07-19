@@ -13,6 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window.tintColor = UIColorFromRGB(0xF2B019);
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8];
     shadow.shadowOffset = CGSizeMake(0, 1);
@@ -37,13 +38,11 @@
 //    UIImage* tabBarBackground = [UIImage imageNamed:@"tabbar.png"];
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar.png"]];
     [[UITabBar appearance] setTintColor:UIColorFromRGB(0x000000)];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:16.0f],
-                                                                                                                NSForegroundColorAttributeName : UIColorFromRGB(0x7B440F)}                                                forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:16.0f]}                                                forState:UIControlStateNormal];
     
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f],
                                                         NSForegroundColorAttributeName : UIColorFromRGB(0x000000)
                                                         } forState:UIControlStateHighlighted];
-    [[UIView appearanceWhenContainedIn:[UITabBar class], nil] setTintColor:UIColorFromRGB(0x7B440F)];
 //    [[UITabBar appearance] setSelectedImageTintColor:[UIColor greenColor]];
 //7B440F
 
@@ -59,7 +58,7 @@
                                                            shadow, NSShadowAttributeName,
                                                            [UIFont fontWithName:@"NeutraDisp-Titling" size:14.0], NSFontAttributeName, nil]forState:UIControlStateNormal];
 
-    [[UINavigationBar appearance] setTintColor:[UIColor redColor]];
+    [[UINavigationBar appearance] setTintColor:UIColorFromRGB(0xF2B019)];
     
      
     // Override point for customization after application launch.

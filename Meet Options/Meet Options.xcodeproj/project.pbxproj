@@ -15,7 +15,6 @@
 		EF08E2541976EFE1001A1473 /* glossary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2521976EFE1001A1473 /* glossary@2x.png */; };
 		EF08E2571976F00D001A1473 /* support.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2551976F00D001A1473 /* support.png */; };
 		EF08E2581976F00D001A1473 /* support@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2561976F00D001A1473 /* support@2x.png */; };
-		EF08E2A81977A4DC001A1473 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2A71977A4DC001A1473 /* navbar.png */; };
 		EF08E2AA1977A60E001A1473 /* grey-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2A91977A60E001A1473 /* grey-bg.jpg */; };
 		EF08E2B21977B05C001A1473 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2B11977B05C001A1473 /* tabbar@2x.png */; };
 		EF173F4D1970D71E007DAACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF173F4C1970D71E007DAACD /* Foundation.framework */; };
@@ -52,6 +51,19 @@
 		EF580BF719764E78009118BC /* MOTutorialsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF580BF619764E78009118BC /* MOTutorialsTableViewController.m */; };
 		EF58EC291977DC210007EADE /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC271977DC210007EADE /* question.png */; };
 		EF58EC2A1977DC210007EADE /* question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC281977DC210007EADE /* question@2x.png */; };
+		EF58EC30197904B30007EADE /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC2E197904B30007EADE /* navbar.png */; };
+		EF58EC31197904B30007EADE /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC2F197904B30007EADE /* navbar@2x.png */; };
+		EF8599CA197A459E00FCBF26 /* glossaryStyle 2.css in Resources */ = {isa = PBXBuildFile; fileRef = EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */; };
+		EF8599CC197A49F600FCBF26 /* grey ribbon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8599CB197A49F600FCBF26 /* grey ribbon.png */; };
+		EF8599CE197A4C8900FCBF26 /* grey ribbon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8599CD197A4C8900FCBF26 /* grey ribbon 2.png */; };
+		EF8599D0197A4CED00FCBF26 /* about-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8599CF197A4CED00FCBF26 /* about-bg.jpg */; };
+		EF8599D4197A558200FCBF26 /* glossaryStyle 3.css in Resources */ = {isa = PBXBuildFile; fileRef = EF8599D3197A558200FCBF26 /* glossaryStyle 3.css */; };
+		EF8599DA197A64DC00FCBF26 /* The Market Maker.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599D9197A64DC00FCBF26 /* The Market Maker.html */; };
+		EF8599DC197A656400FCBF26 /* Trades & Orders.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599DB197A656400FCBF26 /* Trades & Orders.html */; };
+		EF8599DE197A65B300FCBF26 /* Long & Short Positions.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599DD197A65B300FCBF26 /* Long & Short Positions.html */; };
+		EF8599E0197A65F000FCBF26 /* Stock Analysis.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599DF197A65F000FCBF26 /* Stock Analysis.html */; };
+		EF8599E2197A661100FCBF26 /* Reading Stock Charts.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599E1197A661100FCBF26 /* Reading Stock Charts.html */; };
+		EF8599E4197A664E00FCBF26 /* Quiz #1.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8599E3197A664E00FCBF26 /* Quiz #1.html */; };
 		EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */; };
 		EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */; };
 		EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */; };
@@ -82,7 +94,6 @@
 		EF08E2521976EFE1001A1473 /* glossary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glossary@2x.png"; sourceTree = "<group>"; };
 		EF08E2551976F00D001A1473 /* support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support.png; sourceTree = "<group>"; };
 		EF08E2561976F00D001A1473 /* support@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "support@2x.png"; sourceTree = "<group>"; };
-		EF08E2A71977A4DC001A1473 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		EF08E2A91977A60E001A1473 /* grey-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grey-bg.jpg"; sourceTree = "<group>"; };
 		EF08E2B11977B05C001A1473 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
 		EF173F491970D71E007DAACD /* Meet Options.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meet Options.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +145,19 @@
 		EF580BF619764E78009118BC /* MOTutorialsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTutorialsTableViewController.m; sourceTree = "<group>"; };
 		EF58EC271977DC210007EADE /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
 		EF58EC281977DC210007EADE /* question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question@2x.png"; sourceTree = "<group>"; };
+		EF58EC2E197904B30007EADE /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		EF58EC2F197904B30007EADE /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "glossaryStyle 2.css"; path = "Meet Options/glossaryStyle 2.css"; sourceTree = "<group>"; };
+		EF8599CB197A49F600FCBF26 /* grey ribbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey ribbon.png"; sourceTree = "<group>"; };
+		EF8599CD197A4C8900FCBF26 /* grey ribbon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey ribbon 2.png"; sourceTree = "<group>"; };
+		EF8599CF197A4CED00FCBF26 /* about-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "about-bg.jpg"; sourceTree = "<group>"; };
+		EF8599D3197A558200FCBF26 /* glossaryStyle 3.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "glossaryStyle 3.css"; path = "Meet Options/glossaryStyle 3.css"; sourceTree = "<group>"; };
+		EF8599D9197A64DC00FCBF26 /* The Market Maker.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Market Maker.html"; sourceTree = "<group>"; };
+		EF8599DB197A656400FCBF26 /* Trades & Orders.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Trades & Orders.html"; sourceTree = "<group>"; };
+		EF8599DD197A65B300FCBF26 /* Long & Short Positions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Long & Short Positions.html"; sourceTree = "<group>"; };
+		EF8599DF197A65F000FCBF26 /* Stock Analysis.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Stock Analysis.html"; sourceTree = "<group>"; };
+		EF8599E1197A661100FCBF26 /* Reading Stock Charts.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Reading Stock Charts.html"; sourceTree = "<group>"; };
+		EF8599E3197A664E00FCBF26 /* Quiz #1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Quiz #1.html"; sourceTree = "<group>"; };
 		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
 		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
 		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
@@ -227,9 +251,13 @@
 		EF173F531970D71E007DAACD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF58EC2F197904B30007EADE /* navbar@2x.png */,
+				EF58EC2E197904B30007EADE /* navbar.png */,
+				EF8599CF197A4CED00FCBF26 /* about-bg.jpg */,
+				EF8599CD197A4C8900FCBF26 /* grey ribbon 2.png */,
+				EF8599CB197A49F600FCBF26 /* grey ribbon.png */,
 				EF08E2B11977B05C001A1473 /* tabbar@2x.png */,
 				EF08E2A91977A60E001A1473 /* grey-bg.jpg */,
-				EF08E2A71977A4DC001A1473 /* navbar.png */,
 				EF345D5519747B2A00E4BC6F /* Tutorials HTML FIles */,
 				EFD7B8441971ECA700B11F89 /* Icons */,
 				EFD7B79F1971951F00B11F89 /* Fonts */,
@@ -268,6 +296,12 @@
 				EF4A15311974E2B20015FC06 /* Making Trades.plist */,
 				EF4A152D1974DD330015FC06 /* Option Concepts.plist */,
 				EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */,
+				EF8599D9197A64DC00FCBF26 /* The Market Maker.html */,
+				EF8599DD197A65B300FCBF26 /* Long & Short Positions.html */,
+				EF8599DF197A65F000FCBF26 /* Stock Analysis.html */,
+				EF8599E1197A661100FCBF26 /* Reading Stock Charts.html */,
+				EF8599E3197A664E00FCBF26 /* Quiz #1.html */,
+				EF8599DB197A656400FCBF26 /* Trades & Orders.html */,
 			);
 			name = "Tutorials HTML FIles";
 			sourceTree = "<group>";
@@ -279,6 +313,8 @@
 				EF173FE419712882007DAACD /* ask.html */,
 				EF345D5319747ACC00E4BC6F /* after-hours.html */,
 				EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */,
+				EF8599D3197A558200FCBF26 /* glossaryStyle 3.css */,
+				EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */,
 			);
 			name = "Glossary HTML Files";
 			path = ..;
@@ -429,13 +465,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF345D52197473A400E4BC6F /* Investing Basics.plist in Resources */,
-				EF08E2A81977A4DC001A1473 /* navbar.png in Resources */,
+				EF8599DA197A64DC00FCBF26 /* The Market Maker.html in Resources */,
+				EF8599E0197A65F000FCBF26 /* Stock Analysis.html in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
+				EF8599E4197A664E00FCBF26 /* Quiz #1.html in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
 				EF58EC2A1977DC210007EADE /* question@2x.png in Resources */,
+				EF8599CA197A459E00FCBF26 /* glossaryStyle 2.css in Resources */,
 				EF08E2581976F00D001A1473 /* support@2x.png in Resources */,
+				EF8599E2197A661100FCBF26 /* Reading Stock Charts.html in Resources */,
 				EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */,
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
+				EF8599D0197A4CED00FCBF26 /* about-bg.jpg in Resources */,
 				EF58EC291977DC210007EADE /* question.png in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
 				EF08E2531976EFE1001A1473 /* glossary.png in Resources */,
@@ -443,6 +484,8 @@
 				EF08E2571976F00D001A1473 /* support.png in Resources */,
 				EF08E24C1976EA7E001A1473 /* elective.png in Resources */,
 				EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */,
+				EF58EC31197904B30007EADE /* navbar@2x.png in Resources */,
+				EF8599DE197A65B300FCBF26 /* Long & Short Positions.html in Resources */,
 				EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */,
 				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
 				EF08E2541976EFE1001A1473 /* glossary@2x.png in Resources */,
@@ -452,14 +495,19 @@
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
 				EF08E2501976EFB5001A1473 /* classroom@2x.png in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
+				EF58EC30197904B30007EADE /* navbar.png in Resources */,
 				EF08E2AA1977A60E001A1473 /* grey-bg.jpg in Resources */,
 				EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */,
 				EF4A15301974E2990015FC06 /* Option Strategy.plist in Resources */,
+				EF8599CE197A4C8900FCBF26 /* grey ribbon 2.png in Resources */,
+				EF8599D4197A558200FCBF26 /* glossaryStyle 3.css in Resources */,
 				EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */,
 				EF08E24F1976EFB5001A1473 /* classroom.png in Resources */,
 				EF4A15321974E2B20015FC06 /* Making Trades.plist in Resources */,
 				EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */,
 				EF4A152E1974DD330015FC06 /* Option Concepts.plist in Resources */,
+				EF8599CC197A49F600FCBF26 /* grey ribbon.png in Resources */,
+				EF8599DC197A656400FCBF26 /* Trades & Orders.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

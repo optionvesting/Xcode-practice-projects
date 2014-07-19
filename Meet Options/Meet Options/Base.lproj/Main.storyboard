@@ -76,22 +76,30 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MNi-ai-doe">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNi-ai-doe">
                                 <rect key="frame" x="-5" y="-5" width="332" height="529"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
-                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="rB8-Nd-Gar">
-                                <rect key="frame" x="220" y="-36" width="94" height="29"/>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="rB8-Nd-Gar">
+                                <rect key="frame" x="220" y="5" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="onStepperTapped:" destination="Ah7-4n-0Wa" eventType="valueChanged" id="Afr-MQ-iml"/>
                                 </connections>
                             </stepper>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MNi-ai-doe" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="-5" id="E2w-ba-R0l"/>
+                            <constraint firstAttribute="trailing" secondItem="rB8-Nd-Gar" secondAttribute="trailing" constant="6" id="ScN-31-6ST"/>
+                            <constraint firstAttribute="bottom" secondItem="MNi-ai-doe" secondAttribute="bottom" constant="-64" id="eao-qp-dYv"/>
+                            <constraint firstItem="rB8-Nd-Gar" firstAttribute="top" secondItem="cIm-e0-J51" secondAttribute="bottom" constant="5" id="ghP-O2-OBn"/>
+                            <constraint firstAttribute="trailing" secondItem="MNi-ai-doe" secondAttribute="trailing" constant="-7" id="ku8-SV-tpA"/>
+                            <constraint firstItem="MNi-ai-doe" firstAttribute="top" secondItem="MMQ-IT-qOo" secondAttribute="top" constant="-5" id="td7-Y8-YCa"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
@@ -201,29 +209,35 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Lt-Ix-TB7">
-                                <rect key="frame" x="20" y="219.5" width="280" height="17"/>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Lt-Ix-TB7">
+                                <rect key="frame" x="20" y="220" width="280" height="17"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vzO-fo-f4S">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzO-fo-f4S">
                                 <rect key="frame" x="-6" y="-5" width="332" height="524"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
-                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="CBc-hD-1lN">
-                                <rect key="frame" x="220" y="-41" width="94" height="29"/>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="CBc-hD-1lN">
+                                <rect key="frame" x="220" y="5" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </stepper>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7Lt-Ix-TB7" firstAttribute="centerY" secondItem="9mD-eV-m8i" secondAttribute="centerY" id="P3c-EU-Par"/>
+                            <constraint firstAttribute="bottom" secondItem="vzO-fo-f4S" secondAttribute="bottom" constant="-64" id="fvT-Yr-2EO"/>
                             <constraint firstAttribute="trailing" secondItem="7Lt-Ix-TB7" secondAttribute="trailing" constant="20" symbolic="YES" id="ik5-cO-BoT"/>
+                            <constraint firstItem="CBc-hD-1lN" firstAttribute="top" secondItem="qzg-oF-jB6" secondAttribute="bottom" constant="5" id="o9R-pA-tws"/>
                             <constraint firstItem="7Lt-Ix-TB7" firstAttribute="leading" secondItem="9mD-eV-m8i" secondAttribute="leading" constant="20" symbolic="YES" id="ouE-IU-XLv"/>
+                            <constraint firstAttribute="trailing" secondItem="CBc-hD-1lN" secondAttribute="trailing" constant="6" id="rxb-I8-IUo"/>
+                            <constraint firstItem="vzO-fo-f4S" firstAttribute="leading" secondItem="9mD-eV-m8i" secondAttribute="leading" constant="-6" id="v6k-9y-6vJ"/>
+                            <constraint firstItem="vzO-fo-f4S" firstAttribute="top" secondItem="9mD-eV-m8i" secondAttribute="top" constant="-5" id="yzl-V4-ICe"/>
+                            <constraint firstItem="vzO-fo-f4S" firstAttribute="centerX" secondItem="7Lt-Ix-TB7" secondAttribute="centerX" id="z7Z-fV-EFD"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -359,22 +373,30 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9C-Hr-Dqw">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S9C-Hr-Dqw">
                                 <rect key="frame" x="-5" y="-5" width="331" height="524"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
-                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-tS-eFe">
-                                <rect key="frame" x="220" y="-41" width="94" height="29"/>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-tS-eFe">
+                                <rect key="frame" x="220" y="5" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="onStepperTapped:" destination="ZJf-pU-uqa" eventType="valueChanged" id="3yx-xL-lcH"/>
                                 </connections>
                             </stepper>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S9C-Hr-Dqw" firstAttribute="leading" secondItem="eGo-QV-oB5" secondAttribute="leading" constant="-5" id="7Dk-CQ-odp"/>
+                            <constraint firstAttribute="trailing" secondItem="dc2-tS-eFe" secondAttribute="trailing" constant="6" id="I6N-gO-B0D"/>
+                            <constraint firstItem="dc2-tS-eFe" firstAttribute="top" secondItem="qqn-Q1-rVp" secondAttribute="bottom" constant="5" id="d89-pH-Ytk"/>
+                            <constraint firstItem="S9C-Hr-Dqw" firstAttribute="centerX" secondItem="eGo-QV-oB5" secondAttribute="centerX" id="exC-kl-Upf"/>
+                            <constraint firstItem="S9C-Hr-Dqw" firstAttribute="top" secondItem="eGo-QV-oB5" secondAttribute="top" constant="-5" id="qQf-7N-cpy"/>
+                            <constraint firstAttribute="bottom" secondItem="S9C-Hr-Dqw" secondAttribute="bottom" constant="-64" id="sui-8L-mTz"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Detail" id="nCo-0n-4ob"/>

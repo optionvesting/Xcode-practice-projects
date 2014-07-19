@@ -12,7 +12,7 @@
 @interface MOTutorialsDetailViewController : MODetailViewController<UIWebViewDelegate>
 @property (strong, nonatomic) IBOutlet UIWebView *tutorialsDefinitionWebView;
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) id detail;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UIStepper *myStepper;
 - (IBAction)onStepperTapped:(id)sender;

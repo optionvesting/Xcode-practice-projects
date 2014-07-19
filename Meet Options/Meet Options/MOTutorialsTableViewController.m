@@ -11,6 +11,8 @@
 
 @interface MOTutorialsTableViewController ()
 
+@property (strong,nonatomic) id tempDetail;
+
 @end
 
 @implementation MOTutorialsTableViewController
@@ -98,17 +100,19 @@
 {
     
     //    if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
-    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    NSString *term = self.termsArray[indexPath.row];
+
     //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
-    [[segue destinationViewController] setDetailItem:term];
+    [[segue destinationViewController] setDetail:self.tempDetail];
+    
     //    }
+
+
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     // Get selected lesson group
-//    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
 //    SKProduct * product = (SKProduct *) _products[indexPath.row];
 //    
 //    if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
@@ -116,9 +120,10 @@
 //        [self performSegueWithIdentifier:cell.textLabel.text sender:self];
 //        
 //    }
-    
-    // Perform Segue
-    
+
+   // Perform Segue
+    self.tempDetail = cell.textLabel.text;
+
         [self performSegueWithIdentifier:@"showTutorialsDetail" sender:self];
 }
 
