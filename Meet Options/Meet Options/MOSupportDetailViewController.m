@@ -23,35 +23,30 @@
     return self;
 }
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    self.supportWebView = [[UIWebView alloc] initWithFrame:CGRectMake(10, 10,300, 200)];
-//    [self.supportWebView setAllowsInlineMediaPlayback:YES];
-//    [self.supportWebView setMediaPlaybackRequiresUserAction:NO];
-//    
-//    [self.view addSubview:self.supportWebView];
-//    
-//    NSString* embedHTML = [NSString stringWithFormat:@"\
-//                           <html>\
-//                           <body style='margin:0px;padding:0px;'>\
-//                           <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>\
-//                           <script type='text/javascript'>\
-//                           function onYouTubeIframeAPIReady()\
-//                           {\
-//                           ytplayer=new YT.Player('playerId',{events:{onReady:onPlayerReady}})\
-//                           }\
-//                           function onPlayerReady(a)\
-//                           { \
-//                           a.target.playVideo(); \
-//                           }\
-//                           </script>\
-//                           <iframe id='playerId' type='text/html' width='%d' height='%d' src='http://www.youtube.com/embed/%@?enablejsapi=1&rel=0&playsinline=1&autoplay=1' frameborder='0'>\
-//                           </body>\
-//                           </html>", 300, 200, @"JW5meKfy3fY"];
-//    [self.supporyWebView loadHTMLString:embedHTML baseURL:[[NSBundle mainBundle] resourceURL]];
+    // This works!
+//        NSString *fullURL = @"https://drive.google.com/uc?id=0B4ciiqCPy_XzdkRoOXBCSUVBWVk";
+        NSURL *url = [NSURL URLWithString:self.detailItem];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        [self.supportWebView loadRequest:requestObj];
+    
+    
 }
+
+
+
+//-(void)viewDidAppear:(BOOL)animated
+//{
+//    [super viewDidAppear:animated];
+//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:@"The Stock Exchange" withExtension:@"html"]];
+//    [self.supportWebView loadRequest:requestObj];
+//}
+
 
 - (void)didReceiveMemoryWarning
 {

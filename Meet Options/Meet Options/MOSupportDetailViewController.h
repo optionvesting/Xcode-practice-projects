@@ -10,6 +10,7 @@
 
 @interface MOSupportDetailViewController : MODetailViewController
 @property (strong, nonatomic) IBOutlet UIWebView *supportWebView;
+@property (strong, nonatomic) id detailItem;
 
 
 @end

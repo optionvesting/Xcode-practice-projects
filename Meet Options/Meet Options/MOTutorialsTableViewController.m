@@ -42,6 +42,8 @@
     NSLog(@"termsPath is %@", self.termsPath);
 
     self.termsArray = [NSArray arrayWithContentsOfFile:self.termsPath];
+
+    
     
     // This will fill the array manually
 //    self.termsArray = [NSArray arrayWithObjects:@"ask", @"bid", @"close", @"market maker", nil];
@@ -70,6 +72,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     NSString *term = self.termsArray[indexPath.row];
     cell.textLabel.text = term;
+    cell.detailTextLabel.text = @"HTML";
     cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Bold" size:20];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;

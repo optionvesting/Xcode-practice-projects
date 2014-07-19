@@ -1,0 +1,417 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="glossaryStyle.css">
+            </head>
+     <body></br></br>
+        
+        
+        <p style="text-align: center;">
+        
+        <h1>Important relationships.</h1></p>
+        
+        <div class="CSSTableGenerator">
+            
+            <table>
+                
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td>
+                            
+                            Calls have a direct relationship with the stock they control. When a stock goes up in price, the call options on that same stock also gain value.<br />
+                            
+                            <br />
+                            
+                            For example, stock XYZ is trading for $50. The $45 call gives you the right to buy stock XYZ for $45, so it has $5 of intrinsic value.<br />
+                            
+                            ➫ If stock XYZ goes up to $55, the $45 call now has $10 of intrinsic value.<br />
+                            
+                            ➫ Notice that the stock went up only 10%, and the intrinsic value of the call went up 100%!<br />
+                            
+                            <br />
+                            
+                            If a stock loses value, the calls also lose value. If stock XYZ drops from $50 to $45, the $45 call now has no intrinsic value, because it lets you buy the stock for $45, which is the same price you could buy it on the market for.<br />
+                            
+                            <br />
+                            
+                            Puts have an indirect (opposite) relationship with the underlying stock. If the stock price goes up, the price of the put will go down.<br />
+                            
+                            <br />
+                            
+                            For example, stock XYZ is trading at $50. The $55 put allows you to sell the stock for $55, so it has $5 of intrinsic value.<br />
+                            
+                            ➫ If the stock goes up to $55, then the $55 put now has $0 of intrinsic value.<br />
+                            
+                            ➫ If the stock goes down to $45, then the $55 put gains value because it now has $10 of intrinsic value.<br />
+                            
+                            <br />
+                            
+                            Just remember: when a stock price goes up, the calls go up and the puts go down. If a stock price drops, the calls drop and the puts go up.<br />
+                            
+                            <br />
+                            
+                            If you are bullish, buy a call, or sell a put to open.<br />
+                            
+                            <br />
+                            
+                            If you are bearish, buy a put, or sell a call to open.</td>
+                        
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            
+        </div>
+        
+        <p>
+        
+        &nbsp;</p>
+        
+        <p style="text-align: center;">
+        
+        <h1>How much do option prices fluctuate?</h1></p>
+        
+        <div class="CSSTableGenerator">
+            
+            <table>
+                
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td>
+                            
+                            As shown in the basic examples above, option prices change much more rapidly than stock prices. Options are more volatile than stocks. That means you can make significant profit with an option when the underlying stock only moves slightly.<br />
+                            
+                            <br />
+                            
+                            Here&#39;s an easy way to understand why options are so much more volatile: with the price of one options contract, you control the gains or losses of 100 shares of stock. That is incredible leverage!<br />
+                            
+                            <br />
+                            
+                            Look at stock XYZ again, trading at $50. To control the gains or losses of 100 shares of stock without using options:<br />
+                            
+                            ➫ you&#39;d have to buy 100 shares for $5,000<br />
+                            
+                            ➫ the stock goes up 10% to $55 a share<br />
+                            
+                            ➫ you sell the stock for $5,500 total<br />
+                            
+                            ➫ you made 10% profit ($500)<br />
+                            
+                            <br />
+                            
+                            Now let&#39;s look at what you could do with options. Remember, one contract of a call or put option controls 100 shares of stock:<br />
+                            
+                            ➫ buy one contract of the stock XYZ $45 call for $5 per share ($500 total)<br />
+                            
+                            ➫ the stock goes up 10% to $55 a share<br />
+                            
+                            ➫ your $45 call you bought for $5 per share is now worth $10 per share<br />
+                            
+                            ➫ sell the one contract for $1,000<br />
+                            
+                            ➫ you made $500 profit on your initial $500 investment. The stock went up only 10%, and your option went up 100%!<br />
+                            
+                            <br />
+                            
+                            These calculations are simplified slightly because they don&#39;t include time value, but they realistically illustrate the important point: with one option contract, you control the gains or losses of 100 shares of stock for a small fraction of the price.</td>
+                        
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            
+        </div>
+        
+        <p>
+        
+        &nbsp;</p>
+        
+        <p style="text-align: center;">
+        
+        <h1>Greek alphabet soup.</h1></p>
+        
+        <div class="CSSTableGenerator">
+            
+            <table>
+                
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td>
+                            
+                            <p>
+                            
+                            The volatility of a stock is measured with beta, which is a comparison to the volatility of all other stocks. The volatility of options is measured with delta, which is a comparison to the volatility of the underlying stock.<br />
+                            
+                            <br />
+                            
+                            For example, if a stock goes up $1, and a call on that stock goes up $1, then that option has a delta of 1.0. If a stock goes up $1, and the option only goes up $0.50, then that option has a delta of 0.5.<br />
+                            
+                            <br />
+                            
+                            You can find the delta of an option with some online brokerage websites, but not with others.<br />
+                            
+                            <br />
+                            
+                            A simple way to guesstimate the delta of an option, is to look at how much intrinsic value and how much time value a given option has.<br />
+                            
+                            <br />
+                            
+                            Take a look at this option chain for Caterpillar, whose stock is currently priced at $86.780.</p>
+                            
+                        </td>
+                        
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            
+        </div>
+        
+        <p>
+        
+        <b><img alt="" src="http://appbaker.com/farma/assets/uploads/522004/media/user_files/Screen%20Shot%202013-05-17%20at%2012_17_23%20AM.png" style="width: 500px; height: 361px;" /></b></p>
+        
+        
+        <div class="CSSTableGenerator">
+            
+            <table>
+                
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td>
+                            
+                            The $82.50 call is currently in-the-money and highlighted in yellow. It has $4.28 of intrinsic value, and the ask is $5.75. That means the market maker has added $1.47 of time value to the option, because it still has about 60 days worth of time before it expires.<br />
+                            
+                            <br />
+                            
+                            For this particular option, there is much more intrinsic value ($4.28) than time value ($1.47) so it will have a higher delta. If the stock goes up $1, the $82.50 call will go up about $0.70. The delta of that option will be about 0.7.<br />
+                            
+                            <br />
+                            
+                            Now let&#39;s look at an option further in the money, like the $75 call. It has $11.78 of intrinsic value, and it&#39;s ask is $12.20. That option only has about $0.42 of time value. Since it has a lot of intrinsic value and very little time value, it will have a very high delta. When the stock goes up $1, the option will go up about $0.95.<br />
+                            
+                            <br />
+                            
+                            Lastly, let&#39;s look at an out-of-the-money option, like the $95 call. This option has $0 intrinsic value, and the ask is $0.57, so it has $0.57 time value. Since this option has more time value than intrinsic value, it will have a low delta and be less volatile. If the stock goes up $1, the $95 call will only go up about $0.20.<br />
+                            
+                            <br />
+                            
+                            The further in-the-money an option is, the closer the delta gets to the highest possible value of 1.0. The further out-of-the-money an option is, the closer the delta gets to the lowest possible value of 0.0.<br />
+                            
+                            <br />
+                            
+                            In-the-money options are more volatile than out-of-the-money options.<br />
+                            
+                            <br />
+                            
+                            Options that are within one strike price of the stock&#39;s current price are called at-the-money, and typically have a delta around 0.3-0.5.<br />
+                            
+                            <br />
+                            
+                            Since CAT stock is currently at $86.78, the at-the-money options are the $85 call, the $87.50 call, the $85 put, and the $87.50 put.</td>
+                        
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            
+        </div>
+        
+        <p>
+        
+        &nbsp;</p>
+        
+        <p style="text-align: center;">
+        
+        <h1>Long and short.</h1></p>
+        
+        <div class="CSSTableGenerator">
+            
+            <table>
+                
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td>
+                            
+                            As discussed in a previous tutorial, you can open long positions or short positions on stocks. If you only trade stocks and don&#39;t know how to use options, you really only have two strategies (one strategy if you are bullish, and one if your are bearish):<br />
+                            
+                            <br />
+                            
+                            ➫ 1. Bullish: open a long position by buying the stock and waiting for it to go up to sell it.<br />
+                            
+                            ➫ 2. Bearish: open a short position by selling the stock and waiting for it to drop so you can buy it back.<br />
+                            
+                            <br />
+                            
+                            You can also open long and short positions on options. The same basic principles and terminology apply to options.<br />
+                            
+                            <br />
+                            
+                            Long positions are those trades where you buy an option and plan to sell it for a higher price later.<br />
+                            
+                            ➫ A long position on a call will make you money if the underlying stock goes up, because the call will also go up.<br />
+                            
+                            ➫ A long position on a put will make you money if the underlying stock goes down, because the value of the put will go up.<br />
+                            
+                            <br />
+                            
+                            Short positions are those trades where you sell an option you don&#39;t even own, and plan to buy it back later for a lesser price.<br />
+                            
+                            ➫ A short position on a call will make you money if the underlying stock goes down, because the value of the call will also go down and you can buy it back cheaper.<br />
+                            
+                            ➫ A short position on a put will make you money if the underlying stock goes up, because as the stock price increases, the value of the put will decrease so you can buy the put back cheaper.<br />
+                            
+                            <br />
+                            
+                            The flexibility of options allows you to use long positions or short positions whether you are bullish or bearish on a business.<br />
+                            
+                            <br />
+                            
+                            ➫ 1. Bullish: open a long position on a call option, or open a short position on a put.<br />
+                            
+                            ➫ 2. Bearish: open a short position with a call, or a long position with a put.<br />
+                            
+                            <br />
+                            
+                            All these examples will be spelled out in later tutorials on option strategy.</td>
+                        
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            
+        </div>
+        
+        <p>
+        
+        &nbsp;</p>
+        
+        <p style="text-align: center;">
+        
+        <h1>Options in the nude.</h1></p>
+        
+        <div class="CSSTableGenerator">
+            
+            <table>
+                
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td>
+                            
+                            As described in the previous paragraphs, there are two types of positions you can open with options: long and short.<br />
+                            
+                            <br />
+                            
+                            There are also two basic categories of trades you can place with options: covered and naked.<br />
+                            
+                            <br />
+                            
+                            ➫ A naked position is when you open an option trade by buying or selling one single option, and you don&#39;t own any of the underlying stock.<br />
+                            
+                            <br />
+                            
+                            ➫ A covered position is when you open an option trade by buying and selling multiple options of the same underlying stock, or you buy or sell a single option and own the underlying stock.<br />
+                            
+                            <br />
+                            
+                            Due to the volatility of options, the price of a single option can fluctuate rapidly (it is common to see options change by 100-200% in a single day). So if you only buy or sell one option, (a naked trade) your naked position is very exposed and vulnerable. Sure, you could make a lot of money very quickly, but you can also lose it equally fast.<br />
+                            
+                            <br />
+                            
+                            Covered positions are inherently less risky than naked positions, because your position is covered by another security.<br />
+                            
+                            <br />
+                            
+                            A common covered position strategy is called a &quot;credit spread.&quot;<br />
+                            
+                            ➫ To execute a credit spread, you sell one option that is slightly out-of-the-money and at the same time you buy another option on the same stock that is further out-of-the-money and therefore cheaper than the option you sold. That way, if you lose money on option you sold, you will make some of that money back with the option you bought.<br />
+                            
+                            <br />
+                            
+                            Another common covered position strategy is named &quot;covered call.&quot;<br />
+                            
+                            ➫ To execute a covered call, you sell an out-of-the-money call option on a stock you already own. That way, if the stock price goes up a lot and the call you sold becomes in the money, you don&#39;t have to buy the call back. Instead, your broker just sells your underlying stock.<br />
+                            
+                            <br />
+                            
+                            Much more in-depth information is provided about naked and covered positions in the Options Strategy tutorials.<br />
+                            
+                            <br />
+                            
+                            In general, naked positions offer higher risk and reward than covered positions, and thus require a higher level of approval to trade.</td>
+                        
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            
+        </div>
+        
+        <p>
+        
+        &nbsp;</p>
+        
+        <p style="text-align: center;">
+        
+        <h1>Level up.</h1></p>
+        
+        <div class="CSSTableGenerator">
+            
+            <table>
+                
+                <tbody>
+                    
+                    <tr>
+                        
+                        <td>
+                            
+                            In order to do any type of trade other than a basic long position on stocks (buy low then hope to sell high) you must receive approval from your broker. This approval is relatively easy to obtain, although the requirements differ from broker to broker. &nbsp;The levels of approval are different for each broker, but are generally similar to the following list:<br />
+                            
+                            <br />
+                            
+                            ➫ Margin: approves you for margin trading on stock long positions, and the ability to trade short positions on stocks.<br />
+                            
+                            ➫ Level 0: approves you for low-risk options trading of covered calls.<br />
+                            
+                            ➫ Level 1: approves you to open long naked positions, which means buying calls or puts on stocks you don&#39;t own.<br />
+                            
+                            ➫ Level 2: approves you to use a combination of long and short positions called spreads, which are discussed later in the strategy module. Level 2 is what you need to execute many versatile option strategies, so you should email or call your broker and find out what you need to do for Options Level 2 approval (normally fill out and sign a form).<br />
+                            
+                            ➫ Level 3: approves you to open naked short positions. Selling naked options is the riskiest of strategies, so most brokers require a significant amount of capital in your account to issue approval.<br />
+                            
+                            <br />
+                            
+                            Obtaining different levels of option trading approval is described in detail in a later lesson in the Making Trades module.</td>
+                        
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            
+        </div>
+        
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+    </body>
+</html>

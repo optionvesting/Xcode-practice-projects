@@ -39,7 +39,7 @@
 		EF173FDE1970F23C007DAACD /* MODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDB1970F23C007DAACD /* MODetailViewController.m */; };
 		EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF173FDD1970F23C007DAACD /* MOMasterViewController.m */; };
 		EF173FE519712882007DAACD /* ask.html in Resources */ = {isa = PBXBuildFile; fileRef = EF173FE419712882007DAACD /* ask.html */; };
-		EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */; };
+		EF345D501974728D00E4BC6F /* The Stock Exchange text only.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D4F1974728D00E4BC6F /* The Stock Exchange text only.html */; };
 		EF345D52197473A400E4BC6F /* Investing Basics.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF345D51197473A400E4BC6F /* Investing Basics.plist */; };
 		EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */ = {isa = PBXBuildFile; fileRef = EF345D5319747ACC00E4BC6F /* after-hours.html */; };
 		EF4A152E1974DD330015FC06 /* Option Concepts.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A152D1974DD330015FC06 /* Option Concepts.plist */; };
@@ -53,6 +53,8 @@
 		EF58EC2A1977DC210007EADE /* question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC281977DC210007EADE /* question@2x.png */; };
 		EF58EC30197904B30007EADE /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC2E197904B30007EADE /* navbar.png */; };
 		EF58EC31197904B30007EADE /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF58EC2F197904B30007EADE /* navbar@2x.png */; };
+		EF828D3B197B05A400400381 /* The Stock Exchange.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D3A197B05A400400381 /* The Stock Exchange.html */; };
+		EF828D3D197B230300400381 /* Investing Basics Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF828D3C197B230300400381 /* Investing Basics Links.plist */; };
 		EF8599CA197A459E00FCBF26 /* glossaryStyle 2.css in Resources */ = {isa = PBXBuildFile; fileRef = EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */; };
 		EF8599CC197A49F600FCBF26 /* grey ribbon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8599CB197A49F600FCBF26 /* grey ribbon.png */; };
 		EF8599CE197A4C8900FCBF26 /* grey ribbon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8599CD197A4C8900FCBF26 /* grey ribbon 2.png */; };
@@ -147,7 +149,7 @@
 		EF173FDC1970F23C007DAACD /* MOMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMasterViewController.h; sourceTree = "<group>"; };
 		EF173FDD1970F23C007DAACD /* MOMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMasterViewController.m; sourceTree = "<group>"; };
 		EF173FE419712882007DAACD /* ask.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ask.html; path = "Meet Options/ask.html"; sourceTree = "<group>"; };
-		EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Stock Exchange.html"; sourceTree = "<group>"; };
+		EF345D4F1974728D00E4BC6F /* The Stock Exchange text only.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Stock Exchange text only.html"; sourceTree = "<group>"; };
 		EF345D51197473A400E4BC6F /* Investing Basics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Investing Basics.plist"; sourceTree = "<group>"; };
 		EF345D5319747ACC00E4BC6F /* after-hours.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "after-hours.html"; path = "Meet Options/after-hours.html"; sourceTree = "<group>"; };
 		EF4A152D1974DD330015FC06 /* Option Concepts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Option Concepts.plist"; sourceTree = "<group>"; };
@@ -164,6 +166,8 @@
 		EF58EC281977DC210007EADE /* question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question@2x.png"; sourceTree = "<group>"; };
 		EF58EC2E197904B30007EADE /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		EF58EC2F197904B30007EADE /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		EF828D3A197B05A400400381 /* The Stock Exchange.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "The Stock Exchange.html"; sourceTree = "<group>"; };
+		EF828D3C197B230300400381 /* Investing Basics Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Investing Basics Links.plist"; sourceTree = "<group>"; };
 		EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "glossaryStyle 2.css"; path = "Meet Options/glossaryStyle 2.css"; sourceTree = "<group>"; };
 		EF8599CB197A49F600FCBF26 /* grey ribbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey ribbon.png"; sourceTree = "<group>"; };
 		EF8599CD197A4C8900FCBF26 /* grey ribbon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey ribbon 2.png"; sourceTree = "<group>"; };
@@ -326,10 +330,12 @@
 			isa = PBXGroup;
 			children = (
 				EF345D51197473A400E4BC6F /* Investing Basics.plist */,
+				EF828D3C197B230300400381 /* Investing Basics Links.plist */,
 				EF4A152F1974E2990015FC06 /* Option Strategy.plist */,
 				EF4A15311974E2B20015FC06 /* Making Trades.plist */,
 				EF4A152D1974DD330015FC06 /* Option Concepts.plist */,
-				EF345D4F1974728D00E4BC6F /* The Stock Exchange.html */,
+				EF345D4F1974728D00E4BC6F /* The Stock Exchange text only.html */,
+				EF828D3A197B05A400400381 /* The Stock Exchange.html */,
 				EF8599FF197A71C800FCBF26 /* Select The Stock.html */,
 				EF859A03197A721F00FCBF26 /* Close A Position.html */,
 				EF859A01197A71FA00FCBF26 /* Open A Position.html */,
@@ -533,13 +539,15 @@
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
 				EF8599D0197A4CED00FCBF26 /* about-bg.jpg in Resources */,
 				EF58EC291977DC210007EADE /* question.png in Resources */,
+				EF828D3B197B05A400400381 /* The Stock Exchange.html in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
 				EF08E2531976EFE1001A1473 /* glossary.png in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
+				EF828D3D197B230300400381 /* Investing Basics Links.plist in Resources */,
 				EF08E2571976F00D001A1473 /* support.png in Resources */,
 				EF08E24C1976EA7E001A1473 /* elective.png in Resources */,
 				EF8599EC197A6FDB00FCBF26 /* The House Rules.html in Resources */,
-				EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */,
+				EF345D501974728D00E4BC6F /* The Stock Exchange text only.html in Resources */,
 				EF58EC31197904B30007EADE /* navbar@2x.png in Resources */,
 				EF8599DE197A65B300FCBF26 /* Long & Short Positions.html in Resources */,
 				EF8599F2197A708300FCBF26 /* Bullish Strategies.html in Resources */,

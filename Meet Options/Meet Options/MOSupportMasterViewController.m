@@ -7,6 +7,7 @@
 //
 
 #import "MOSupportMasterViewController.h"
+#import "MOSupportDetailViewController.h"
 
 @interface MOSupportMasterViewController ()
 
@@ -49,6 +50,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+
+    [[segue destinationViewController] setDetailItem:@"https://drive.google.com/uc?id=0B4ciiqCPy_XzdkRoOXBCSUVBWVk"];
 }
 
 /*
