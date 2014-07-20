@@ -33,8 +33,11 @@
     [super viewDidLoad];
         self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil]; 
     self.title = self.detailItem;
-        [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
-
+    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.opaque = NO;
+    self.tableView.backgroundView = nil;
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
+    [self.tableView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
     // Do any additional setup after loading the view.
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     // fill the array with text from a .plist
@@ -78,6 +81,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     NSString *term = self.termsArray[indexPath.row];
+    [cell setBackgroundColor:[UIColor clearColor]];
     cell.textLabel.text = term;
     cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
