@@ -35,9 +35,14 @@ font-size: 110%;
 background-image: url("tabbar.png");
 
 }
+
 h2 {
-font-family: 'NeutraDisp-Thin';
-color: #444444;
+font-family: 'Arial';
+color: #F2B019;
+}
+
+h3 {
+font-family: 'NeutraDisp-Bold';
 }
 
 .CSSTableGenerator {
