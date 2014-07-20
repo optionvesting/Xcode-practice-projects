@@ -47,9 +47,22 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidAppear:animated];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.detail withExtension:@"html"]];
-    [self.tutorialsDefinitionWebView loadRequest:requestObj];
+//    [super viewDidAppear:animated];
+
+ 
+    if ([self.link rangeOfString:@"http"].location == NSNotFound) {
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.link withExtension:@"html"]];
+        [self.tutorialsDefinitionWebView loadRequest:requestObj];
+    
+    } else {
+        NSURL *url = [NSURL URLWithString:self.link];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        [self.tutorialsDefinitionWebView loadRequest:requestObj];
+    
+    }
+
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

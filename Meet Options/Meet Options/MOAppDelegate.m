@@ -21,7 +21,7 @@
                                                            UIColorFromRGB(0xF2B019),
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
-                                                           [UIFont fontWithName:@"NeutraDisp-Titling" size:21.0], NSFontAttributeName, nil]];
+                                                           [UIFont fontWithName:@"NeutraDisp-Titling" size:22.0], NSFontAttributeName, nil]];
     
     
 //    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
@@ -36,13 +36,21 @@
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbar.png"] forBarMetrics:UIBarMetricsDefault];
     
 //    UIImage* tabBarBackground = [UIImage imageNamed:@"tabbar.png"];
+    
+    
+    
+    
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar.png"]];
     [[UITabBar appearance] setTintColor:UIColorFromRGB(0x000000)];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:16.0f]}                                                forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:17.0f]}                                                forState:UIControlStateNormal];
+//
+//    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:17.0f],
+//                                                        NSForegroundColorAttributeName : UIColorFromRGB(0x000000)
+//                                                        } forState:UIControlStateHighlighted];
     
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"NeutraDisp-Bold" size:12.0f],
-                                                        NSForegroundColorAttributeName : UIColorFromRGB(0x000000)
-                                                        } forState:UIControlStateHighlighted];
+    
+    
+    
 //    [[UITabBar appearance] setSelectedImageTintColor:[UIColor greenColor]];
 //7B440F
 
@@ -56,7 +64,7 @@
                                                            UIColorFromRGB(0xFFFFFFF),
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
-                                                           [UIFont fontWithName:@"NeutraDisp-Titling" size:14.0], NSFontAttributeName, nil]forState:UIControlStateNormal];
+                                                           [UIFont fontWithName:@"NeutraDisp-Titling" size:15.0], NSFontAttributeName, nil]forState:UIControlStateNormal];
 
     [[UINavigationBar appearance] setTintColor:UIColorFromRGB(0xF2B019)];
     

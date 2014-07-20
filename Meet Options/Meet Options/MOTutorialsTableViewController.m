@@ -12,6 +12,8 @@
 @interface MOTutorialsTableViewController ()
 
 @property (strong,nonatomic) id tempDetail;
+@property (strong,nonatomic) id tempLink;
+
 
 @end
 
@@ -37,11 +39,16 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     // fill the array with text from a .plist
     self.termsPath = [[NSBundle mainBundle] pathForResource:self.detailItem ofType:@"plist"];
+    
+    NSString *temp = [self.detailItem stringByAppendingString:@" Links"];
+    self.linksPath = [[NSBundle mainBundle] pathForResource:temp ofType:@"plist"];
+    
 
-    NSLog(@"detailItem is %@", self.detailItem);
-    NSLog(@"termsPath is %@", self.termsPath);
+//    NSLog(@"detailItem is %@", self.detailItem);
+//    NSLog(@"termsPath is %@", self.termsPath);
 
     self.termsArray = [NSArray arrayWithContentsOfFile:self.termsPath];
+    self.linksArray = [NSArray arrayWithContentsOfFile:self.linksPath];
 
     
     
@@ -72,8 +79,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     NSString *term = self.termsArray[indexPath.row];
     cell.textLabel.text = term;
-    cell.detailTextLabel.text = @"HTML";
-    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Bold" size:20];
+    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
@@ -106,7 +112,8 @@
 
     //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
     [[segue destinationViewController] setDetail:self.tempDetail];
-    
+    [[segue destinationViewController] setLink:self.tempLink];
+
     //    }
 
 
@@ -116,18 +123,11 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     // Get selected lesson group
     UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
-//    SKProduct * product = (SKProduct *) _products[indexPath.row];
-//    
-//    if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
-//        
-//        [self performSegueWithIdentifier:cell.textLabel.text sender:self];
-//        
-//    }
-
-   // Perform Segue
     self.tempDetail = cell.textLabel.text;
 
-        [self performSegueWithIdentifier:@"showTutorialsDetail" sender:self];
+    self.tempLink = self.linksArray[indexPath.row];
+
+    [self performSegueWithIdentifier:@"showTutorialsDetail" sender:self];
 }
 
 //

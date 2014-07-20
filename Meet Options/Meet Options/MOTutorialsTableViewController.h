@@ -11,12 +11,14 @@
 @interface MOTutorialsTableViewController : MOMasterViewController
 
 @property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) id detailItemLink;
 
 @property (strong,nonatomic) NSArray *termsArray;
 @property (strong,nonatomic) NSString *termsPath;
 
 
-@property (strong,nonatomic) NSDictionary *termsDictionary;
+@property (strong,nonatomic) NSArray *linksArray;
+@property (strong,nonatomic) NSString *linksPath;
 
 
 @end

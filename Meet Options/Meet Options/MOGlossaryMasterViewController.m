@@ -65,7 +65,7 @@
  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
  NSString *term = self.termsArray[indexPath.row];
  cell.textLabel.text = term;
- cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Bold" size:20];
+ cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
  return cell;
  }
 

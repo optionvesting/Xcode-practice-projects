@@ -13,6 +13,8 @@
 @property (strong, nonatomic) IBOutlet UIWebView *tutorialsDefinitionWebView;
 
 @property (strong, nonatomic) id detail;
+@property (strong, nonatomic) id link;
+
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UIStepper *myStepper;
 - (IBAction)onStepperTapped:(id)sender;

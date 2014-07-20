@@ -201,7 +201,7 @@ NSNumberFormatter * _priceFormatter;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     SKProduct * product = (SKProduct *) _products[indexPath.row];
     cell.textLabel.text = product.localizedTitle;
-    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Bold" size:20];
+    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
 
     
     if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
@@ -215,7 +215,7 @@ NSNumberFormatter * _priceFormatter;
         UIButton *buyButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         buyButton.frame = CGRectMake(0, 0, 52, 27);
         buyButton.layer.cornerRadius = 5;
-        [[buyButton titleLabel] setFont:[UIFont fontWithName:@"NeutraDisp-Titling" size:12]];
+        [[buyButton titleLabel] setFont:[UIFont fontWithName:@"NeutraDisp-Titling" size:14]];
         
         [buyButton setTitleColor:UIColorFromRGB(0xF2B019) forState:UIControlStateNormal];
 
@@ -238,7 +238,7 @@ NSNumberFormatter * _priceFormatter;
     UIButton *buyButton = (UIButton *)sender;
     SKProduct *product = _products[buyButton.tag];
     
-    NSLog(@"Buying %@...", product.productIdentifier);
+//    NSLog(@"Buying %@...", product.productIdentifier);
     [[RageIAPHelper sharedInstance] buyProduct:product];
     
 }
