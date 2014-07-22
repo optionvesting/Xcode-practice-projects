@@ -25,7 +25,6 @@
 	<string>exchange traded fund (ETF)</string>
 	<string>exchange</string>
 	<string>expiration date</string>
-	<string>market maker</string>
 	<string>extrinsic value</string>
 	<string>future</string>
 	<string>good-&apos;til-cancelled (GTC)</string>
@@ -35,8 +34,8 @@
 	<string>long position</string>
 	<string>margin</string>
 	<string>market cap</string>
-	<string>market order</string>
 	<string>market maker</string>
+	<string>market order</string>
 	<string>mini option</string>
 	<string>moving average</string>
 	<string>mutual fund</string>

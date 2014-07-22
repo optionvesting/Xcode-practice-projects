@@ -69,6 +69,22 @@
 		EF828D5B197B9DD400400381 /* bull.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D5A197B9DD400400381 /* bull.html */; };
 		EF828D5D197B9E2D00400381 /* buy-to-close (BTC).html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D5C197B9E2D00400381 /* buy-to-close (BTC).html */; };
 		EF828D5F197B9F1800400381 /* buy-to-open (BTO).html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D5E197B9F1800400381 /* buy-to-open (BTO).html */; };
+		EF828D61197E2D0F00400381 /* CBOE.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D60197E2D0F00400381 /* CBOE.html */; };
+		EF828D63197E2E6700400381 /* commission.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D62197E2E6700400381 /* commission.html */; };
+		EF828D65197E2EFD00400381 /* contract.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D64197E2EFD00400381 /* contract.html */; };
+		EF828D67197E2FCE00400381 /* delta.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D66197E2FCE00400381 /* delta.html */; };
+		EF828D69197E305B00400381 /* dividend.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D68197E305B00400381 /* dividend.html */; };
+		EF828D6B197E311400400381 /* Dow Jones (DJIA).html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D6A197E311400400381 /* Dow Jones (DJIA).html */; };
+		EF828D6D197E320B00400381 /* earnings.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D6C197E320B00400381 /* earnings.html */; };
+		EF828D73197E333600400381 /* exchange.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D72197E333600400381 /* exchange.html */; };
+		EF828D75197E338200400381 /* expiration date.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D74197E338100400381 /* expiration date.html */; };
+		EF828D77197E33DA00400381 /* extrinsic value.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D76197E33DA00400381 /* extrinsic value.html */; };
+		EF828D79197E34E800400381 /* future.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D78197E34E800400381 /* future.html */; };
+		EF828D7D197E368100400381 /* in-the-money (ITM).html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D7C197E368100400381 /* in-the-money (ITM).html */; };
+		EF828D7F197E36EE00400381 /* intrinsic value.html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D7E197E36EE00400381 /* intrinsic value.html */; };
+		EF828D81197E397100400381 /* earnings per share (EPS).html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D80197E397100400381 /* earnings per share (EPS).html */; };
+		EF828D85197E3A8D00400381 /* exchange traded fund (ETF).html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D84197E3A8D00400381 /* exchange traded fund (ETF).html */; };
+		EF828D87197E3AE000400381 /* good-'til-cancelled (GTC).html in Resources */ = {isa = PBXBuildFile; fileRef = EF828D86197E3AE000400381 /* good-'til-cancelled (GTC).html */; };
 		EF8599CA197A459E00FCBF26 /* glossaryStyle 2.css in Resources */ = {isa = PBXBuildFile; fileRef = EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */; };
 		EF8599CC197A49F600FCBF26 /* grey ribbon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8599CB197A49F600FCBF26 /* grey ribbon.png */; };
 		EF8599CE197A4C8900FCBF26 /* grey ribbon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8599CD197A4C8900FCBF26 /* grey ribbon 2.png */; };
@@ -196,6 +212,22 @@
 		EF828D5A197B9DD400400381 /* bull.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bull.html; path = "Meet Options/bull.html"; sourceTree = "<group>"; };
 		EF828D5C197B9E2D00400381 /* buy-to-close (BTC).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "buy-to-close (BTC).html"; path = "Meet Options/buy-to-close (BTC).html"; sourceTree = "<group>"; };
 		EF828D5E197B9F1800400381 /* buy-to-open (BTO).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "buy-to-open (BTO).html"; path = "Meet Options/buy-to-open (BTO).html"; sourceTree = "<group>"; };
+		EF828D60197E2D0F00400381 /* CBOE.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = CBOE.html; path = "Meet Options/CBOE.html"; sourceTree = "<group>"; };
+		EF828D62197E2E6700400381 /* commission.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = commission.html; path = "Meet Options/commission.html"; sourceTree = "<group>"; };
+		EF828D64197E2EFD00400381 /* contract.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = contract.html; path = "Meet Options/contract.html"; sourceTree = "<group>"; };
+		EF828D66197E2FCE00400381 /* delta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = delta.html; path = "Meet Options/delta.html"; sourceTree = "<group>"; };
+		EF828D68197E305B00400381 /* dividend.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = dividend.html; path = "Meet Options/dividend.html"; sourceTree = "<group>"; };
+		EF828D6A197E311400400381 /* Dow Jones (DJIA).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Dow Jones (DJIA).html"; path = "Meet Options/Dow Jones (DJIA).html"; sourceTree = "<group>"; };
+		EF828D6C197E320B00400381 /* earnings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = earnings.html; path = "Meet Options/earnings.html"; sourceTree = "<group>"; };
+		EF828D72197E333600400381 /* exchange.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = exchange.html; path = "Meet Options/exchange.html"; sourceTree = "<group>"; };
+		EF828D74197E338100400381 /* expiration date.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "expiration date.html"; path = "Meet Options/expiration date.html"; sourceTree = "<group>"; };
+		EF828D76197E33DA00400381 /* extrinsic value.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "extrinsic value.html"; path = "Meet Options/extrinsic value.html"; sourceTree = "<group>"; };
+		EF828D78197E34E800400381 /* future.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = future.html; path = "Meet Options/future.html"; sourceTree = "<group>"; };
+		EF828D7C197E368100400381 /* in-the-money (ITM).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "in-the-money (ITM).html"; path = "Meet Options/in-the-money (ITM).html"; sourceTree = "<group>"; };
+		EF828D7E197E36EE00400381 /* intrinsic value.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "intrinsic value.html"; path = "Meet Options/intrinsic value.html"; sourceTree = "<group>"; };
+		EF828D80197E397100400381 /* earnings per share (EPS).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "earnings per share (EPS).html"; path = "Meet Options/earnings per share (EPS).html"; sourceTree = "<group>"; };
+		EF828D84197E3A8D00400381 /* exchange traded fund (ETF).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "exchange traded fund (ETF).html"; sourceTree = "<group>"; };
+		EF828D86197E3AE000400381 /* good-'til-cancelled (GTC).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "good-'til-cancelled (GTC).html"; sourceTree = "<group>"; };
 		EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "glossaryStyle 2.css"; path = "Meet Options/glossaryStyle 2.css"; sourceTree = "<group>"; };
 		EF8599CB197A49F600FCBF26 /* grey ribbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey ribbon.png"; sourceTree = "<group>"; };
 		EF8599CD197A4C8900FCBF26 /* grey ribbon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey ribbon 2.png"; sourceTree = "<group>"; };
@@ -396,24 +428,40 @@
 		EFD7B799197194D400B11F89 /* Glossary HTML Files */ = {
 			isa = PBXGroup;
 			children = (
-				EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */,
-				EF173FE419712882007DAACD /* ask.html */,
 				EF828D46197B949F00400381 /* 52 week high or low.html */,
-				EF828D48197B94BA00400381 /* template */,
-				EF828D5E197B9F1800400381 /* buy-to-open (BTO).html */,
-				EF828D5C197B9E2D00400381 /* buy-to-close (BTC).html */,
-				EF828D5A197B9DD400400381 /* bull.html */,
-				EF828D58197B9D6400400381 /* brokerage.html */,
-				EF828D56197B9CFD00400381 /* bond.html */,
+				EF345D5319747ACC00E4BC6F /* after-hours.html */,
+				EF173FE419712882007DAACD /* ask.html */,
+				EF828D4C197B99DA00400381 /* assign.html */,
+				EF828D4E197B9B7B00400381 /* bear.html */,
+				EF828D50197B9BD800400381 /* beta.html */,
 				EF828D54197B9C8200400381 /* bid-ask spread.html */,
 				EF828D52197B9C3B00400381 /* bid.html */,
-				EF828D50197B9BD800400381 /* beta.html */,
-				EF828D4E197B9B7B00400381 /* bear.html */,
-				EF828D4C197B99DA00400381 /* assign.html */,
-				EF345D5319747ACC00E4BC6F /* after-hours.html */,
-				EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */,
-				EF8599D3197A558200FCBF26 /* glossaryStyle 3.css */,
+				EF828D56197B9CFD00400381 /* bond.html */,
+				EF828D58197B9D6400400381 /* brokerage.html */,
+				EF828D5A197B9DD400400381 /* bull.html */,
+				EF828D5C197B9E2D00400381 /* buy-to-close (BTC).html */,
+				EF828D5E197B9F1800400381 /* buy-to-open (BTO).html */,
+				EF828D60197E2D0F00400381 /* CBOE.html */,
+				EF828D62197E2E6700400381 /* commission.html */,
+				EF828D64197E2EFD00400381 /* contract.html */,
+				EF828D66197E2FCE00400381 /* delta.html */,
+				EF828D68197E305B00400381 /* dividend.html */,
+				EF828D6A197E311400400381 /* Dow Jones (DJIA).html */,
+				EF828D80197E397100400381 /* earnings per share (EPS).html */,
+				EF828D6C197E320B00400381 /* earnings.html */,
+				EF828D72197E333600400381 /* exchange.html */,
+				EF828D74197E338100400381 /* expiration date.html */,
+				EF828D76197E33DA00400381 /* extrinsic value.html */,
+				EF828D78197E34E800400381 /* future.html */,
 				EF8599C9197A459E00FCBF26 /* glossaryStyle 2.css */,
+				EF8599D3197A558200FCBF26 /* glossaryStyle 3.css */,
+				EFD7B7A81971AF9F00B11F89 /* glossaryStyle.css */,
+				EFD7B8381971C2B300B11F89 /* glossarytermslist.plist */,
+				EF828D7C197E368100400381 /* in-the-money (ITM).html */,
+				EF828D7E197E36EE00400381 /* intrinsic value.html */,
+				EF828D48197B94BA00400381 /* template */,
+				EF828D84197E3A8D00400381 /* exchange traded fund (ETF).html */,
+				EF828D86197E3AE000400381 /* good-'til-cancelled (GTC).html */,
 			);
 			name = "Glossary HTML Files";
 			path = ..;
@@ -571,12 +619,15 @@
 				EF8599E0197A65F000FCBF26 /* Stock Analysis.html in Resources */,
 				EF828D51197B9BD800400381 /* beta.html in Resources */,
 				EF8599FA197A712C00FCBF26 /* Protective Strategies.html in Resources */,
+				EF828D73197E333600400381 /* exchange.html in Resources */,
 				EF8599F0197A704000FCBF26 /* Quiz #2.html in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
 				EF8599EE197A701000FCBF26 /* The Key To Profit.html in Resources */,
 				EF8599E4197A664E00FCBF26 /* Quiz #1.html in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
 				EF58EC2A1977DC210007EADE /* question@2x.png in Resources */,
+				EF828D75197E338200400381 /* expiration date.html in Resources */,
+				EF828D65197E2EFD00400381 /* contract.html in Resources */,
 				EF8599CA197A459E00FCBF26 /* glossaryStyle 2.css in Resources */,
 				EF828D57197B9CFD00400381 /* bond.html in Resources */,
 				EF08E2581976F00D001A1473 /* support@2x.png in Resources */,
@@ -591,6 +642,7 @@
 				EF58EC291977DC210007EADE /* question.png in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
 				EF08E2531976EFE1001A1473 /* glossary.png in Resources */,
+				EF828D87197E3AE000400381 /* good-'til-cancelled (GTC).html in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
 				EF828D5F197B9F1800400381 /* buy-to-open (BTO).html in Resources */,
 				EF828D4D197B99DA00400381 /* assign.html in Resources */,
@@ -602,33 +654,44 @@
 				EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */,
 				EF58EC31197904B30007EADE /* navbar@2x.png in Resources */,
 				EF8599DE197A65B300FCBF26 /* Long & Short Positions.html in Resources */,
+				EF828D85197E3A8D00400381 /* exchange traded fund (ETF).html in Resources */,
+				EF828D7F197E36EE00400381 /* intrinsic value.html in Resources */,
 				EF8599F2197A708300FCBF26 /* Bullish Strategies.html in Resources */,
 				EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */,
 				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
 				EF08E2541976EFE1001A1473 /* glossary@2x.png in Resources */,
 				EF173FE519712882007DAACD /* ask.html in Resources */,
+				EF828D63197E2E6700400381 /* commission.html in Resources */,
 				EF08E2B21977B05C001A1473 /* tabbar@2x.png in Resources */,
+				EF828D81197E397100400381 /* earnings per share (EPS).html in Resources */,
 				EFD7B8421971EC9B00B11F89 /* font_down.png in Resources */,
 				EF8599FE197A719600FCBF26 /* Quiz #3.html in Resources */,
 				EF173F571970D71E007DAACD /* InfoPlist.strings in Resources */,
 				EF859A04197A721F00FCBF26 /* Close A Position.html in Resources */,
 				EF828D45197B7D1700400381 /* Making Trades Links.plist in Resources */,
 				EF08E2501976EFB5001A1473 /* classroom@2x.png in Resources */,
+				EF828D7D197E368100400381 /* in-the-money (ITM).html in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
 				EF58EC30197904B30007EADE /* navbar.png in Resources */,
 				EF08E2AA1977A60E001A1473 /* grey-bg.jpg in Resources */,
 				EFD7B7A61971981500B11F89 /* NeutraDisp-Thin.otf in Resources */,
 				EF8599EA197A6FB400FCBF26 /* Possible Positions.html in Resources */,
 				EF8599F8197A70FE00FCBF26 /* Volatility Strategies.html in Resources */,
+				EF828D79197E34E800400381 /* future.html in Resources */,
 				EF859A00197A71C800FCBF26 /* Select The Stock.html in Resources */,
+				EF828D77197E33DA00400381 /* extrinsic value.html in Resources */,
 				EF4A15301974E2990015FC06 /* Option Strategy.plist in Resources */,
 				EF8599CE197A4C8900FCBF26 /* grey ribbon 2.png in Resources */,
+				EF828D6B197E311400400381 /* Dow Jones (DJIA).html in Resources */,
 				EF8599E8197A6E2F00FCBF26 /* Buying & Selling Options.html in Resources */,
 				EF8599F6197A70D100FCBF26 /* Sideways Strategies.html in Resources */,
 				EF828D47197B949F00400381 /* 52 week high or low.html in Resources */,
 				EF8599D4197A558200FCBF26 /* glossaryStyle 3.css in Resources */,
+				EF828D67197E2FCE00400381 /* delta.html in Resources */,
+				EF828D69197E305B00400381 /* dividend.html in Resources */,
 				EF8599F4197A70AE00FCBF26 /* Bearish Strategies.html in Resources */,
 				EF345D5419747ACC00E4BC6F /* after-hours.html in Resources */,
+				EF828D6D197E320B00400381 /* earnings.html in Resources */,
 				EF828D49197B94BA00400381 /* template in Resources */,
 				EF08E24F1976EFB5001A1473 /* classroom.png in Resources */,
 				EF859A06197A724300FCBF26 /* Quiz #4.html in Resources */,
@@ -638,6 +701,7 @@
 				EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */,
 				EF4A152E1974DD330015FC06 /* Option Concepts.plist in Resources */,
 				EF8599CC197A49F600FCBF26 /* grey ribbon.png in Resources */,
+				EF828D61197E2D0F00400381 /* CBOE.html in Resources */,
 				EF8599DC197A656400FCBF26 /* Trades & Orders.html in Resources */,
 				EF828D5D197B9E2D00400381 /* buy-to-close (BTC).html in Resources */,
 			);
