@@ -5,7 +5,7 @@
      <body>
         </br>
         
-        <h2>|ˌekspəˈrāSHən| |dāt|</h2>
+        <h2> </h2>
 
         <div class="CSSTableGenerator">
             
@@ -17,15 +17,15 @@
                         
                         <td>
                             
-	<h3>DEFINITION: the last day that an option contract is valid, and thus the last day that an option contract can be traded.</h3>
-<p>
-American style options can be traded back and forth anytime prior to expiration, while European style options cannot.</p>
-<p>
-At the market close on the expiration date, the option contract will automatically execute if it is "in-the-money." If the option expires "out-of-the-money" it becomes worthless and will not be executed.</p>
-<p>
-Their are different types of options: monthly, weekly, and LEAPs. Weekly options expire the Friday after they are issued. Monthly options expire the 3rd Friday of the specified month. LEAPs expire on the 3rd Friday of the specified month, usually about 1 year from when they are first issued.</p>
-<p>
-If the market is closed for a holiday on the expiration date of an option, the trading day prior will be the last opportunity to trade those options.</p>
+	<h3>	DEFINITION: a situation caused by high demand for a stock, in which the price of the stock has risen to an artificially high level.</h3>
+<p class="p1">
+A technical indicator called "stochastic oscillator" or just "stochastic" for short helps investors identify overbought stocks. Overbought conditions can also be determined through the relative strength index (RSI).</p>
+<p class="p1">
+When a stock is overbought, it is generally interpreted as a sign that the price of the asset is becoming overvalued and may experience a pullback.</p>
+<p class="p1">
+An overbought security is the opposite of one that is oversold.</p>
+
+
 
                         </td>
                         
