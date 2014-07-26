@@ -5,48 +5,65 @@
 //  Created by The Wynn's  on 7/11/14.
 //  Copyright (c) 2014 Optionvesting, LLC. All rights reserved.
 //
-
 #import "MOSupportDetailViewController.h"
+#define DEFAULTWEBVIEWFONTSIZE 15
+#pragma mark - private interface
 
 @interface MOSupportDetailViewController ()
+//- (void)configureView;
+
+@property (nonatomic,assign)NSInteger stepperScale;
 
 @end
 
 @implementation MOSupportDetailViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    // This works!
-//        NSString *fullURL = @"https://drive.google.com/uc?id=0B4ciiqCPy_XzdkRoOXBCSUVBWVk";
-        NSURL *url = [NSURL URLWithString:self.detailItem];
-        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-        [self.supportWebView loadRequest:requestObj];
+    
+    self.title = self.detail;
+    self.stepperScale = DEFAULTWEBVIEWFONTSIZE;
+    self.myStepper.minimumValue = 5.0;
+    self.myStepper.value = 15.0;
+    self.myStepper.maximumValue = 24.0;
+    self.myStepper.stepValue = 5.0;
+    //    [[UIStepper appearance] setTintColor:[UIColor redColor]];
+    
+    
+    // This opens the url in the webview *** need to change to local file though...probably need to pass file path from masterview
+    //    NSString *fullURL = @"http://conecode.com";
+    //    NSURL *url = [NSURL URLWithString:fullURL];
+    //    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    //    [self.tutorialsDefinitionWebView loadRequest:requestObj];
+    
+    
     
     
 }
 
-
-
-//-(void)viewDidAppear:(BOOL)animated
-//{
-//    [super viewDidAppear:animated];
-//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:@"The Stock Exchange" withExtension:@"html"]];
-//    [self.supportWebView loadRequest:requestObj];
-//}
-
+-(void)viewDidAppear:(BOOL)animated
+{
+    //    [super viewDidAppear:animated];
+    
+    
+    if ([self.link rangeOfString:@"http"].location == NSNotFound) {
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.link withExtension:@"html"]];
+        [self.supportWebView loadRequest:requestObj];
+        
+    } else {
+        NSURL *url = [NSURL URLWithString:self.link];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        [self.supportWebView loadRequest:requestObj];
+        
+    }
+    
+    
+    
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -54,15 +71,33 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+#pragma mark - UIWebviewDelegate
+- (void)webViewDidFinishLoad:(UIWebView *)webView
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if (!webView.isLoading)
+    {
+        [self scaleWebview];
+    }
 }
-*/
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Server Error" message:error.localizedDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    [alert show];
+}
+
+#pragma mark - UIEvent handlers
+- (IBAction)onStepperTapped:(id)sender {
+    self.stepperScale = self.myStepper.value;
+    [self performSelector:@selector(scaleWebview) onThread:[NSThread mainThread] withObject:nil waitUntilDone:NO];
+}
+
+#pragma mark - helpers
+-(void)scaleWebview
+{
+    // Adjust the text size (specified as a percent. 100 is default normal)
+    NSString *jsForTextSize = [[NSString alloc] initWithFormat:@"document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust= '%ld%%'", self.stepperScale*100/DEFAULTWEBVIEWFONTSIZE];
+    [self.supportWebView stringByEvaluatingJavaScriptFromString:jsForTextSize];
+}
 
 @end

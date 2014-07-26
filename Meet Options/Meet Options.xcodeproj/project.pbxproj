@@ -25,6 +25,9 @@
 		EF0573051982216B0033B024 /* trailing stop.html in Resources */ = {isa = PBXBuildFile; fileRef = EF0573041982216B0033B024 /* trailing stop.html */; };
 		EF057307198221C30033B024 /* volatility.html in Resources */ = {isa = PBXBuildFile; fileRef = EF057306198221C30033B024 /* volatility.html */; };
 		EF0573091982224D0033B024 /* volume.html in Resources */ = {isa = PBXBuildFile; fileRef = EF0573081982224D0033B024 /* volume.html */; };
+		EF05730B19837E380033B024 /* support.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF05730A19837E380033B024 /* support.plist */; };
+		EF05730D198380F10033B024 /* support links.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF05730C198380F10033B024 /* support links.plist */; };
+		EF05730F198381AF0033B024 /* Terms of Use.html in Resources */ = {isa = PBXBuildFile; fileRef = EF05730E198381AF0033B024 /* Terms of Use.html */; };
 		EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E2491976EA2C001A1473 /* elective@2x.png */; };
 		EF08E24C1976EA7E001A1473 /* elective.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E24B1976EA7E001A1473 /* elective.png */; };
 		EF08E24F1976EFB5001A1473 /* classroom.png in Resources */ = {isa = PBXBuildFile; fileRef = EF08E24D1976EFB5001A1473 /* classroom.png */; };
@@ -194,6 +197,9 @@
 		EF0573041982216B0033B024 /* trailing stop.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "trailing stop.html"; path = "Meet Options/trailing stop.html"; sourceTree = "<group>"; };
 		EF057306198221C30033B024 /* volatility.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = volatility.html; path = "Meet Options/volatility.html"; sourceTree = "<group>"; };
 		EF0573081982224D0033B024 /* volume.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = volume.html; path = "Meet Options/volume.html"; sourceTree = "<group>"; };
+		EF05730A19837E380033B024 /* support.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = support.plist; sourceTree = "<group>"; };
+		EF05730C198380F10033B024 /* support links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "support links.plist"; sourceTree = "<group>"; };
+		EF05730E198381AF0033B024 /* Terms of Use.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Terms of Use.html"; sourceTree = "<group>"; };
 		EF08E2491976EA2C001A1473 /* elective@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elective@2x.png"; sourceTree = "<group>"; };
 		EF08E24B1976EA7E001A1473 /* elective.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elective.png; sourceTree = "<group>"; };
 		EF08E24D1976EFB5001A1473 /* classroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classroom.png; sourceTree = "<group>"; };
@@ -634,6 +640,9 @@
 				EF173F881970EE6E007DAACD /* MOSupportMasterViewController.m */,
 				EF173F931970EF04007DAACD /* MOSupportDetailViewController.h */,
 				EF173F941970EF04007DAACD /* MOSupportDetailViewController.m */,
+				EF05730A19837E380033B024 /* support.plist */,
+				EF05730E198381AF0033B024 /* Terms of Use.html */,
+				EF05730C198380F10033B024 /* support links.plist */,
 			);
 			name = "Support Code";
 			sourceTree = "<group>";
@@ -745,6 +754,7 @@
 				EF8599E0197A65F000FCBF26 /* Stock Analysis.html in Resources */,
 				EF828D51197B9BD800400381 /* beta.html in Resources */,
 				EF8599FA197A712C00FCBF26 /* Protective Strategies.html in Resources */,
+				EF05730D198380F10033B024 /* support links.plist in Resources */,
 				EF828D73197E333600400381 /* exchange.html in Resources */,
 				EF8599F0197A704000FCBF26 /* Quiz #2.html in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
@@ -776,6 +786,7 @@
 				EF8599D0197A4CED00FCBF26 /* about-bg.jpg in Resources */,
 				EF58EC291977DC210007EADE /* question.png in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
+				EF05730F198381AF0033B024 /* Terms of Use.html in Resources */,
 				EF08E2531976EFE1001A1473 /* glossary.png in Resources */,
 				EF828D87197E3AE000400381 /* good-'til-cancelled (GTC).html in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
@@ -837,6 +848,7 @@
 				EF828D77197E33DA00400381 /* extrinsic value.html in Resources */,
 				EF4A15301974E2990015FC06 /* Option Strategy.plist in Resources */,
 				EF5044631980DFB1001903EB /* perpetuity.html in Resources */,
+				EF05730B19837E380033B024 /* support.plist in Resources */,
 				EF8599CE197A4C8900FCBF26 /* grey ribbon 2.png in Resources */,
 				EF0572FF198220470033B024 /* support.html in Resources */,
 				EF828D6B197E311400400381 /* Dow Jones (DJIA).html in Resources */,

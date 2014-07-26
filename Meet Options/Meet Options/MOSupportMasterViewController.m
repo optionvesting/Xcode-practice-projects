@@ -11,6 +11,10 @@
 
 @interface MOSupportMasterViewController ()
 
+@property (strong,nonatomic) id tempDetail;
+@property (strong,nonatomic) id tempLink;
+
+
 @end
 
 @implementation MOSupportMasterViewController
@@ -30,20 +34,32 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil];
+    self.title = @"Support";
+    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.opaque = NO;
+    self.tableView.backgroundView = nil;
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
+    [self.tableView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
     // Do any additional setup after loading the view.
-        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil];
-    self.navigationController.navigationBar.tintColor = UIColorFromRGB(0xF2B019);
-        [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grey-bg.jpg"]]];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    // fill the array with text from a .plist
+    self.termsPath = [[NSBundle mainBundle] pathForResource:@"support" ofType:@"plist"];
     
-//    // set selected and unselected icons
-//    UITabBarItem *item0 = [self.tabBar.items objectAtIndex:0];
-//    
-//    // this way, the icon gets rendered as it is (thus, it needs to be green in this example)
-//    item0.image = [[UIImage imageNamed:@"unselected-icon.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    
-//    // this icon is used for selected tab and it will get tinted as defined in self.tabBar.tintColor
-//    item0.selectedImage = [UIImage imageNamed:@"selected-icon.png"];
+    NSString *temp = @"support links";
+    self.linksPath = [[NSBundle mainBundle] pathForResource:temp ofType:@"plist"];
     
+    
+    //    NSLog(@"detailItem is %@", self.detailItem);
+    //    NSLog(@"termsPath is %@", self.termsPath);
+    
+    self.termsArray = [NSArray arrayWithContentsOfFile:self.termsPath];
+    self.linksArray = [NSArray arrayWithContentsOfFile:self.linksPath];
+    
+    
+    
+    // This will fill the array manually
+    //    self.termsArray = [NSArray arrayWithObjects:@"ask", @"bid", @"close", @"market maker", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,22 +68,76 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Table View
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.termsArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    NSString *term = self.termsArray[indexPath.row];
+    [cell setBackgroundColor:[UIColor clearColor]];
+    cell.textLabel.text = term;
+    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    return cell;
+}
+
+//- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    // Return NO if you do not want the specified item to be editable.
+//    return YES;
+//}
+//
+///*
+// // Override to support rearranging the table view.
+// - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+// {
+// }
+// */
+//
+///*
+// // Override to support conditional rearranging of the table view.
+// - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+// {
+// // Return NO if you do not want the item to be re-orderable.
+// return YES;
+// }
+// */
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     
-
-    [[segue destinationViewController] setDetailItem:@"https://drive.google.com/uc?id=0B4ciiqCPy_XzdkRoOXBCSUVBWVk"];
+    //    if ([[segue identifier] isEqualToString:@"showGlossaryDetail"]) {
+    
+    //NSString *termDefinitionPath = [term stringByAppendingString:@".html"];
+    [[segue destinationViewController] setDetail:self.tempDetail];
+    [[segue destinationViewController] setLink:self.tempLink];
+    
+    //    }
+    
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    // Get selected lesson group
+    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    self.tempDetail = cell.textLabel.text;
+    
+    self.tempLink = self.linksArray[indexPath.row];
+    
+    [self performSegueWithIdentifier:@"showSupportDetail" sender:self];
 }
-*/
 
+//
+//
+//
 @end
