@@ -157,6 +157,11 @@
 		EF859A02197A71FA00FCBF26 /* Open A Position.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A01197A71FA00FCBF26 /* Open A Position.html */; };
 		EF859A04197A721F00FCBF26 /* Close A Position.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A03197A721F00FCBF26 /* Close A Position.html */; };
 		EF859A06197A724300FCBF26 /* Quiz #4.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A05197A724300FCBF26 /* Quiz #4.html */; };
+		EFA7C34519845A8000F42E67 /* eps.gif in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C34419845A8000F42E67 /* eps.gif */; };
+		EFA7C3471984BBD600F42E67 /* moving average.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C3461984BBD600F42E67 /* moving average.jpg */; };
+		EFA7C3491984BF6700F42E67 /* resistance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C3481984BF6700F42E67 /* resistance.jpg */; };
+		EFA7C34B1984C02300F42E67 /* S&P 500.html in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C34A1984C02300F42E67 /* S&P 500.html */; };
+		EFA7C34D1984C26000F42E67 /* stochastic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C34C1984C26000F42E67 /* stochastic.jpg */; };
 		EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */; };
 		EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */; };
 		EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */; };
@@ -344,6 +349,11 @@
 		EF859A01197A71FA00FCBF26 /* Open A Position.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Open A Position.html"; sourceTree = "<group>"; };
 		EF859A03197A721F00FCBF26 /* Close A Position.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Close A Position.html"; sourceTree = "<group>"; };
 		EF859A05197A724300FCBF26 /* Quiz #4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Quiz #4.html"; sourceTree = "<group>"; };
+		EFA7C34419845A8000F42E67 /* eps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eps.gif; sourceTree = "<group>"; };
+		EFA7C3461984BBD600F42E67 /* moving average.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moving average.jpg"; sourceTree = "<group>"; };
+		EFA7C3481984BF6700F42E67 /* resistance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resistance.jpg; sourceTree = "<group>"; };
+		EFA7C34A1984C02300F42E67 /* S&P 500.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "S&P 500.html"; path = "Meet Options/S&P 500.html"; sourceTree = "<group>"; };
+		EFA7C34C1984C26000F42E67 /* stochastic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stochastic.jpg; sourceTree = "<group>"; };
 		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
 		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
 		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
@@ -538,6 +548,7 @@
 				EF828D80197E397100400381 /* earnings per share (EPS).html */,
 				EF828D6C197E320B00400381 /* earnings.html */,
 				EF828D84197E3A8D00400381 /* exchange traded fund (ETF).html */,
+				EFA7C34419845A8000F42E67 /* eps.gif */,
 				EF828D72197E333600400381 /* exchange.html */,
 				EF828D74197E338100400381 /* expiration date.html */,
 				EF828D76197E33DA00400381 /* extrinsic value.html */,
@@ -558,6 +569,7 @@
 				EF62FD5E197F9085000A2DCB /* market order.html */,
 				EF62FD60197F90E4000A2DCB /* mini option.html */,
 				EF62FD62197F9152000A2DCB /* moving average.html */,
+				EFA7C3461984BBD600F42E67 /* moving average.jpg */,
 				EF828D48197B94BA00400381 /* template */,
 				EF0573081982224D0033B024 /* volume.html */,
 				EF057306198221C30033B024 /* volatility.html */,
@@ -569,6 +581,7 @@
 				EF0572FA19821FA60033B024 /* stop-loss.html */,
 				EF0572F819821F420033B024 /* stock.html */,
 				EF0572F619821ED80033B024 /* stochastic oscillator.html */,
+				EFA7C34C1984C26000F42E67 /* stochastic.jpg */,
 				EF0572F419821E930033B024 /* spread.html */,
 				EF0572F219821E3A0033B024 /* short position.html */,
 				EF0572F019821DE20033B024 /* selling short.html */,
@@ -577,8 +590,10 @@
 				EF0572EA19821CDD0033B024 /* security.html */,
 				EF0572E819821CA90033B024 /* sector.html */,
 				EF0572E619821C090033B024 /* resistance.html */,
+				EFA7C34A1984C02300F42E67 /* S&P 500.html */,
 				EF5044681980E0BF001903EB /* quote.html */,
 				EF5044661980E04D001903EB /* premium.html */,
+				EFA7C3481984BF6700F42E67 /* resistance.jpg */,
 				EF5044641980DFFF001903EB /* pre-market.html */,
 				EF5044621980DFB1001903EB /* perpetuity.html */,
 				EF5044601980DF40001903EB /* P-E ratio.html */,
@@ -758,6 +773,7 @@
 				EF828D73197E333600400381 /* exchange.html in Resources */,
 				EF8599F0197A704000FCBF26 /* Quiz #2.html in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
+				EFA7C34519845A8000F42E67 /* eps.gif in Resources */,
 				EF5044551980DC0E001903EB /* open interest.html in Resources */,
 				EF8599EE197A701000FCBF26 /* The Key To Profit.html in Resources */,
 				EF8599E4197A664E00FCBF26 /* Quiz #1.html in Resources */,
@@ -772,6 +788,7 @@
 				EF0573011982209A0033B024 /* ticker.html in Resources */,
 				EF828D57197B9CFD00400381 /* bond.html in Resources */,
 				EF08E2581976F00D001A1473 /* support@2x.png in Resources */,
+				EFA7C3471984BBD600F42E67 /* moving average.jpg in Resources */,
 				EF828D59197B9D6400400381 /* brokerage.html in Resources */,
 				EF50444F1980DB25001903EB /* naked option.html in Resources */,
 				EF0572F719821ED80033B024 /* stochastic oscillator.html in Resources */,
@@ -787,6 +804,7 @@
 				EF58EC291977DC210007EADE /* question.png in Resources */,
 				EFD7B8391971C2B300B11F89 /* glossarytermslist.plist in Resources */,
 				EF05730F198381AF0033B024 /* Terms of Use.html in Resources */,
+				EFA7C3491984BF6700F42E67 /* resistance.jpg in Resources */,
 				EF08E2531976EFE1001A1473 /* glossary.png in Resources */,
 				EF828D87197E3AE000400381 /* good-'til-cancelled (GTC).html in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
@@ -858,6 +876,7 @@
 				EF8599D4197A558200FCBF26 /* glossaryStyle 3.css in Resources */,
 				EF62FD51197F8D68000A2DCB /* in-the-money (ITM).html in Resources */,
 				EF828D67197E2FCE00400381 /* delta.html in Resources */,
+				EFA7C34D1984C26000F42E67 /* stochastic.jpg in Resources */,
 				EF0572E919821CA90033B024 /* sector.html in Resources */,
 				EF828D69197E305B00400381 /* dividend.html in Resources */,
 				EF8599F4197A70AE00FCBF26 /* Bearish Strategies.html in Resources */,
@@ -877,6 +896,7 @@
 				EF8599CC197A49F600FCBF26 /* grey ribbon.png in Resources */,
 				EF828D61197E2D0F00400381 /* CBOE.html in Resources */,
 				EF057307198221C30033B024 /* volatility.html in Resources */,
+				EFA7C34B1984C02300F42E67 /* S&P 500.html in Resources */,
 				EF8599DC197A656400FCBF26 /* Trades & Orders.html in Resources */,
 				EF62FD5B197F8FC4000A2DCB /* market cap.html in Resources */,
 				EF828D5D197B9E2D00400381 /* buy-to-close (BTC).html in Resources */,

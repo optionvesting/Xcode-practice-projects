@@ -21,7 +21,7 @@
                                                            UIColorFromRGB(0xF2B019),
                                                            NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
-                                                           [UIFont fontWithName:@"NeutraDisp-Titling" size:22.0], NSFontAttributeName, nil]];
+                                                           [UIFont fontWithName:@"NeutraDisp-Titling" size:18.0], NSFontAttributeName, nil]];
     
     
 //    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:

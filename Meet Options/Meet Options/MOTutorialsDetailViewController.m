@@ -96,7 +96,7 @@
 -(void)scaleWebview
 {
     // Adjust the text size (specified as a percent. 100 is default normal)
-    NSString *jsForTextSize = [[NSString alloc] initWithFormat:@"document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust= '%d%%'", self.stepperScale*100/DEFAULTWEBVIEWFONTSIZE];
+    NSString *jsForTextSize = [[NSString alloc] initWithFormat:@"document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust= '%ld%%'", self.stepperScale*100/DEFAULTWEBVIEWFONTSIZE];
     [self.tutorialsDefinitionWebView stringByEvaluatingJavaScriptFromString:jsForTextSize];
 }
 

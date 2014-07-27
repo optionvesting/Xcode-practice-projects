@@ -39,10 +39,12 @@ background-image: url("tabbar.png");
 h2 {
 font-family: 'Arial';
 color: #F2B019;
+font-size: 80%;
 }
 
 h3 {
 font-family: 'NeutraDisp-Bold';
+font-size: 90%;
 }
 
 .CSSTableGenerator {

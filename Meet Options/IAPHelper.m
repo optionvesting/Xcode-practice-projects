@@ -13,7 +13,7 @@
 // Add to top of file
 NSString *const IAPHelperProductPurchasedNotification = @"IAPHelperProductPurchasedNotification";
 // 2 Implement protocol in order to store lists of products
-@interface IAPHelper () <SKProductsRequestDelegate>
+@interface IAPHelper () <SKProductsRequestDelegate,SKPaymentTransactionObserver>
 @end
 
 @implementation IAPHelper {
