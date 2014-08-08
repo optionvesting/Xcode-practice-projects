@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF779F4919725E09007AB9B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF779F4819725E09007AB9B1 /* Foundation.framework */; };
+		EF779F4B19725E09007AB9B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF779F4A19725E09007AB9B1 /* CoreGraphics.framework */; };
+		EF779F4D19725E09007AB9B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF779F4C19725E09007AB9B1 /* UIKit.framework */; };
+		EF779F5319725E09007AB9B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF779F5119725E09007AB9B1 /* InfoPlist.strings */; };
+		EF779F5519725E09007AB9B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF779F5419725E09007AB9B1 /* main.m */; };
+		EF779F5919725E09007AB9B1 /* IADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF779F5819725E09007AB9B1 /* IADAppDelegate.m */; };
+		EF779F5C19725E09007AB9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF779F5A19725E09007AB9B1 /* Main.storyboard */; };
+		EF779F5F19725E09007AB9B1 /* IADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF779F5E19725E09007AB9B1 /* IADViewController.m */; };
+		EF779F6119725E09007AB9B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF779F6019725E09007AB9B1 /* Images.xcassets */; };
+		EF779F6819725E09007AB9B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF779F6719725E09007AB9B1 /* XCTest.framework */; };
+		EF779F6919725E09007AB9B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF779F4819725E09007AB9B1 /* Foundation.framework */; };
+		EF779F6A19725E09007AB9B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF779F4C19725E09007AB9B1 /* UIKit.framework */; };
+		EF779F7219725E09007AB9B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF779F7019725E09007AB9B1 /* InfoPlist.strings */; };
+		EF779F7419725E09007AB9B1 /* InAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF779F7319725E09007AB9B1 /* InAppDemoTests.m */; };
+		EF779F7E197261BB007AB9B1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF779F7D197261BB007AB9B1 /* StoreKit.framework */; };
+		EF779F8219726D13007AB9B1 /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF779F8019726D13007AB9B1 /* PurchaseViewController.m */; };
+		EF779F8319726D13007AB9B1 /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF779F8119726D13007AB9B1 /* PurchaseViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF779F6B19725E09007AB9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF779F3D19725E09007AB9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF779F4419725E09007AB9B1;
+			remoteInfo = InAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF779F4519725E09007AB9B1 /* Option Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Option Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF779F4819725E09007AB9B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF779F4A19725E09007AB9B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF779F4C19725E09007AB9B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF779F5019725E09007AB9B1 /* Option Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Option Pro-Info.plist"; sourceTree = "<group>"; };
+		EF779F5219725E09007AB9B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF779F5419725E09007AB9B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF779F5619725E09007AB9B1 /* Option Pro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Option Pro-Prefix.pch"; sourceTree = "<group>"; };
+		EF779F5719725E09007AB9B1 /* IADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IADAppDelegate.h; sourceTree = "<group>"; };
+		EF779F5819725E09007AB9B1 /* IADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IADAppDelegate.m; sourceTree = "<group>"; };
+		EF779F5B19725E09007AB9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF779F5D19725E09007AB9B1 /* IADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IADViewController.h; sourceTree = "<group>"; };
+		EF779F5E19725E09007AB9B1 /* IADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IADViewController.m; sourceTree = "<group>"; };
+		EF779F6019725E09007AB9B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF779F6619725E09007AB9B1 /* Option ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Option ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF779F6719725E09007AB9B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF779F6F19725E09007AB9B1 /* Option ProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Option ProTests-Info.plist"; sourceTree = "<group>"; };
+		EF779F7119725E09007AB9B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF779F7319725E09007AB9B1 /* InAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppDemoTests.m; sourceTree = "<group>"; };
+		EF779F7D197261BB007AB9B1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EF779F7F19726D13007AB9B1 /* PurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
+		EF779F8019726D13007AB9B1 /* PurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
+		EF779F8119726D13007AB9B1 /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF779F4219725E09007AB9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF779F4B19725E09007AB9B1 /* CoreGraphics.framework in Frameworks */,
+				EF779F4D19725E09007AB9B1 /* UIKit.framework in Frameworks */,
+				EF779F4919725E09007AB9B1 /* Foundation.framework in Frameworks */,
+				EF779F7E197261BB007AB9B1 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF779F6319725E09007AB9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF779F6819725E09007AB9B1 /* XCTest.framework in Frameworks */,
+				EF779F6A19725E09007AB9B1 /* UIKit.framework in Frameworks */,
+				EF779F6919725E09007AB9B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF779F3C19725E09007AB9B1 = {
+			isa = PBXGroup;
+			children = (
+				EF779F4E19725E09007AB9B1 /* InAppDemo */,
+				EF779F6D19725E09007AB9B1 /* InAppDemoTests */,
+				EF779F4719725E09007AB9B1 /* Frameworks */,
+				EF779F4619725E09007AB9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF779F4619725E09007AB9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF779F4519725E09007AB9B1 /* Option Pro.app */,
+				EF779F6619725E09007AB9B1 /* Option ProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF779F4719725E09007AB9B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF779F7D197261BB007AB9B1 /* StoreKit.framework */,
+				EF779F4819725E09007AB9B1 /* Foundation.framework */,
+				EF779F4A19725E09007AB9B1 /* CoreGraphics.framework */,
+				EF779F4C19725E09007AB9B1 /* UIKit.framework */,
+				EF779F6719725E09007AB9B1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF779F4E19725E09007AB9B1 /* InAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF779F5719725E09007AB9B1 /* IADAppDelegate.h */,
+				EF779F5819725E09007AB9B1 /* IADAppDelegate.m */,
+				EF779F5A19725E09007AB9B1 /* Main.storyboard */,
+				EF779F7F19726D13007AB9B1 /* PurchaseViewController.h */,
+				EF779F8019726D13007AB9B1 /* PurchaseViewController.m */,
+				EF779F8119726D13007AB9B1 /* PurchaseViewController.xib */,
+				EF779F5D19725E09007AB9B1 /* IADViewController.h */,
+				EF779F5E19725E09007AB9B1 /* IADViewController.m */,
+				EF779F6019725E09007AB9B1 /* Images.xcassets */,
+				EF779F4F19725E09007AB9B1 /* Supporting Files */,
+			);
+			path = InAppDemo;
+			sourceTree = "<group>";
+		};
+		EF779F4F19725E09007AB9B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF779F5019725E09007AB9B1 /* Option Pro-Info.plist */,
+				EF779F5119725E09007AB9B1 /* InfoPlist.strings */,
+				EF779F5419725E09007AB9B1 /* main.m */,
+				EF779F5619725E09007AB9B1 /* Option Pro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF779F6D19725E09007AB9B1 /* InAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF779F7319725E09007AB9B1 /* InAppDemoTests.m */,
+				EF779F6E19725E09007AB9B1 /* Supporting Files */,
+			);
+			path = InAppDemoTests;
+			sourceTree = "<group>";
+		};
+		EF779F6E19725E09007AB9B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF779F6F19725E09007AB9B1 /* Option ProTests-Info.plist */,
+				EF779F7019725E09007AB9B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF779F4419725E09007AB9B1 /* Option Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF779F7719725E09007AB9B1 /* Build configuration list for PBXNativeTarget "Option Pro" */;
+			buildPhases = (
+				EF779F4119725E09007AB9B1 /* Sources */,
+				EF779F4219725E09007AB9B1 /* Frameworks */,
+				EF779F4319725E09007AB9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Option Pro";
+			productName = InAppDemo;
+			productReference = EF779F4519725E09007AB9B1 /* Option Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF779F6519725E09007AB9B1 /* Option ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF779F7A19725E09007AB9B1 /* Build configuration list for PBXNativeTarget "Option ProTests" */;
+			buildPhases = (
+				EF779F6219725E09007AB9B1 /* Sources */,
+				EF779F6319725E09007AB9B1 /* Frameworks */,
+				EF779F6419725E09007AB9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF779F6C19725E09007AB9B1 /* PBXTargetDependency */,
+			);
+			name = "Option ProTests";
+			productName = InAppDemoTests;
+			productReference = EF779F6619725E09007AB9B1 /* Option ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF779F3D19725E09007AB9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IAD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Optionvesting, LLC";
+				TargetAttributes = {
+					EF779F4419725E09007AB9B1 = {
+						DevelopmentTeam = XZ2XZ8J5FY;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					EF779F6519725E09007AB9B1 = {
+						TestTargetID = EF779F4419725E09007AB9B1;
+					};
+				};
+			};
+			buildConfigurationList = EF779F4019725E09007AB9B1 /* Build configuration list for PBXProject "Option Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF779F3C19725E09007AB9B1;
+			productRefGroup = EF779F4619725E09007AB9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF779F4419725E09007AB9B1 /* Option Pro */,
+				EF779F6519725E09007AB9B1 /* Option ProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF779F4319725E09007AB9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF779F6119725E09007AB9B1 /* Images.xcassets in Resources */,
+				EF779F8319726D13007AB9B1 /* PurchaseViewController.xib in Resources */,
+				EF779F5319725E09007AB9B1 /* InfoPlist.strings in Resources */,
+				EF779F5C19725E09007AB9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF779F6419725E09007AB9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF779F7219725E09007AB9B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF779F4119725E09007AB9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF779F5519725E09007AB9B1 /* main.m in Sources */,
+				EF779F8219726D13007AB9B1 /* PurchaseViewController.m in Sources */,
+				EF779F5F19725E09007AB9B1 /* IADViewController.m in Sources */,
+				EF779F5919725E09007AB9B1 /* IADAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF779F6219725E09007AB9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF779F7419725E09007AB9B1 /* InAppDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF779F6C19725E09007AB9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF779F4419725E09007AB9B1 /* Option Pro */;
+			targetProxy = EF779F6B19725E09007AB9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF779F5119725E09007AB9B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF779F5219725E09007AB9B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF779F5A19725E09007AB9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF779F5B19725E09007AB9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF779F7019725E09007AB9B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF779F7119725E09007AB9B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF779F7519725E09007AB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF779F7619725E09007AB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF779F7819725E09007AB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Wynn (4N58XS27RE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppDemo/Option Pro-Prefix.pch";
+				INFOPLIST_FILE = "InAppDemo/Option Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Option Pro";
+				PROVISIONING_PROFILE = "2C78DAFD-2A07-4E24-8C52-67414DA91EBC";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF779F7919725E09007AB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Wynn (4N58XS27RE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppDemo/Option Pro-Prefix.pch";
+				INFOPLIST_FILE = "InAppDemo/Option Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Option Pro";
+				PROVISIONING_PROFILE = "2C78DAFD-2A07-4E24-8C52-67414DA91EBC";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF779F7B19725E09007AB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InAppDemo.app/InAppDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppDemo/InAppDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InAppDemoTests/Option ProTests-Info.plist";
+				PRODUCT_NAME = "Option ProTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF779F7C19725E09007AB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InAppDemo.app/InAppDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppDemo/InAppDemo-Prefix.pch";
+				INFOPLIST_FILE = "InAppDemoTests/Option ProTests-Info.plist";
+				PRODUCT_NAME = "Option ProTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF779F4019725E09007AB9B1 /* Build configuration list for PBXProject "Option Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF779F7519725E09007AB9B1 /* Debug */,
+				EF779F7619725E09007AB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF779F7719725E09007AB9B1 /* Build configuration list for PBXNativeTarget "Option Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF779F7819725E09007AB9B1 /* Debug */,
+				EF779F7919725E09007AB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF779F7A19725E09007AB9B1 /* Build configuration list for PBXNativeTarget "Option ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF779F7B19725E09007AB9B1 /* Debug */,
+				EF779F7C19725E09007AB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF779F3D19725E09007AB9B1 /* Project object */;
+}
