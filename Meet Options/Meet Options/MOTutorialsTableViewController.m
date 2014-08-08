@@ -85,6 +85,25 @@
     cell.textLabel.text = term;
     cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    if ([self.linksArray[indexPath.row] rangeOfString:@"http"].location == NSNotFound) {
+        if ([self.linksArray[indexPath.row] rangeOfString:@"Quiz"].location == NSNotFound) {
+            cell.imageView.image = [UIImage imageNamed:@"book.png"];
+        }
+        else {
+            cell.imageView.image = [UIImage imageNamed:@"checkmark.png"];
+        }
+        
+    }
+
+    else {
+        cell.imageView.image = [UIImage imageNamed:@"movie.png"];
+
+        
+    }
+    
+    
+    
     return cell;
 }
 

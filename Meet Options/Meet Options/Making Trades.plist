@@ -4,12 +4,12 @@
 <array>
 	<string>Get Ready to Trade</string>
 	<string>Select the Stock</string>
-	<string>Find Option Trades (Video)</string>
+	<string>Find Option Trades</string>
 	<string>Open a Position</string>
 	<string>Close a Position</string>
-	<string>Naked Option Orders (Video)</string>
-	<string>Covered Call Orders (Video)</string>
-	<string>Credit Spread Orders (Video)</string>
+	<string>Naked Option Orders</string>
+	<string>Covered Call Orders</string>
+	<string>Credit Spread Orders</string>
 	<string>Quiz #4</string>
 </array>
 </plist>

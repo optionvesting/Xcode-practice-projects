@@ -95,7 +95,7 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Definition" id="cra-N8-TIN">
-                        <barButtonItem key="rightBarButtonItem" style="bordered" id="LQP-8J-9Qu">
+                        <barButtonItem key="rightBarButtonItem" id="LQP-8J-9Qu">
                             <stepper key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="rB8-Nd-Gar">
                                 <rect key="frame" x="210" y="7" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -230,7 +230,7 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Detail" id="iRY-tp-iFU">
-                        <barButtonItem key="rightBarButtonItem" style="bordered" id="b1H-NJ-K0X">
+                        <barButtonItem key="rightBarButtonItem" id="b1H-NJ-K0X">
                             <stepper key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="CBc-hD-1lN">
                                 <rect key="frame" x="210" y="7" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -392,7 +392,7 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Detail" id="nCo-0n-4ob">
-                        <barButtonItem key="rightBarButtonItem" style="bordered" id="058-QO-yDL">
+                        <barButtonItem key="rightBarButtonItem" id="058-QO-yDL">
                             <stepper key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="dc2-tS-eFe">
                                 <rect key="frame" x="210" y="7" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
