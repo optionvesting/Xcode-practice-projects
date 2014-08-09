@@ -488,6 +488,7 @@
 		EF173F521970D71E007DAACD /* Meet Options */ = {
 			isa = PBXGroup;
 			children = (
+				EFFBC12E1996319A00854959 /* iPad */,
 				EF173F5E1970D71E007DAACD /* Main.storyboard */,
 				EF173FDC1970F23C007DAACD /* MOMasterViewController.h */,
 				EF173FDD1970F23C007DAACD /* MOMasterViewController.m */,
@@ -771,6 +772,13 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
+		EFFBC12E1996319A00854959 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -819,6 +827,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Optionvesting, LLC";
 				TargetAttributes = {
+					EF173F481970D71E007DAACD = {
+						DevelopmentTeam = XZ2XZ8J5FY;
+					};
 					EF173F6C1970D71E007DAACD = {
 						TestTargetID = EF173F481970D71E007DAACD;
 					};
@@ -1175,10 +1186,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
 				INFOPLIST_FILE = "Meet Options/Meet Options-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1188,10 +1202,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
 				INFOPLIST_FILE = "Meet Options/Meet Options-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
