@@ -1,5 +1,6 @@
  body {
-    background-image: url("grey-bg.jpg");
+    /*background-image: url("grey-bg.jpg");*/
+    background-color: #000;
     font-family: 'NeutraDisp-Medium';
     font-size: 110%;
 
@@ -30,9 +31,10 @@
 h1 {
 font-family: 'NeutraDisp-Titling';
 text-align: center;
-color: #7b440f;
+/*color: #7b440f;*/
+color: #F2B019;
 font-size: 110%;
-background-image: url("tabbar.png");
+/*background-image: url("tabbar.png");*/
 
 }
 
@@ -58,7 +60,7 @@ border-radius: 10px;
 box-shadow: 0px 0px 10px #fff;
 filter: progid:DXImageTransform.Microsoft.Shadow(strength = 5, direction = 0, color = '#000');
 -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 5, Direction = 0, Color = '#fff')";
-}.CSSTableGenerator table{width:100%;margin:0px;padding:0px;}
+}.CSSTableGenerator table{width:95%;margin:0px;padding:0px;}
 .CSSTableGenerator tr:last-child td:last-child {
 -moz-border-radius-bottomright:10px;
 -webkit-border-bottom-right-radius:10px;border-bottom-right-radius:10px;}

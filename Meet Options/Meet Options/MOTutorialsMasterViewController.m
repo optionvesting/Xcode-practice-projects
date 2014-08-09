@@ -200,7 +200,7 @@ NSNumberFormatter * _priceFormatter;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     SKProduct * product = (SKProduct *) _products[indexPath.row];
     cell.textLabel.text = product.localizedTitle;
-    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
+    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Titling" size:18];
 
     
     if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
@@ -268,17 +268,20 @@ NSNumberFormatter * _priceFormatter;
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"Investing Basics"]) {
-            [[segue destinationViewController] setDetailItem:@"Investing Basics"];
+    if ([[segue identifier] isEqualToString:@"1. Investing Basics"]) {
+            [[segue destinationViewController] setDetailItem:@"1. Investing Basics"];
     }
-    else if ([[segue identifier] isEqualToString:@"Option Concepts"]) {
-        [[segue destinationViewController] setDetailItem:@"Option Concepts"];
+    else if ([[segue identifier] isEqualToString:@"2. Stock Fundamentals"]) {
+        [[segue destinationViewController] setDetailItem:@"2. Stock Fundamentals"];
     }
-    else if ([[segue identifier] isEqualToString:@"Option Strategy"]) {
-        [[segue destinationViewController] setDetailItem:@"Option Strategy"];
+    else if ([[segue identifier] isEqualToString:@"3. Option Concepts"]) {
+        [[segue destinationViewController] setDetailItem:@"3. Option Concepts"];
     }
-    else if ([[segue identifier] isEqualToString:@"Making Trades"]) {
-        [[segue destinationViewController] setDetailItem:@"Making Trades"];
+    else if ([[segue identifier] isEqualToString:@"4. Option Strategy"]) {
+        [[segue destinationViewController] setDetailItem:@"4. Option Strategy"];
+    }
+    else if ([[segue identifier] isEqualToString:@"5. Making Trades"]) {
+        [[segue destinationViewController] setDetailItem:@"5. Making Trades"];
     }
     else [[segue destinationViewController] setDetailItem:@"Investing Basics"];
 }

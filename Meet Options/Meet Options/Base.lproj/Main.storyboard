@@ -185,7 +185,7 @@
         <scene sceneID="L27-mY-okV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bT1-Zf-qgD" userLabel="Navigation Controller - Support" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Support" image="question.png" id="hMQ-OS-O0j" userLabel="Tab Bar Item - Support"/>
+                    <tabBarItem key="tabBarItem" title="Support" image="help.png" id="hMQ-OS-O0j" userLabel="Tab Bar Item - Support"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EPe-bj-kyo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -287,10 +287,11 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Tutorials" id="Z50-Gf-QG4" userLabel="Navigation Item - Tutorials"/>
                     <connections>
-                        <segue destination="Wim-GO-rou" kind="push" identifier="Investing Basics" id="9ra-Wc-97h"/>
-                        <segue destination="Wim-GO-rou" kind="push" identifier="Option Concepts" id="zCy-VX-BA8"/>
-                        <segue destination="Wim-GO-rou" kind="push" identifier="Option Strategy" id="7pS-im-Onr"/>
-                        <segue destination="Wim-GO-rou" kind="push" identifier="Making Trades" id="mim-Jr-ssl"/>
+                        <segue destination="Wim-GO-rou" kind="push" identifier="1. Investing Basics" id="9ra-Wc-97h"/>
+                        <segue destination="Wim-GO-rou" kind="push" identifier="3. Option Concepts" id="zCy-VX-BA8"/>
+                        <segue destination="Wim-GO-rou" kind="push" identifier="4. Option Strategy" id="7pS-im-Onr"/>
+                        <segue destination="Wim-GO-rou" kind="push" identifier="5. Making Trades" id="mim-Jr-ssl"/>
+                        <segue destination="Wim-GO-rou" kind="push" identifier="2. Stock Fundamentals" id="OL8-CO-MYs"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKi-3N-eRn" sceneMemberID="firstResponder"/>
@@ -415,7 +416,7 @@
     <resources>
         <image name="classroom.png" width="25" height="25"/>
         <image name="glossary.png" width="25" height="25"/>
-        <image name="question.png" width="25" height="25"/>
+        <image name="help.png" width="25" height="25"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -423,6 +424,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="zCy-VX-BA8"/>
+        <segue reference="OL8-CO-MYs"/>
     </inferredMetricsTieBreakers>
 </document>

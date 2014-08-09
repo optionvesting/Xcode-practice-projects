@@ -83,7 +83,7 @@
     NSString *term = self.termsArray[indexPath.row];
     [cell setBackgroundColor:[UIColor clearColor]];
     cell.textLabel.text = term;
-    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
+    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Titling" size:18];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     if ([self.linksArray[indexPath.row] rangeOfString:@"http"].location == NSNotFound) {
@@ -97,7 +97,7 @@
     }
 
     else {
-        cell.imageView.image = [UIImage imageNamed:@"movie.png"];
+        cell.imageView.image = [UIImage imageNamed:@"filmreel.png"];
 
         
     }

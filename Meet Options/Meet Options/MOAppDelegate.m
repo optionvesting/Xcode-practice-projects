@@ -33,12 +33,9 @@
 //                                                       nil] forState:UIControlStateHighlighted];
 //    
 
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbar.png"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav.png"] forBarMetrics:UIBarMetricsDefault];
     
-//    UIImage* tabBarBackground = [UIImage imageNamed:@"tabbar.png"];
-    
-    
-    
+//    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xdddddd)];
     
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar.png"]];
     [[UITabBar appearance] setTintColor:UIColorFromRGB(0x000000)];

@@ -19,6 +19,7 @@
                                       @"com.optionvesting.meetoptions.optionbasics",
                                       @"com.optionvesting.meetoptions.optionstrategy",
                                       @"com.optionvesting.meetoptions.makingtrades",
+                                      @"com.optionvesting.meetoptions.stockfundamentals",
                                       nil];
         sharedInstance = [[self alloc] initWithProductIdentifiers:productIdentifiers];
     });

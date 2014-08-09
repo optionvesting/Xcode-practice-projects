@@ -86,7 +86,7 @@
     NSString *term = self.termsArray[indexPath.row];
     [cell setBackgroundColor:[UIColor clearColor]];
     cell.textLabel.text = term;
-    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Medium" size:25];
+    cell.textLabel.font = [UIFont fontWithName:@"NeutraDisp-Titling" size:18];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
