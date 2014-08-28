@@ -6,6 +6,9 @@
 //  Copyright (c) 2014 Optionvesting, LLC. All rights reserved.
 //
 #import "MOAppDelegate.h"
+#import "UAirship.h"
+#import "UAConfig.h"
+#import "UAPush.h"
 
 @implementation MOAppDelegate
 

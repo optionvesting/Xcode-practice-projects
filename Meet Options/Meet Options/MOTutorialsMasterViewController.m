@@ -220,7 +220,13 @@ NSNumberFormatter * _priceFormatter;
 
         buyButton.layer.borderColor = [UIColorFromRGB(0xF2B019) CGColor];
         buyButton.layer.borderWidth = 1.0f;
-        [buyButton setTitle:@"Buy" forState:UIControlStateNormal];
+        
+        if ([cell.textLabel.text rangeOfString:@"1"].location == NSNotFound) {
+            [buyButton setTitle:@"Buy" forState:UIControlStateNormal];
+        }
+        else {
+            [buyButton setTitle:@"Free" forState:UIControlStateNormal];
+        }
         buyButton.tag = indexPath.row;
         [buyButton addTarget:self action:@selector(buyButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
         cell.accessoryType = UITableViewCellAccessoryNone;

@@ -180,6 +180,65 @@
 		EF859A02197A71FA00FCBF26 /* Open a Position.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A01197A71FA00FCBF26 /* Open a Position.html */; };
 		EF859A04197A721F00FCBF26 /* Close a Position.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A03197A721F00FCBF26 /* Close a Position.html */; };
 		EF859A06197A724300FCBF26 /* Quiz #4.html in Resources */ = {isa = PBXBuildFile; fileRef = EF859A05197A724300FCBF26 /* Quiz #4.html */; };
+		EF98784E19AF62A1007ACCFE /* libUAirship-4.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9877F719AF62A1007ACCFE /* libUAirship-4.0.2.a */; };
+		EF98785019AF62A1007ACCFE /* UADateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98780619AF62A1007ACCFE /* UADateUtils.m */; };
+		EF98785119AF62A1007ACCFE /* UAInboxAlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98780819AF62A1007ACCFE /* UAInboxAlertHandler.m */; };
+		EF98785219AF62A1007ACCFE /* UAInboxMessageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98780A19AF62A1007ACCFE /* UAInboxMessageListCell.m */; };
+		EF98785319AF62A1007ACCFE /* UAInboxMessageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98780C19AF62A1007ACCFE /* UAInboxMessageListController.m */; };
+		EF98785419AF62A1007ACCFE /* UAInboxMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98780E19AF62A1007ACCFE /* UAInboxMessageViewController.m */; };
+		EF98785519AF62A1007ACCFE /* UAInboxNavUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98781019AF62A1007ACCFE /* UAInboxNavUI.m */; };
+		EF98785619AF62A1007ACCFE /* UAInboxUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98781219AF62A1007ACCFE /* UAInboxUI.m */; };
+		EF98785719AF62A1007ACCFE /* list-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98781519AF62A1007ACCFE /* list-image-placeholder.png */; };
+		EF98785819AF62A1007ACCFE /* list-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98781619AF62A1007ACCFE /* list-image-placeholder@2x.png */; };
+		EF98785919AF62A1007ACCFE /* UAInboxLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF98781719AF62A1007ACCFE /* UAInboxLocalization.bundle */; };
+		EF98785A19AF62A1007ACCFE /* UAInboxMessageListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98781819AF62A1007ACCFE /* UAInboxMessageListCell.xib */; };
+		EF98785B19AF62A1007ACCFE /* UAInboxMessageListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98781919AF62A1007ACCFE /* UAInboxMessageListController.xib */; };
+		EF98785C19AF62A1007ACCFE /* UAInboxMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98781A19AF62A1007ACCFE /* UAInboxMessageViewController.xib */; };
+		EF98785D19AF62A1007ACCFE /* UALocationDemoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98781F19AF62A1007ACCFE /* UALocationDemoAnnotation.m */; };
+		EF98785E19AF62A1007ACCFE /* UALocationSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782119AF62A1007ACCFE /* UALocationSettingsViewController.m */; };
+		EF98785F19AF62A1007ACCFE /* UAMapPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782319AF62A1007ACCFE /* UAMapPresentationController.m */; };
+		EF98786019AF62A1007ACCFE /* UAPushMoreSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782519AF62A1007ACCFE /* UAPushMoreSettingsViewController.m */; };
+		EF98786119AF62A1007ACCFE /* UAPushNotificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782719AF62A1007ACCFE /* UAPushNotificationHandler.m */; };
+		EF98786219AF62A1007ACCFE /* UAPushSettingsAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782919AF62A1007ACCFE /* UAPushSettingsAddTagViewController.m */; };
+		EF98786319AF62A1007ACCFE /* UAPushSettingsAliasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782B19AF62A1007ACCFE /* UAPushSettingsAliasViewController.m */; };
+		EF98786419AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782D19AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.m */; };
+		EF98786519AF62A1007ACCFE /* UAPushSettingsSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98782F19AF62A1007ACCFE /* UAPushSettingsSoundsViewController.m */; };
+		EF98786619AF62A1007ACCFE /* UAPushSettingsTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98783119AF62A1007ACCFE /* UAPushSettingsTagsViewController.m */; };
+		EF98786719AF62A1007ACCFE /* UAPushSettingsTokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98783319AF62A1007ACCFE /* UAPushSettingsTokenViewController.m */; };
+		EF98786819AF62A1007ACCFE /* UAPushSettingsUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98783519AF62A1007ACCFE /* UAPushSettingsUserInfoViewController.m */; };
+		EF98786919AF62A1007ACCFE /* UAPushSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98783719AF62A1007ACCFE /* UAPushSettingsViewController.m */; };
+		EF98786A19AF62A1007ACCFE /* UAPushUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98783919AF62A1007ACCFE /* UAPushUI.m */; };
+		EF98786B19AF62A1007ACCFE /* bottom-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98783C19AF62A1007ACCFE /* bottom-detail.png */; };
+		EF98786C19AF62A1007ACCFE /* bottom-detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98783D19AF62A1007ACCFE /* bottom-detail@2x.png */; };
+		EF98786D19AF62A1007ACCFE /* middle-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98783E19AF62A1007ACCFE /* middle-detail.png */; };
+		EF98786E19AF62A1007ACCFE /* middle-detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98783F19AF62A1007ACCFE /* middle-detail@2x.png */; };
+		EF98786F19AF62A1007ACCFE /* top-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98784019AF62A1007ACCFE /* top-detail.png */; };
+		EF98787019AF62A1007ACCFE /* top-detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF98784119AF62A1007ACCFE /* top-detail@2x.png */; };
+		EF98787119AF62A1007ACCFE /* UALocationSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784219AF62A1007ACCFE /* UALocationSettingsViewController.xib */; };
+		EF98787219AF62A1007ACCFE /* UAMapPresentationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784319AF62A1007ACCFE /* UAMapPresentationViewController.xib */; };
+		EF98787319AF62A1007ACCFE /* UAPushLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF98784419AF62A1007ACCFE /* UAPushLocalization.bundle */; };
+		EF98787419AF62A1007ACCFE /* UAPushMoreSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784519AF62A1007ACCFE /* UAPushMoreSettingsView.xib */; };
+		EF98787519AF62A1007ACCFE /* UAPushSettingsAddTagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784619AF62A1007ACCFE /* UAPushSettingsAddTagViewController.xib */; };
+		EF98787619AF62A1007ACCFE /* UAPushSettingsAliasView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784719AF62A1007ACCFE /* UAPushSettingsAliasView.xib */; };
+		EF98787719AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784819AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.xib */; };
+		EF98787819AF62A1007ACCFE /* UAPushSettingsSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784919AF62A1007ACCFE /* UAPushSettingsSoundsViewController.xib */; };
+		EF98787919AF62A1007ACCFE /* UAPushSettingsTagsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784A19AF62A1007ACCFE /* UAPushSettingsTagsViewController.xib */; };
+		EF98787A19AF62A1007ACCFE /* UAPushSettingsTokenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784B19AF62A1007ACCFE /* UAPushSettingsTokenView.xib */; };
+		EF98787B19AF62A1007ACCFE /* UAPushSettingsUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784C19AF62A1007ACCFE /* UAPushSettingsUserInfoView.xib */; };
+		EF98787C19AF62A1007ACCFE /* UAPushSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF98784D19AF62A1007ACCFE /* UAPushSettingsView.xib */; };
+		EF9F351219ACBEF800F15E37 /* libUAirship-4.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351119ACBEF800F15E37 /* libUAirship-4.0.2.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		EF9F351419ACBF0F00F15E37 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351319ACBF0F00F15E37 /* CFNetwork.framework */; };
+		EF9F351619ACBF2A00F15E37 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351519ACBF2A00F15E37 /* MobileCoreServices.framework */; };
+		EF9F351819ACBF3C00F15E37 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351719ACBF3C00F15E37 /* Security.framework */; };
+		EF9F351A19ACBF5300F15E37 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351919ACBF5300F15E37 /* SystemConfiguration.framework */; };
+		EF9F351C19ACBF7000F15E37 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351B19ACBF7000F15E37 /* libz.dylib */; };
+		EF9F351E19ACBF8500F15E37 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351D19ACBF8500F15E37 /* libsqlite3.dylib */; };
+		EF9F352019ACBF8F00F15E37 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F351F19ACBF8F00F15E37 /* CoreTelephony.framework */; };
+		EF9F352219ACBF9B00F15E37 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F352119ACBF9B00F15E37 /* CoreLocation.framework */; };
+		EF9F352419ACBFA600F15E37 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F352319ACBFA600F15E37 /* MessageUI.framework */; };
+		EF9F352619ACBFB000F15E37 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F352519ACBFAF00F15E37 /* AudioToolbox.framework */; };
+		EF9F352819ACBFBB00F15E37 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F352719ACBFBB00F15E37 /* MapKit.framework */; };
+		EF9F352A19ACC00D00F15E37 /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF9F352919ACC00D00F15E37 /* AirshipConfig.plist */; };
 		EFA7C34519845A8000F42E67 /* eps.gif in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C34419845A8000F42E67 /* eps.gif */; };
 		EFA7C3471984BBD600F42E67 /* moving average.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C3461984BBD600F42E67 /* moving average.jpg */; };
 		EFA7C3491984BF6700F42E67 /* resistance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFA7C3481984BF6700F42E67 /* resistance.jpg */; };
@@ -402,6 +461,169 @@
 		EF859A01197A71FA00FCBF26 /* Open a Position.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Open a Position.html"; sourceTree = "<group>"; };
 		EF859A03197A721F00FCBF26 /* Close a Position.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Close a Position.html"; sourceTree = "<group>"; };
 		EF859A05197A724300FCBF26 /* Quiz #4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Quiz #4.html"; sourceTree = "<group>"; };
+		EF9877A719AF62A1007ACCFE /* UANativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANativeBridge.h; sourceTree = "<group>"; };
+		EF9877A919AF62A1007ACCFE /* UALandingPageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALandingPageAction.h; sourceTree = "<group>"; };
+		EF9877AA19AF62A1007ACCFE /* NSJSONSerialization+UAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+UAAdditions.h"; sourceTree = "<group>"; };
+		EF9877AB19AF62A1007ACCFE /* NSString+UAURLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UAURLEncoding.h"; sourceTree = "<group>"; };
+		EF9877AC19AF62A1007ACCFE /* UAAction+Operators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UAAction+Operators.h"; sourceTree = "<group>"; };
+		EF9877AD19AF62A1007ACCFE /* UAAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAction.h; sourceTree = "<group>"; };
+		EF9877AE19AF62A1007ACCFE /* UAActionArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionArguments.h; sourceTree = "<group>"; };
+		EF9877AF19AF62A1007ACCFE /* UAActionJSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionJSDelegate.h; sourceTree = "<group>"; };
+		EF9877B019AF62A1007ACCFE /* UAActionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionRegistry.h; sourceTree = "<group>"; };
+		EF9877B119AF62A1007ACCFE /* UAActionRegistryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionRegistryEntry.h; sourceTree = "<group>"; };
+		EF9877B219AF62A1007ACCFE /* UAActionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionResult.h; sourceTree = "<group>"; };
+		EF9877B319AF62A1007ACCFE /* UAActionRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAActionRunner.h; sourceTree = "<group>"; };
+		EF9877B419AF62A1007ACCFE /* UAAddTagsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAddTagsAction.h; sourceTree = "<group>"; };
+		EF9877B519AF62A1007ACCFE /* UAAggregateActionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAggregateActionResult.h; sourceTree = "<group>"; };
+		EF9877B619AF62A1007ACCFE /* UAAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAnalytics.h; sourceTree = "<group>"; };
+		EF9877B719AF62A1007ACCFE /* UAAnalyticsDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAnalyticsDBManager.h; sourceTree = "<group>"; };
+		EF9877B819AF62A1007ACCFE /* UAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAppDelegate.h; sourceTree = "<group>"; };
+		EF9877B919AF62A1007ACCFE /* UAAppDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAppDelegateProxy.h; sourceTree = "<group>"; };
+		EF9877BA19AF62A1007ACCFE /* UAApplicationMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAApplicationMetrics.h; sourceTree = "<group>"; };
+		EF9877BB19AF62A1007ACCFE /* UABaseLocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UABaseLocationProvider.h; sourceTree = "<group>"; };
+		EF9877BC19AF62A1007ACCFE /* UABespokeCloseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UABespokeCloseView.h; sourceTree = "<group>"; };
+		EF9877BD19AF62A1007ACCFE /* UABeveledLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UABeveledLoadingIndicator.h; sourceTree = "<group>"; };
+		EF9877BE19AF62A1007ACCFE /* UACloseWindowAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UACloseWindowAction.h; sourceTree = "<group>"; };
+		EF9877BF19AF62A1007ACCFE /* UAConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAConfig.h; sourceTree = "<group>"; };
+		EF9877C019AF62A1007ACCFE /* UADelayOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADelayOperation.h; sourceTree = "<group>"; };
+		EF9877C119AF62A1007ACCFE /* UADisposable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADisposable.h; sourceTree = "<group>"; };
+		EF9877C219AF62A1007ACCFE /* UAEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAEvent.h; sourceTree = "<group>"; };
+		EF9877C319AF62A1007ACCFE /* UAGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGlobal.h; sourceTree = "<group>"; };
+		EF9877C419AF62A1007ACCFE /* UAHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHTTPConnection.h; sourceTree = "<group>"; };
+		EF9877C519AF62A1007ACCFE /* UAHTTPConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHTTPConnectionOperation.h; sourceTree = "<group>"; };
+		EF9877C619AF62A1007ACCFE /* UAHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHTTPRequest.h; sourceTree = "<group>"; };
+		EF9877C719AF62A1007ACCFE /* UAHTTPRequestEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHTTPRequestEngine.h; sourceTree = "<group>"; };
+		EF9877C819AF62A1007ACCFE /* UAIncomingPushAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAIncomingPushAction.h; sourceTree = "<group>"; };
+		EF9877C919AF62A1007ACCFE /* UAIncomingRichPushAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAIncomingRichPushAction.h; sourceTree = "<group>"; };
+		EF9877CA19AF62A1007ACCFE /* UAirship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAirship.h; sourceTree = "<group>"; };
+		EF9877CB19AF62A1007ACCFE /* UAJavaScriptDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAJavaScriptDelegate.h; sourceTree = "<group>"; };
+		EF9877CC19AF62A1007ACCFE /* UAKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAKeychainUtils.h; sourceTree = "<group>"; };
+		EF9877CD19AF62A1007ACCFE /* UALandingPageOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALandingPageOverlayController.h; sourceTree = "<group>"; };
+		EF9877CE19AF62A1007ACCFE /* UALocationCommonValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationCommonValues.h; sourceTree = "<group>"; };
+		EF9877CF19AF62A1007ACCFE /* UALocationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationEvent.h; sourceTree = "<group>"; };
+		EF9877D019AF62A1007ACCFE /* UALocationProviderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationProviderDelegate.h; sourceTree = "<group>"; };
+		EF9877D119AF62A1007ACCFE /* UALocationProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationProviderProtocol.h; sourceTree = "<group>"; };
+		EF9877D219AF62A1007ACCFE /* UALocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationService.h; sourceTree = "<group>"; };
+		EF9877D319AF62A1007ACCFE /* UAModifyTagsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAModifyTagsAction.h; sourceTree = "<group>"; };
+		EF9877D419AF62A1007ACCFE /* UAObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAObservable.h; sourceTree = "<group>"; };
+		EF9877D519AF62A1007ACCFE /* UAOpenExternalURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAOpenExternalURLAction.h; sourceTree = "<group>"; };
+		EF9877D619AF62A1007ACCFE /* UAPushActionArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushActionArguments.h; sourceTree = "<group>"; };
+		EF9877D719AF62A1007ACCFE /* UARemoveTagsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARemoveTagsAction.h; sourceTree = "<group>"; };
+		EF9877D819AF62A1007ACCFE /* UARichContentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARichContentWindow.h; sourceTree = "<group>"; };
+		EF9877D919AF62A1007ACCFE /* UASignificantChangeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UASignificantChangeProvider.h; sourceTree = "<group>"; };
+		EF9877DA19AF62A1007ACCFE /* UASQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UASQLite.h; sourceTree = "<group>"; };
+		EF9877DB19AF62A1007ACCFE /* UAStandardLocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAStandardLocationProvider.h; sourceTree = "<group>"; };
+		EF9877DC19AF62A1007ACCFE /* UASyncAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UASyncAction.h; sourceTree = "<group>"; };
+		EF9877DD19AF62A1007ACCFE /* UATagUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATagUtils.h; sourceTree = "<group>"; };
+		EF9877DE19AF62A1007ACCFE /* UAURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAURLProtocol.h; sourceTree = "<group>"; };
+		EF9877DF19AF62A1007ACCFE /* UAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUser.h; sourceTree = "<group>"; };
+		EF9877E019AF62A1007ACCFE /* UAUserAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUserAPIClient.h; sourceTree = "<group>"; };
+		EF9877E119AF62A1007ACCFE /* UAUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUserData.h; sourceTree = "<group>"; };
+		EF9877E219AF62A1007ACCFE /* UAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUtils.h; sourceTree = "<group>"; };
+		EF9877E319AF62A1007ACCFE /* UAWebInvocationActionArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWebInvocationActionArguments.h; sourceTree = "<group>"; };
+		EF9877E419AF62A1007ACCFE /* UAWebViewCallData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWebViewCallData.h; sourceTree = "<group>"; };
+		EF9877E519AF62A1007ACCFE /* UAWebViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWebViewTools.h; sourceTree = "<group>"; };
+		EF9877E619AF62A1007ACCFE /* UIWebView+UAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UAAdditions.h"; sourceTree = "<group>"; };
+		EF9877E819AF62A1007ACCFE /* UA_Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UA_Base64.h; sourceTree = "<group>"; };
+		EF9877E919AF62A1007ACCFE /* UA_Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UA_Reachability.h; sourceTree = "<group>"; };
+		EF9877EB19AF62A1007ACCFE /* UAInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInbox.h; sourceTree = "<group>"; };
+		EF9877EC19AF62A1007ACCFE /* UAInboxAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxAPIClient.h; sourceTree = "<group>"; };
+		EF9877ED19AF62A1007ACCFE /* UAInboxDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxDBManager.h; sourceTree = "<group>"; };
+		EF9877EE19AF62A1007ACCFE /* UAInboxDefaultJSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxDefaultJSDelegate.h; sourceTree = "<group>"; };
+		EF9877EF19AF62A1007ACCFE /* UAInboxMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessage.h; sourceTree = "<group>"; };
+		EF9877F019AF62A1007ACCFE /* UAInboxMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageData.h; sourceTree = "<group>"; };
+		EF9877F119AF62A1007ACCFE /* UAInboxMessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageList.h; sourceTree = "<group>"; };
+		EF9877F219AF62A1007ACCFE /* UAInboxMessageListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageListDelegate.h; sourceTree = "<group>"; };
+		EF9877F319AF62A1007ACCFE /* UAInboxMessageListObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageListObserver.h; sourceTree = "<group>"; };
+		EF9877F419AF62A1007ACCFE /* UAInboxPushHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxPushHandler.h; sourceTree = "<group>"; };
+		EF9877F519AF62A1007ACCFE /* UAInboxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxUtils.h; sourceTree = "<group>"; };
+		EF9877F619AF62A1007ACCFE /* UAJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAJSONValueTransformer.h; sourceTree = "<group>"; };
+		EF9877F719AF62A1007ACCFE /* libUAirship-4.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libUAirship-4.0.2.a"; sourceTree = "<group>"; };
+		EF9877FA19AF62A1007ACCFE /* UAChannelAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAChannelAPIClient.h; sourceTree = "<group>"; };
+		EF9877FB19AF62A1007ACCFE /* UAChannelRegistrationPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAChannelRegistrationPayload.h; sourceTree = "<group>"; };
+		EF9877FC19AF62A1007ACCFE /* UADeviceAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADeviceAPIClient.h; sourceTree = "<group>"; };
+		EF9877FD19AF62A1007ACCFE /* UADeviceRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADeviceRegistrar.h; sourceTree = "<group>"; };
+		EF9877FE19AF62A1007ACCFE /* UADeviceRegistrationPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADeviceRegistrationPayload.h; sourceTree = "<group>"; };
+		EF9877FF19AF62A1007ACCFE /* UAPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPush.h; sourceTree = "<group>"; };
+		EF98780519AF62A1007ACCFE /* UADateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADateUtils.h; sourceTree = "<group>"; };
+		EF98780619AF62A1007ACCFE /* UADateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UADateUtils.m; sourceTree = "<group>"; };
+		EF98780719AF62A1007ACCFE /* UAInboxAlertHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxAlertHandler.h; sourceTree = "<group>"; };
+		EF98780819AF62A1007ACCFE /* UAInboxAlertHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAInboxAlertHandler.m; sourceTree = "<group>"; };
+		EF98780919AF62A1007ACCFE /* UAInboxMessageListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageListCell.h; sourceTree = "<group>"; };
+		EF98780A19AF62A1007ACCFE /* UAInboxMessageListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAInboxMessageListCell.m; sourceTree = "<group>"; };
+		EF98780B19AF62A1007ACCFE /* UAInboxMessageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageListController.h; sourceTree = "<group>"; };
+		EF98780C19AF62A1007ACCFE /* UAInboxMessageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAInboxMessageListController.m; sourceTree = "<group>"; };
+		EF98780D19AF62A1007ACCFE /* UAInboxMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxMessageViewController.h; sourceTree = "<group>"; };
+		EF98780E19AF62A1007ACCFE /* UAInboxMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAInboxMessageViewController.m; sourceTree = "<group>"; };
+		EF98780F19AF62A1007ACCFE /* UAInboxNavUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxNavUI.h; sourceTree = "<group>"; };
+		EF98781019AF62A1007ACCFE /* UAInboxNavUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAInboxNavUI.m; sourceTree = "<group>"; };
+		EF98781119AF62A1007ACCFE /* UAInboxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAInboxUI.h; sourceTree = "<group>"; };
+		EF98781219AF62A1007ACCFE /* UAInboxUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAInboxUI.m; sourceTree = "<group>"; };
+		EF98781519AF62A1007ACCFE /* list-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-image-placeholder.png"; sourceTree = "<group>"; };
+		EF98781619AF62A1007ACCFE /* list-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-image-placeholder@2x.png"; sourceTree = "<group>"; };
+		EF98781719AF62A1007ACCFE /* UAInboxLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UAInboxLocalization.bundle; sourceTree = "<group>"; };
+		EF98781819AF62A1007ACCFE /* UAInboxMessageListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAInboxMessageListCell.xib; sourceTree = "<group>"; };
+		EF98781919AF62A1007ACCFE /* UAInboxMessageListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAInboxMessageListController.xib; sourceTree = "<group>"; };
+		EF98781A19AF62A1007ACCFE /* UAInboxMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAInboxMessageViewController.xib; sourceTree = "<group>"; };
+		EF98781E19AF62A1007ACCFE /* UALocationDemoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationDemoAnnotation.h; sourceTree = "<group>"; };
+		EF98781F19AF62A1007ACCFE /* UALocationDemoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UALocationDemoAnnotation.m; sourceTree = "<group>"; };
+		EF98782019AF62A1007ACCFE /* UALocationSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UALocationSettingsViewController.h; sourceTree = "<group>"; };
+		EF98782119AF62A1007ACCFE /* UALocationSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UALocationSettingsViewController.m; sourceTree = "<group>"; };
+		EF98782219AF62A1007ACCFE /* UAMapPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAMapPresentationController.h; sourceTree = "<group>"; };
+		EF98782319AF62A1007ACCFE /* UAMapPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAMapPresentationController.m; sourceTree = "<group>"; };
+		EF98782419AF62A1007ACCFE /* UAPushMoreSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushMoreSettingsViewController.h; sourceTree = "<group>"; };
+		EF98782519AF62A1007ACCFE /* UAPushMoreSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushMoreSettingsViewController.m; sourceTree = "<group>"; };
+		EF98782619AF62A1007ACCFE /* UAPushNotificationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushNotificationHandler.h; sourceTree = "<group>"; };
+		EF98782719AF62A1007ACCFE /* UAPushNotificationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushNotificationHandler.m; sourceTree = "<group>"; };
+		EF98782819AF62A1007ACCFE /* UAPushSettingsAddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsAddTagViewController.h; sourceTree = "<group>"; };
+		EF98782919AF62A1007ACCFE /* UAPushSettingsAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsAddTagViewController.m; sourceTree = "<group>"; };
+		EF98782A19AF62A1007ACCFE /* UAPushSettingsAliasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsAliasViewController.h; sourceTree = "<group>"; };
+		EF98782B19AF62A1007ACCFE /* UAPushSettingsAliasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsAliasViewController.m; sourceTree = "<group>"; };
+		EF98782C19AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsChannelInfoViewController.h; sourceTree = "<group>"; };
+		EF98782D19AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsChannelInfoViewController.m; sourceTree = "<group>"; };
+		EF98782E19AF62A1007ACCFE /* UAPushSettingsSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsSoundsViewController.h; sourceTree = "<group>"; };
+		EF98782F19AF62A1007ACCFE /* UAPushSettingsSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsSoundsViewController.m; sourceTree = "<group>"; };
+		EF98783019AF62A1007ACCFE /* UAPushSettingsTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsTagsViewController.h; sourceTree = "<group>"; };
+		EF98783119AF62A1007ACCFE /* UAPushSettingsTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsTagsViewController.m; sourceTree = "<group>"; };
+		EF98783219AF62A1007ACCFE /* UAPushSettingsTokenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsTokenViewController.h; sourceTree = "<group>"; };
+		EF98783319AF62A1007ACCFE /* UAPushSettingsTokenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsTokenViewController.m; sourceTree = "<group>"; };
+		EF98783419AF62A1007ACCFE /* UAPushSettingsUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsUserInfoViewController.h; sourceTree = "<group>"; };
+		EF98783519AF62A1007ACCFE /* UAPushSettingsUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsUserInfoViewController.m; sourceTree = "<group>"; };
+		EF98783619AF62A1007ACCFE /* UAPushSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushSettingsViewController.h; sourceTree = "<group>"; };
+		EF98783719AF62A1007ACCFE /* UAPushSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushSettingsViewController.m; sourceTree = "<group>"; };
+		EF98783819AF62A1007ACCFE /* UAPushUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPushUI.h; sourceTree = "<group>"; };
+		EF98783919AF62A1007ACCFE /* UAPushUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPushUI.m; sourceTree = "<group>"; };
+		EF98783C19AF62A1007ACCFE /* bottom-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom-detail.png"; sourceTree = "<group>"; };
+		EF98783D19AF62A1007ACCFE /* bottom-detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom-detail@2x.png"; sourceTree = "<group>"; };
+		EF98783E19AF62A1007ACCFE /* middle-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "middle-detail.png"; sourceTree = "<group>"; };
+		EF98783F19AF62A1007ACCFE /* middle-detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "middle-detail@2x.png"; sourceTree = "<group>"; };
+		EF98784019AF62A1007ACCFE /* top-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-detail.png"; sourceTree = "<group>"; };
+		EF98784119AF62A1007ACCFE /* top-detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-detail@2x.png"; sourceTree = "<group>"; };
+		EF98784219AF62A1007ACCFE /* UALocationSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UALocationSettingsViewController.xib; sourceTree = "<group>"; };
+		EF98784319AF62A1007ACCFE /* UAMapPresentationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAMapPresentationViewController.xib; sourceTree = "<group>"; };
+		EF98784419AF62A1007ACCFE /* UAPushLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UAPushLocalization.bundle; sourceTree = "<group>"; };
+		EF98784519AF62A1007ACCFE /* UAPushMoreSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushMoreSettingsView.xib; sourceTree = "<group>"; };
+		EF98784619AF62A1007ACCFE /* UAPushSettingsAddTagViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsAddTagViewController.xib; sourceTree = "<group>"; };
+		EF98784719AF62A1007ACCFE /* UAPushSettingsAliasView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsAliasView.xib; sourceTree = "<group>"; };
+		EF98784819AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsChannelInfoViewController.xib; sourceTree = "<group>"; };
+		EF98784919AF62A1007ACCFE /* UAPushSettingsSoundsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsSoundsViewController.xib; sourceTree = "<group>"; };
+		EF98784A19AF62A1007ACCFE /* UAPushSettingsTagsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsTagsViewController.xib; sourceTree = "<group>"; };
+		EF98784B19AF62A1007ACCFE /* UAPushSettingsTokenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsTokenView.xib; sourceTree = "<group>"; };
+		EF98784C19AF62A1007ACCFE /* UAPushSettingsUserInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsUserInfoView.xib; sourceTree = "<group>"; };
+		EF98784D19AF62A1007ACCFE /* UAPushSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UAPushSettingsView.xib; sourceTree = "<group>"; };
+		EF9F351119ACBEF800F15E37 /* libUAirship-4.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUAirship-4.0.2.a"; path = "Meet Options/Airship/libUAirship-4.0.2.a"; sourceTree = "<group>"; };
+		EF9F351319ACBF0F00F15E37 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EF9F351519ACBF2A00F15E37 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EF9F351719ACBF3C00F15E37 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EF9F351919ACBF5300F15E37 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EF9F351B19ACBF7000F15E37 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EF9F351D19ACBF8500F15E37 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EF9F351F19ACBF8F00F15E37 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EF9F352119ACBF9B00F15E37 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF9F352319ACBFA600F15E37 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EF9F352519ACBFAF00F15E37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EF9F352719ACBFBB00F15E37 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF9F352919ACC00D00F15E37 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AirshipConfig.plist; sourceTree = "<group>"; };
 		EFA7C34419845A8000F42E67 /* eps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eps.gif; sourceTree = "<group>"; };
 		EFA7C3461984BBD600F42E67 /* moving average.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moving average.jpg"; sourceTree = "<group>"; };
 		EFA7C3481984BF6700F42E67 /* resistance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resistance.jpg; sourceTree = "<group>"; };
@@ -430,9 +652,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4A15341974FCCC0015FC06 /* StoreKit.framework in Frameworks */,
-				EF173F4F1970D71E007DAACD /* CoreGraphics.framework in Frameworks */,
+				EF9F352819ACBFBB00F15E37 /* MapKit.framework in Frameworks */,
+				EF9F352619ACBFB000F15E37 /* AudioToolbox.framework in Frameworks */,
+				EF9F352419ACBFA600F15E37 /* MessageUI.framework in Frameworks */,
+				EF98784E19AF62A1007ACCFE /* libUAirship-4.0.2.a in Frameworks */,
+				EF9F352219ACBF9B00F15E37 /* CoreLocation.framework in Frameworks */,
+				EF9F352019ACBF8F00F15E37 /* CoreTelephony.framework in Frameworks */,
+				EF9F351E19ACBF8500F15E37 /* libsqlite3.dylib in Frameworks */,
+				EF9F351C19ACBF7000F15E37 /* libz.dylib in Frameworks */,
 				EF173F511970D71E007DAACD /* UIKit.framework in Frameworks */,
+				EF9F351A19ACBF5300F15E37 /* SystemConfiguration.framework in Frameworks */,
+				EF9F351819ACBF3C00F15E37 /* Security.framework in Frameworks */,
+				EF9F351619ACBF2A00F15E37 /* MobileCoreServices.framework in Frameworks */,
+				EF173F4F1970D71E007DAACD /* CoreGraphics.framework in Frameworks */,
+				EF9F351419ACBF0F00F15E37 /* CFNetwork.framework in Frameworks */,
+				EF9F351219ACBEF800F15E37 /* libUAirship-4.0.2.a in Frameworks */,
+				EF4A15341974FCCC0015FC06 /* StoreKit.framework in Frameworks */,
 				EF173F4D1970D71E007DAACD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +688,8 @@
 		EF173F401970D71E007DAACD = {
 			isa = PBXGroup;
 			children = (
+				EF9877A419AF62A1007ACCFE /* Airship */,
+				EF9F352919ACC00D00F15E37 /* AirshipConfig.plist */,
 				EF4A15381974FF470015FC06 /* RageIAPHelper.h */,
 				EF4A15391974FF470015FC06 /* RageIAPHelper.m */,
 				EF4A15351974FD5D0015FC06 /* IAPHelper.h */,
@@ -476,6 +713,18 @@
 		EF173F4B1970D71E007DAACD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF9F352719ACBFBB00F15E37 /* MapKit.framework */,
+				EF9F352519ACBFAF00F15E37 /* AudioToolbox.framework */,
+				EF9F352319ACBFA600F15E37 /* MessageUI.framework */,
+				EF9F352119ACBF9B00F15E37 /* CoreLocation.framework */,
+				EF9F351F19ACBF8F00F15E37 /* CoreTelephony.framework */,
+				EF9F351D19ACBF8500F15E37 /* libsqlite3.dylib */,
+				EF9F351B19ACBF7000F15E37 /* libz.dylib */,
+				EF9F351919ACBF5300F15E37 /* SystemConfiguration.framework */,
+				EF9F351719ACBF3C00F15E37 /* Security.framework */,
+				EF9F351519ACBF2A00F15E37 /* MobileCoreServices.framework */,
+				EF9F351319ACBF0F00F15E37 /* CFNetwork.framework */,
+				EF9F351119ACBEF800F15E37 /* libUAirship-4.0.2.a */,
 				EF4A15331974FCCC0015FC06 /* StoreKit.framework */,
 				EF173F4C1970D71E007DAACD /* Foundation.framework */,
 				EF173F4E1970D71E007DAACD /* CoreGraphics.framework */,
@@ -612,6 +861,307 @@
 				EF8599DB197A656400FCBF26 /* Trades & Orders.html */,
 			);
 			name = "Tutorials HTML FIles";
+			sourceTree = "<group>";
+		};
+		EF9877A419AF62A1007ACCFE /* Airship */ = {
+			isa = PBXGroup;
+			children = (
+				EF9877A519AF62A1007ACCFE /* Common */,
+				EF9877E719AF62A1007ACCFE /* External */,
+				EF9877EA19AF62A1007ACCFE /* Inbox */,
+				EF9877F719AF62A1007ACCFE /* libUAirship-4.0.2.a */,
+				EF9877F919AF62A1007ACCFE /* Push */,
+				EF98780019AF62A1007ACCFE /* UI */,
+			);
+			path = Airship;
+			sourceTree = "<group>";
+		};
+		EF9877A519AF62A1007ACCFE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EF9877A619AF62A1007ACCFE /* JS */,
+				EF9877A819AF62A1007ACCFE /* LandingPages */,
+				EF9877AA19AF62A1007ACCFE /* NSJSONSerialization+UAAdditions.h */,
+				EF9877AB19AF62A1007ACCFE /* NSString+UAURLEncoding.h */,
+				EF9877AC19AF62A1007ACCFE /* UAAction+Operators.h */,
+				EF9877AD19AF62A1007ACCFE /* UAAction.h */,
+				EF9877AE19AF62A1007ACCFE /* UAActionArguments.h */,
+				EF9877AF19AF62A1007ACCFE /* UAActionJSDelegate.h */,
+				EF9877B019AF62A1007ACCFE /* UAActionRegistry.h */,
+				EF9877B119AF62A1007ACCFE /* UAActionRegistryEntry.h */,
+				EF9877B219AF62A1007ACCFE /* UAActionResult.h */,
+				EF9877B319AF62A1007ACCFE /* UAActionRunner.h */,
+				EF9877B419AF62A1007ACCFE /* UAAddTagsAction.h */,
+				EF9877B519AF62A1007ACCFE /* UAAggregateActionResult.h */,
+				EF9877B619AF62A1007ACCFE /* UAAnalytics.h */,
+				EF9877B719AF62A1007ACCFE /* UAAnalyticsDBManager.h */,
+				EF9877B819AF62A1007ACCFE /* UAAppDelegate.h */,
+				EF9877B919AF62A1007ACCFE /* UAAppDelegateProxy.h */,
+				EF9877BA19AF62A1007ACCFE /* UAApplicationMetrics.h */,
+				EF9877BB19AF62A1007ACCFE /* UABaseLocationProvider.h */,
+				EF9877BC19AF62A1007ACCFE /* UABespokeCloseView.h */,
+				EF9877BD19AF62A1007ACCFE /* UABeveledLoadingIndicator.h */,
+				EF9877BE19AF62A1007ACCFE /* UACloseWindowAction.h */,
+				EF9877BF19AF62A1007ACCFE /* UAConfig.h */,
+				EF9877C019AF62A1007ACCFE /* UADelayOperation.h */,
+				EF9877C119AF62A1007ACCFE /* UADisposable.h */,
+				EF9877C219AF62A1007ACCFE /* UAEvent.h */,
+				EF9877C319AF62A1007ACCFE /* UAGlobal.h */,
+				EF9877C419AF62A1007ACCFE /* UAHTTPConnection.h */,
+				EF9877C519AF62A1007ACCFE /* UAHTTPConnectionOperation.h */,
+				EF9877C619AF62A1007ACCFE /* UAHTTPRequest.h */,
+				EF9877C719AF62A1007ACCFE /* UAHTTPRequestEngine.h */,
+				EF9877C819AF62A1007ACCFE /* UAIncomingPushAction.h */,
+				EF9877C919AF62A1007ACCFE /* UAIncomingRichPushAction.h */,
+				EF9877CA19AF62A1007ACCFE /* UAirship.h */,
+				EF9877CB19AF62A1007ACCFE /* UAJavaScriptDelegate.h */,
+				EF9877CC19AF62A1007ACCFE /* UAKeychainUtils.h */,
+				EF9877CD19AF62A1007ACCFE /* UALandingPageOverlayController.h */,
+				EF9877CE19AF62A1007ACCFE /* UALocationCommonValues.h */,
+				EF9877CF19AF62A1007ACCFE /* UALocationEvent.h */,
+				EF9877D019AF62A1007ACCFE /* UALocationProviderDelegate.h */,
+				EF9877D119AF62A1007ACCFE /* UALocationProviderProtocol.h */,
+				EF9877D219AF62A1007ACCFE /* UALocationService.h */,
+				EF9877D319AF62A1007ACCFE /* UAModifyTagsAction.h */,
+				EF9877D419AF62A1007ACCFE /* UAObservable.h */,
+				EF9877D519AF62A1007ACCFE /* UAOpenExternalURLAction.h */,
+				EF9877D619AF62A1007ACCFE /* UAPushActionArguments.h */,
+				EF9877D719AF62A1007ACCFE /* UARemoveTagsAction.h */,
+				EF9877D819AF62A1007ACCFE /* UARichContentWindow.h */,
+				EF9877D919AF62A1007ACCFE /* UASignificantChangeProvider.h */,
+				EF9877DA19AF62A1007ACCFE /* UASQLite.h */,
+				EF9877DB19AF62A1007ACCFE /* UAStandardLocationProvider.h */,
+				EF9877DC19AF62A1007ACCFE /* UASyncAction.h */,
+				EF9877DD19AF62A1007ACCFE /* UATagUtils.h */,
+				EF9877DE19AF62A1007ACCFE /* UAURLProtocol.h */,
+				EF9877DF19AF62A1007ACCFE /* UAUser.h */,
+				EF9877E019AF62A1007ACCFE /* UAUserAPIClient.h */,
+				EF9877E119AF62A1007ACCFE /* UAUserData.h */,
+				EF9877E219AF62A1007ACCFE /* UAUtils.h */,
+				EF9877E319AF62A1007ACCFE /* UAWebInvocationActionArguments.h */,
+				EF9877E419AF62A1007ACCFE /* UAWebViewCallData.h */,
+				EF9877E519AF62A1007ACCFE /* UAWebViewTools.h */,
+				EF9877E619AF62A1007ACCFE /* UIWebView+UAAdditions.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EF9877A619AF62A1007ACCFE /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				EF9877A719AF62A1007ACCFE /* UANativeBridge.h */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		EF9877A819AF62A1007ACCFE /* LandingPages */ = {
+			isa = PBXGroup;
+			children = (
+				EF9877A919AF62A1007ACCFE /* UALandingPageAction.h */,
+			);
+			path = LandingPages;
+			sourceTree = "<group>";
+		};
+		EF9877E719AF62A1007ACCFE /* External */ = {
+			isa = PBXGroup;
+			children = (
+				EF9877E819AF62A1007ACCFE /* UA_Base64.h */,
+				EF9877E919AF62A1007ACCFE /* UA_Reachability.h */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		EF9877EA19AF62A1007ACCFE /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				EF9877EB19AF62A1007ACCFE /* UAInbox.h */,
+				EF9877EC19AF62A1007ACCFE /* UAInboxAPIClient.h */,
+				EF9877ED19AF62A1007ACCFE /* UAInboxDBManager.h */,
+				EF9877EE19AF62A1007ACCFE /* UAInboxDefaultJSDelegate.h */,
+				EF9877EF19AF62A1007ACCFE /* UAInboxMessage.h */,
+				EF9877F019AF62A1007ACCFE /* UAInboxMessageData.h */,
+				EF9877F119AF62A1007ACCFE /* UAInboxMessageList.h */,
+				EF9877F219AF62A1007ACCFE /* UAInboxMessageListDelegate.h */,
+				EF9877F319AF62A1007ACCFE /* UAInboxMessageListObserver.h */,
+				EF9877F419AF62A1007ACCFE /* UAInboxPushHandler.h */,
+				EF9877F519AF62A1007ACCFE /* UAInboxUtils.h */,
+				EF9877F619AF62A1007ACCFE /* UAJSONValueTransformer.h */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		EF9877F919AF62A1007ACCFE /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				EF9877FA19AF62A1007ACCFE /* UAChannelAPIClient.h */,
+				EF9877FB19AF62A1007ACCFE /* UAChannelRegistrationPayload.h */,
+				EF9877FC19AF62A1007ACCFE /* UADeviceAPIClient.h */,
+				EF9877FD19AF62A1007ACCFE /* UADeviceRegistrar.h */,
+				EF9877FE19AF62A1007ACCFE /* UADeviceRegistrationPayload.h */,
+				EF9877FF19AF62A1007ACCFE /* UAPush.h */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		EF98780019AF62A1007ACCFE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EF98780119AF62A1007ACCFE /* Default */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EF98780119AF62A1007ACCFE /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				EF98780219AF62A1007ACCFE /* Inbox */,
+				EF98781B19AF62A1007ACCFE /* Push */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		EF98780219AF62A1007ACCFE /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				EF98780319AF62A1007ACCFE /* Classes */,
+				EF98781319AF62A1007ACCFE /* Resources */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		EF98780319AF62A1007ACCFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF98780419AF62A1007ACCFE /* Shared */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF98780419AF62A1007ACCFE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EF98780519AF62A1007ACCFE /* UADateUtils.h */,
+				EF98780619AF62A1007ACCFE /* UADateUtils.m */,
+				EF98780719AF62A1007ACCFE /* UAInboxAlertHandler.h */,
+				EF98780819AF62A1007ACCFE /* UAInboxAlertHandler.m */,
+				EF98780919AF62A1007ACCFE /* UAInboxMessageListCell.h */,
+				EF98780A19AF62A1007ACCFE /* UAInboxMessageListCell.m */,
+				EF98780B19AF62A1007ACCFE /* UAInboxMessageListController.h */,
+				EF98780C19AF62A1007ACCFE /* UAInboxMessageListController.m */,
+				EF98780D19AF62A1007ACCFE /* UAInboxMessageViewController.h */,
+				EF98780E19AF62A1007ACCFE /* UAInboxMessageViewController.m */,
+				EF98780F19AF62A1007ACCFE /* UAInboxNavUI.h */,
+				EF98781019AF62A1007ACCFE /* UAInboxNavUI.m */,
+				EF98781119AF62A1007ACCFE /* UAInboxUI.h */,
+				EF98781219AF62A1007ACCFE /* UAInboxUI.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EF98781319AF62A1007ACCFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF98781419AF62A1007ACCFE /* Shared */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF98781419AF62A1007ACCFE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EF98781519AF62A1007ACCFE /* list-image-placeholder.png */,
+				EF98781619AF62A1007ACCFE /* list-image-placeholder@2x.png */,
+				EF98781719AF62A1007ACCFE /* UAInboxLocalization.bundle */,
+				EF98781819AF62A1007ACCFE /* UAInboxMessageListCell.xib */,
+				EF98781919AF62A1007ACCFE /* UAInboxMessageListController.xib */,
+				EF98781A19AF62A1007ACCFE /* UAInboxMessageViewController.xib */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EF98781B19AF62A1007ACCFE /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				EF98781C19AF62A1007ACCFE /* Classes */,
+				EF98783A19AF62A1007ACCFE /* Resources */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		EF98781C19AF62A1007ACCFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF98781D19AF62A1007ACCFE /* Shared */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF98781D19AF62A1007ACCFE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EF98781E19AF62A1007ACCFE /* UALocationDemoAnnotation.h */,
+				EF98781F19AF62A1007ACCFE /* UALocationDemoAnnotation.m */,
+				EF98782019AF62A1007ACCFE /* UALocationSettingsViewController.h */,
+				EF98782119AF62A1007ACCFE /* UALocationSettingsViewController.m */,
+				EF98782219AF62A1007ACCFE /* UAMapPresentationController.h */,
+				EF98782319AF62A1007ACCFE /* UAMapPresentationController.m */,
+				EF98782419AF62A1007ACCFE /* UAPushMoreSettingsViewController.h */,
+				EF98782519AF62A1007ACCFE /* UAPushMoreSettingsViewController.m */,
+				EF98782619AF62A1007ACCFE /* UAPushNotificationHandler.h */,
+				EF98782719AF62A1007ACCFE /* UAPushNotificationHandler.m */,
+				EF98782819AF62A1007ACCFE /* UAPushSettingsAddTagViewController.h */,
+				EF98782919AF62A1007ACCFE /* UAPushSettingsAddTagViewController.m */,
+				EF98782A19AF62A1007ACCFE /* UAPushSettingsAliasViewController.h */,
+				EF98782B19AF62A1007ACCFE /* UAPushSettingsAliasViewController.m */,
+				EF98782C19AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.h */,
+				EF98782D19AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.m */,
+				EF98782E19AF62A1007ACCFE /* UAPushSettingsSoundsViewController.h */,
+				EF98782F19AF62A1007ACCFE /* UAPushSettingsSoundsViewController.m */,
+				EF98783019AF62A1007ACCFE /* UAPushSettingsTagsViewController.h */,
+				EF98783119AF62A1007ACCFE /* UAPushSettingsTagsViewController.m */,
+				EF98783219AF62A1007ACCFE /* UAPushSettingsTokenViewController.h */,
+				EF98783319AF62A1007ACCFE /* UAPushSettingsTokenViewController.m */,
+				EF98783419AF62A1007ACCFE /* UAPushSettingsUserInfoViewController.h */,
+				EF98783519AF62A1007ACCFE /* UAPushSettingsUserInfoViewController.m */,
+				EF98783619AF62A1007ACCFE /* UAPushSettingsViewController.h */,
+				EF98783719AF62A1007ACCFE /* UAPushSettingsViewController.m */,
+				EF98783819AF62A1007ACCFE /* UAPushUI.h */,
+				EF98783919AF62A1007ACCFE /* UAPushUI.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EF98783A19AF62A1007ACCFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF98783B19AF62A1007ACCFE /* Shared */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF98783B19AF62A1007ACCFE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EF98783C19AF62A1007ACCFE /* bottom-detail.png */,
+				EF98783D19AF62A1007ACCFE /* bottom-detail@2x.png */,
+				EF98783E19AF62A1007ACCFE /* middle-detail.png */,
+				EF98783F19AF62A1007ACCFE /* middle-detail@2x.png */,
+				EF98784019AF62A1007ACCFE /* top-detail.png */,
+				EF98784119AF62A1007ACCFE /* top-detail@2x.png */,
+				EF98784219AF62A1007ACCFE /* UALocationSettingsViewController.xib */,
+				EF98784319AF62A1007ACCFE /* UAMapPresentationViewController.xib */,
+				EF98784419AF62A1007ACCFE /* UAPushLocalization.bundle */,
+				EF98784519AF62A1007ACCFE /* UAPushMoreSettingsView.xib */,
+				EF98784619AF62A1007ACCFE /* UAPushSettingsAddTagViewController.xib */,
+				EF98784719AF62A1007ACCFE /* UAPushSettingsAliasView.xib */,
+				EF98784819AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.xib */,
+				EF98784919AF62A1007ACCFE /* UAPushSettingsSoundsViewController.xib */,
+				EF98784A19AF62A1007ACCFE /* UAPushSettingsTagsViewController.xib */,
+				EF98784B19AF62A1007ACCFE /* UAPushSettingsTokenView.xib */,
+				EF98784C19AF62A1007ACCFE /* UAPushSettingsUserInfoView.xib */,
+				EF98784D19AF62A1007ACCFE /* UAPushSettingsView.xib */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		EFD7B799197194D400B11F89 /* Glossary HTML Files */ = {
@@ -867,22 +1417,31 @@
 				EF345D52197473A400E4BC6F /* 1. Investing Basics.plist in Resources */,
 				EF0573091982224D0033B024 /* volume.html in Resources */,
 				EF8599DA197A64DC00FCBF26 /* The Market Maker.html in Resources */,
+				EF98785819AF62A1007ACCFE /* list-image-placeholder@2x.png in Resources */,
 				EF828D43197B7D0E00400381 /* 4. Option Strategy Links.plist in Resources */,
 				EF8599FC197A716D00FCBF26 /* Get Ready to Trade.html in Resources */,
 				EF8599E0197A65F000FCBF26 /* Stock Analysis.html in Resources */,
+				EF98787319AF62A1007ACCFE /* UAPushLocalization.bundle in Resources */,
 				EF828D51197B9BD800400381 /* beta.html in Resources */,
+				EF98786D19AF62A1007ACCFE /* middle-detail.png in Resources */,
 				EF8599FA197A712C00FCBF26 /* Protective Strategies.html in Resources */,
 				EF05730D198380F10033B024 /* support links.plist in Resources */,
 				EF828D73197E333600400381 /* exchange.html in Resources */,
+				EF98787A19AF62A1007ACCFE /* UAPushSettingsTokenView.xib in Resources */,
+				EF98785A19AF62A1007ACCFE /* UAInboxMessageListCell.xib in Resources */,
+				EF98786E19AF62A1007ACCFE /* middle-detail@2x.png in Resources */,
 				EF8599F0197A704000FCBF26 /* Quiz #2.html in Resources */,
 				EF08E24A1976EA2C001A1473 /* elective@2x.png in Resources */,
 				EFA7C34519845A8000F42E67 /* eps.gif in Resources */,
 				EF5044551980DC0E001903EB /* open interest.html in Resources */,
+				EF98785719AF62A1007ACCFE /* list-image-placeholder.png in Resources */,
 				EF8599EE197A701000FCBF26 /* The Key To Profit.html in Resources */,
 				EFFBC12B19962B2000854959 /* nav@2x.png in Resources */,
 				EF8599E4197A664E00FCBF26 /* Quiz #1.html in Resources */,
+				EF98787819AF62A1007ACCFE /* UAPushSettingsSoundsViewController.xib in Resources */,
 				EFD7B7A51971981200B11F89 /* NeutraDisp-Medium.otf in Resources */,
 				EF0572E719821C090033B024 /* resistance.html in Resources */,
+				EF9F352A19ACC00D00F15E37 /* AirshipConfig.plist in Resources */,
 				EF62FD55197F8E7A000A2DCB /* long position.html in Resources */,
 				EF5044651980DFFF001903EB /* pre-market.html in Resources */,
 				EF58EC2A1977DC210007EADE /* question@2x.png in Resources */,
@@ -891,6 +1450,7 @@
 				EF828D65197E2EFD00400381 /* contract.html in Resources */,
 				EF0FCE7319957C0A0062322F /* checkmark.png in Resources */,
 				EF8599CA197A459E00FCBF26 /* glossaryStyle 2.css in Resources */,
+				EF98787719AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.xib in Resources */,
 				EF0573011982209A0033B024 /* ticker.html in Resources */,
 				EF828D57197B9CFD00400381 /* bond.html in Resources */,
 				EF08E2581976F00D001A1473 /* support@2x.png in Resources */,
@@ -899,13 +1459,17 @@
 				EF828D59197B9D6400400381 /* brokerage.html in Resources */,
 				EF50444F1980DB25001903EB /* naked option.html in Resources */,
 				EF0572F719821ED80033B024 /* stochastic oscillator.html in Resources */,
+				EF98787C19AF62A1007ACCFE /* UAPushSettingsView.xib in Resources */,
 				EF0FCE7D19957D9D0062322F /* movie@2x.png in Resources */,
+				EF98787419AF62A1007ACCFE /* UAPushMoreSettingsView.xib in Resources */,
 				EF5044691980E0BF001903EB /* quote.html in Resources */,
 				EF828D55197B9C8200400381 /* bid-ask spread.html in Resources */,
 				EF8599E2197A661100FCBF26 /* Reading Stock Charts.html in Resources */,
 				EF828D5B197B9DD400400381 /* bull.html in Resources */,
 				EF0572FB19821FA60033B024 /* stop-loss.html in Resources */,
+				EF98786C19AF62A1007ACCFE /* bottom-detail@2x.png in Resources */,
 				EF828D41197B7D0200400381 /* 3. Option Concepts Links.plist in Resources */,
+				EF98787219AF62A1007ACCFE /* UAMapPresentationViewController.xib in Resources */,
 				EF0FCE63199576260062322F /* filmreel 50.png in Resources */,
 				EFD7B7A41971980F00B11F89 /* NeutraDisp-Light.otf in Resources */,
 				EF173F681970D71E007DAACD /* Images.xcassets in Resources */,
@@ -921,7 +1485,9 @@
 				EF828D87197E3AE000400381 /* good-'til-cancelled (GTC).html in Resources */,
 				EFFBC1271996245500854959 /* help@2x.png in Resources */,
 				EF4782BD19950576006CF52D /* analysis.png in Resources */,
+				EF98785919AF62A1007ACCFE /* UAInboxLocalization.bundle in Resources */,
 				EFD7B7A71971981800B11F89 /* NeutraDisp-Titling.otf in Resources */,
+				EF98787619AF62A1007ACCFE /* UAPushSettingsAliasView.xib in Resources */,
 				EF828D5F197B9F1800400381 /* buy-to-open (BTO).html in Resources */,
 				EF62FD59197F8F38000A2DCB /* margin.html in Resources */,
 				EF62FD63197F9152000A2DCB /* moving average.html in Resources */,
@@ -940,12 +1506,15 @@
 				EF8599EC197A6FDB00FCBF26 /* The House Rules.html in Resources */,
 				EF828D53197B9C3B00400381 /* bid.html in Resources */,
 				EF50445D1980DE63001903EB /* overbought.html in Resources */,
+				EF98785C19AF62A1007ACCFE /* UAInboxMessageViewController.xib in Resources */,
+				EF98787019AF62A1007ACCFE /* top-detail@2x.png in Resources */,
 				EF4782C419950576006CF52D /* quick trade.png in Resources */,
 				EF0572F319821E3A0033B024 /* short position.html in Resources */,
 				EF0572FD1982200D0033B024 /* strike price.html in Resources */,
 				EF345D501974728D00E4BC6F /* The Stock Exchange.html in Resources */,
 				EF0572F919821F420033B024 /* stock.html in Resources */,
 				EF58EC31197904B30007EADE /* navbar@2x.png in Resources */,
+				EF98787B19AF62A1007ACCFE /* UAPushSettingsUserInfoView.xib in Resources */,
 				EF0572EB19821CDD0033B024 /* security.html in Resources */,
 				EF8599DE197A65B300FCBF26 /* Long & Short Positions.html in Resources */,
 				EF5044531980DBBD001903EB /* NYSE.html in Resources */,
@@ -956,7 +1525,9 @@
 				EF8599F2197A708300FCBF26 /* Bullish Strategies.html in Resources */,
 				EFD7B8431971EC9B00B11F89 /* font_up.png in Resources */,
 				EFD7B7A91971AF9F00B11F89 /* glossaryStyle.css in Resources */,
+				EF98785B19AF62A1007ACCFE /* UAInboxMessageListController.xib in Resources */,
 				EF08E2541976EFE1001A1473 /* glossary@2x.png in Resources */,
+				EF98786B19AF62A1007ACCFE /* bottom-detail.png in Resources */,
 				EF0572ED19821D2F0033B024 /* sell-to-close (STC).html in Resources */,
 				EF0FCE7719957C240062322F /* checkmark@2x.png in Resources */,
 				EF4782B11994FF3A006CF52D /* Stock Quote.png in Resources */,
@@ -980,6 +1551,7 @@
 				EF0572F519821E930033B024 /* spread.html in Resources */,
 				EF828D7D197E368100400381 /* intrinsic value.html in Resources */,
 				EF173F601970D71E007DAACD /* Main.storyboard in Resources */,
+				EF98787519AF62A1007ACCFE /* UAPushSettingsAddTagViewController.xib in Resources */,
 				EF58EC30197904B30007EADE /* navbar.png in Resources */,
 				EF08E2AA1977A60E001A1473 /* grey-bg.jpg in Resources */,
 				EF5044511980DB77001903EB /* NASDAQ.html in Resources */,
@@ -1006,6 +1578,7 @@
 				EF62FD51197F8D68000A2DCB /* in-the-money (ITM).html in Resources */,
 				EF828D67197E2FCE00400381 /* delta.html in Resources */,
 				EFA7C34D1984C26000F42E67 /* stochastic.jpg in Resources */,
+				EF98787919AF62A1007ACCFE /* UAPushSettingsTagsViewController.xib in Resources */,
 				EF0572E919821CA90033B024 /* sector.html in Resources */,
 				EF828D69197E305B00400381 /* dividend.html in Resources */,
 				EF8599F4197A70AE00FCBF26 /* Bearish Strategies.html in Resources */,
@@ -1020,8 +1593,10 @@
 				EF8599E6197A6D4C00FCBF26 /* What Is An Option?.html in Resources */,
 				EF859A02197A71FA00FCBF26 /* Open a Position.html in Resources */,
 				EF4A15321974E2B20015FC06 /* 5. Making Trades.plist in Resources */,
+				EF98786F19AF62A1007ACCFE /* top-detail.png in Resources */,
 				EFFBC11F199617B100854959 /* nav.png in Resources */,
 				EFD7B7A31971980C00B11F89 /* NeutraDisp-Bold.otf in Resources */,
+				EF98787119AF62A1007ACCFE /* UALocationSettingsViewController.xib in Resources */,
 				EF4782C519950576006CF52D /* support resistance.png in Resources */,
 				EF4A152E1974DD330015FC06 /* 3. Option Concepts.plist in Resources */,
 				EF828D61197E2D0F00400381 /* CBOE.html in Resources */,
@@ -1051,17 +1626,38 @@
 			files = (
 				EF173FDF1970F23C007DAACD /* MOMasterViewController.m in Sources */,
 				EF173F5D1970D71E007DAACD /* MOAppDelegate.m in Sources */,
+				EF98785619AF62A1007ACCFE /* UAInboxUI.m in Sources */,
 				EF580BF719764E78009118BC /* MOTutorialsTableViewController.m in Sources */,
+				EF98786519AF62A1007ACCFE /* UAPushSettingsSoundsViewController.m in Sources */,
+				EF98785019AF62A1007ACCFE /* UADateUtils.m in Sources */,
 				EF173F861970EE49007DAACD /* MOTutorialsMasterViewController.m in Sources */,
+				EF98786019AF62A1007ACCFE /* UAPushMoreSettingsViewController.m in Sources */,
 				EF173F891970EE6E007DAACD /* MOSupportMasterViewController.m in Sources */,
+				EF98786119AF62A1007ACCFE /* UAPushNotificationHandler.m in Sources */,
 				EF173F8F1970EEB3007DAACD /* MOTutorialsDetailViewController.m in Sources */,
+				EF98785419AF62A1007ACCFE /* UAInboxMessageViewController.m in Sources */,
+				EF98786619AF62A1007ACCFE /* UAPushSettingsTagsViewController.m in Sources */,
 				EF173F921970EEE9007DAACD /* MOGlossaryDetailViewController.m in Sources */,
 				EF4A15371974FD5D0015FC06 /* IAPHelper.m in Sources */,
+				EF98785F19AF62A1007ACCFE /* UAMapPresentationController.m in Sources */,
 				EF4A153A1974FF470015FC06 /* RageIAPHelper.m in Sources */,
+				EF98786A19AF62A1007ACCFE /* UAPushUI.m in Sources */,
+				EF98785E19AF62A1007ACCFE /* UALocationSettingsViewController.m in Sources */,
+				EF98786819AF62A1007ACCFE /* UAPushSettingsUserInfoViewController.m in Sources */,
+				EF98785219AF62A1007ACCFE /* UAInboxMessageListCell.m in Sources */,
 				EF173F951970EF04007DAACD /* MOSupportDetailViewController.m in Sources */,
+				EF98785519AF62A1007ACCFE /* UAInboxNavUI.m in Sources */,
 				EF173FDE1970F23C007DAACD /* MODetailViewController.m in Sources */,
+				EF98786219AF62A1007ACCFE /* UAPushSettingsAddTagViewController.m in Sources */,
 				EF173F8C1970EE97007DAACD /* MOGlossaryMasterViewController.m in Sources */,
+				EF98785319AF62A1007ACCFE /* UAInboxMessageListController.m in Sources */,
+				EF98785D19AF62A1007ACCFE /* UALocationDemoAnnotation.m in Sources */,
 				EF173F591970D71E007DAACD /* main.m in Sources */,
+				EF98786919AF62A1007ACCFE /* UAPushSettingsViewController.m in Sources */,
+				EF98786319AF62A1007ACCFE /* UAPushSettingsAliasViewController.m in Sources */,
+				EF98785119AF62A1007ACCFE /* UAInboxAlertHandler.m in Sources */,
+				EF98786719AF62A1007ACCFE /* UAPushSettingsTokenViewController.m in Sources */,
+				EF98786419AF62A1007ACCFE /* UAPushSettingsChannelInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1192,8 +1788,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "Meet Options/Meet Options-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Meet",
+					Options/Airship,
+					"$(PROJECT_DIR)/Airship",
+				);
+				New_Setting = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1210,8 +1815,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Meet Options/Meet Options-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../Airship/**";
 				INFOPLIST_FILE = "Meet Options/Meet Options-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Meet",
+					Options/Airship,
+					"$(PROJECT_DIR)/Airship",
+				);
+				New_Setting = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
