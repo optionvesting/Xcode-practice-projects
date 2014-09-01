@@ -223,16 +223,17 @@ NSNumberFormatter * _priceFormatter;
         
         if ([cell.textLabel.text rangeOfString:@"1"].location == NSNotFound) {
             [buyButton setTitle:@"Buy" forState:UIControlStateNormal];
+            buyButton.tag = indexPath.row;
+            [buyButton addTarget:self action:@selector(buyButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+            cell.accessoryType = UITableViewCellAccessoryNone;
+            cell.accessoryView = buyButton;
+            //cell.userInteractionEnabled = NO;
+            cell.textLabel.enabled = NO;
         }
         else {
             [buyButton setTitle:@"Free" forState:UIControlStateNormal];
         }
-        buyButton.tag = indexPath.row;
-        [buyButton addTarget:self action:@selector(buyButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-        cell.accessoryType = UITableViewCellAccessoryNone;
-        cell.accessoryView = buyButton;
-        //cell.userInteractionEnabled = NO;
-        cell.textLabel.enabled = NO;
+
     }
 
     return cell;
@@ -301,11 +302,14 @@ NSNumberFormatter * _priceFormatter;
     UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
     SKProduct * product = (SKProduct *) _products[indexPath.row];
 
-    if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
-        
+    if ([cell.textLabel.text rangeOfString:@"1"].location == NSNotFound) {
+        if ([[RageIAPHelper sharedInstance] productPurchased:product.productIdentifier]) {
+            
             [self performSegueWithIdentifier:cell.textLabel.text sender:self];
-
-    }
+            
+        }
+    } else [self performSegueWithIdentifier:cell.textLabel.text sender:self];
+    
 
     
     

@@ -623,12 +623,13 @@
 		EF9F352319ACBFA600F15E37 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		EF9F352519ACBFAF00F15E37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EF9F352719ACBFBB00F15E37 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		EF9F352919ACC00D00F15E37 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AirshipConfig.plist; sourceTree = "<group>"; };
+		EF9F352919ACC00D00F15E37 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AirshipConfig.plist; sourceTree = SOURCE_ROOT; };
 		EFA7C34419845A8000F42E67 /* eps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eps.gif; sourceTree = "<group>"; };
 		EFA7C3461984BBD600F42E67 /* moving average.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moving average.jpg"; sourceTree = "<group>"; };
 		EFA7C3481984BF6700F42E67 /* resistance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resistance.jpg; sourceTree = "<group>"; };
 		EFA7C34A1984C02300F42E67 /* S&P 500.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "S&P 500.html"; path = "Meet Options/S&P 500.html"; sourceTree = "<group>"; };
 		EFA7C34C1984C26000F42E67 /* stochastic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stochastic.jpg; sourceTree = "<group>"; };
+		EFD5A2A519B4D175009BA47F /* Meet Options.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Meet Options.entitlements"; sourceTree = "<group>"; };
 		EFD7B79A1971951800B11F89 /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
 		EFD7B79B1971951800B11F89 /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Light.otf"; sourceTree = "<group>"; };
 		EFD7B79C1971951800B11F89 /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
@@ -689,7 +690,6 @@
 			isa = PBXGroup;
 			children = (
 				EF9877A419AF62A1007ACCFE /* Airship */,
-				EF9F352919ACC00D00F15E37 /* AirshipConfig.plist */,
 				EF4A15381974FF470015FC06 /* RageIAPHelper.h */,
 				EF4A15391974FF470015FC06 /* RageIAPHelper.m */,
 				EF4A15351974FD5D0015FC06 /* IAPHelper.h */,
@@ -737,6 +737,7 @@
 		EF173F521970D71E007DAACD /* Meet Options */ = {
 			isa = PBXGroup;
 			children = (
+				EFD5A2A519B4D175009BA47F /* Meet Options.entitlements */,
 				EFFBC12E1996319A00854959 /* iPad */,
 				EF173F5E1970D71E007DAACD /* Main.storyboard */,
 				EF173FDC1970F23C007DAACD /* MOMasterViewController.h */,
@@ -866,6 +867,7 @@
 		EF9877A419AF62A1007ACCFE /* Airship */ = {
 			isa = PBXGroup;
 			children = (
+				EF9F352919ACC00D00F15E37 /* AirshipConfig.plist */,
 				EF9877A519AF62A1007ACCFE /* Common */,
 				EF9877E719AF62A1007ACCFE /* External */,
 				EF9877EA19AF62A1007ACCFE /* Inbox */,
@@ -1379,6 +1381,14 @@
 				TargetAttributes = {
 					EF173F481970D71E007DAACD = {
 						DevelopmentTeam = XZ2XZ8J5FY;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					EF173F6C1970D71E007DAACD = {
 						TestTargetID = EF173F481970D71E007DAACD;
@@ -1784,6 +1794,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Meet Options/Meet Options.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1811,6 +1822,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Meet Options/Meet Options.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
